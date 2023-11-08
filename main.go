@@ -1,355 +1,191 @@
 package main
 
 import (
-	"bytes"
-	"encoding/json"
 	"fmt"
-	"io"
+	"log"
 	"net/http"
-	"os"
-	"time"
+	"net/url"
+	"strings"
 
-	"github.com/joho/godotenv"
+	"github.com/PuerkitoBio/goquery"
 )
 
-type RuleData struct {
-	Value string `json:"value"`
-	Tag   string `json:"tag"`
+// Define a struct to store the extracted data
+type HeadData struct {
+	Likes       string
+	Comments    string
+	DateCreated string
+	Text        string
 }
 
 func main() {
-	// Load environment variables from .env
-	err := godotenv.Load()
+	var url1 *url.URL
+	fmt.Println(url1)
+
+	resp, err := http.Get("https://www.instagram.com/p/CzPUiEwstRB/?hl=en")
 	if err != nil {
-		fmt.Println("Error loading .env file")
-		return
+		log.Fatal(err)
 	}
-	bearerTokentoFetchRules := os.Getenv("TWITTER_BEARER_TOKEN_TO_FETCH_RULES")
-	if bearerTokentoFetchRules == "" {
-		fmt.Println("Twitter Bearer Token not found in environment variables.")
-		os.Exit(1)
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		log.Fatalf("Failed to fetch the page. Status code: %d", resp.StatusCode)
 	}
 
-	bearerTokentoCreateRules := os.Getenv("TWITTER_BEARER_TOKEN_TO_CREATE_RULES")
-	if bearerTokentoCreateRules == "" {
-		fmt.Println("Twitter Bearer Token not found in environment variables.")
-		os.Exit(1)
-	}
-	// Step 1: Fetch the existing rules and extract their IDs
-	existingRuleIDs, err := fetchExistingRule(bearerTokentoFetchRules)
+	// Parse the HTML content using goquery
+	doc, err := goquery.NewDocumentFromReader(resp.Body)
 	if err != nil {
-		fmt.Println("Error fetching existing rule IDs:", err)
-		os.Exit(1)
-		return
+		log.Fatalf("Invalid Page: %s", err.Error())
 	}
 
-	// Step 2: Delete the rules using the extracted IDs
-	if err := createRules(existingRuleIDs, bearerTokentoCreateRules); err != nil {
-		fmt.Println("Error deleting rules:", err)
-		os.Exit(1)
-		return
+	// Find the <meta> tag with property="og:description"
+	meta := doc.Find("meta[property='og:description']").First()
+
+	// Check if the <meta> tag with the specified property was found
+	if meta.Length() > 0 {
+		content := meta.AttrOr("content", "")
+
+		// Split the content string using known delimiters
+		parts := strings.Split(content, " likes, ")
+		if len(parts) >= 2 {
+			likesAndComments := parts[0]
+			dateAndText := parts[1]
+
+			likesCommentsParts := strings.Split(likesAndComments, " comments - ")
+			if len(likesCommentsParts) >= 2 {
+				likes := likesCommentsParts[0]
+				comments := likesCommentsParts[1]
+
+				dateAndTextParts := strings.Split(dateAndText, ": \"")
+				if len(dateAndTextParts) >= 2 {
+					dateCreated := dateAndTextParts[0]
+					text := dateAndTextParts[1]
+
+					// Create a struct to store the extracted data
+					headData := HeadData{
+						Likes:       likes,
+						Comments:    comments,
+						DateCreated: dateCreated,
+						Text:        text,
+					}
+
+					// Print the extracted data
+					fmt.Printf("Likes: %s\n", headData.Likes)
+					fmt.Printf("Comments: %s\n", headData.Comments)
+					fmt.Printf("Date Created: %s\n", headData.DateCreated)
+					fmt.Printf("Text: %s\n", headData.Text)
+				} else {
+					log.Fatal("Failed to extract date and text.")
+				}
+			} else {
+				log.Fatal("Failed to extract likes and comments.")
+			}
+		} else {
+			log.Fatal("Failed to extract data from the content string.")
+		}
+	} else {
+		log.Fatal("Meta tag not found.")
 	}
-
-	fmt.Println("Rules deleted successfully.")
-}
-
-func fetchExistingRule(bearerToken string) ([]RuleData, error) {
-	url := "https://api.twitter.com/2/tweets/search/stream/rules"
-	method := "GET"
-
-	client := &http.Client{}
-
-	req, err := http.NewRequest(method, url, nil)
-	if err != nil {
-		return nil, err
-	}
-
-	req.Header.Add("Authorization", "Bearer "+bearerToken)
-	time.Sleep(5 * time.Second)
-
-	res, err := client.Do(req)
-	if err != nil {
-		return nil, err
-	}
-	defer res.Body.Close()
-
-	body, err := io.ReadAll(res.Body)
-	if err != nil {
-		return nil, err
-	}
-
-	// Parse the JSON response to extract rule IDs
-	var response struct {
-		Rules []RuleData `json:"data"`
-	}
-
-	if err := json.Unmarshal(body, &response); err != nil {
-		return nil, err
-	}
-
-	// Unmarshal the JSON response into the struct
-	if err := json.Unmarshal(body, &response); err != nil {
-		fmt.Println(err)
-	}
-
-	// Serialize the struct back to JSON
-	prettyJSON, err := json.MarshalIndent(response, "", "  ")
-	if err != nil {
-		fmt.Println(err)
-	}
-
-	// Write the json to a file
-	if err := os.WriteFile("rules2.json", prettyJSON, 0644); err != nil {
-		fmt.Println(err)
-	}
-
-	fmt.Println("Response saved to response.json")
-
-	return response.Rules, nil
-}
-
-func createRules(rules []RuleData, bearerToken string) error {
-	url := "https://api.twitter.com/2/tweets/search/stream/rules"
-	method := "POST"
-
-	// Create a slice of rules to be added
-	var rulesToAdd []map[string]interface{}
-	for _, rule := range rules {
-		rulesToAdd = append(rulesToAdd, map[string]interface{}{
-			"value": rule.Value,
-			"tag":   rule.Tag,
-		})
-	}
-
-	// Create the payload with the rules to be added
-	payload := map[string][]map[string]interface{}{"add": rulesToAdd}
-	payloadJSON, err := json.Marshal(payload)
-	if err != nil {
-		return err
-	}
-
-	client := &http.Client{}
-
-	req, err := http.NewRequest(method, url, bytes.NewReader(payloadJSON))
-	if err != nil {
-		return err
-	}
-
-	req.Header.Add("Content-Type", "application/json")
-	req.Header.Add("Authorization", "Bearer "+bearerToken)
-	req.Header.Set("User-Agent", "v2FilteredStreamRules")
-
-	time.Sleep(5 * time.Second)
-
-	res, err := client.Do(req)
-	if err != nil {
-		return err
-	}
-	defer res.Body.Close()
-
-	body, err := io.ReadAll(res.Body)
-	if err != nil {
-		return err
-	}
-
-	fmt.Println("Response:", string(body))
-	fmt.Println("Response status:", res.Status)
-
-	return nil
 }
 
 // import (
-// 	"encoding/json"
 // 	"fmt"
-// 	"io"
+// 	"log"
 // 	"net/http"
-// 	"os"
+// 	"net/url"
+// 	"regexp"
 // 	"strings"
-// 	"time"
 
-// 	"github.com/joho/godotenv"
+// 	"github.com/PuerkitoBio/goquery"
 // )
 
-// func main2() {
-// 	// Load environment variables from .env
-// 	err := godotenv.Load()
+// func main() {
+// 	// var ctx context.Context
+// 	var url1 *url.URL
+// 	// var language string
+// 	fmt.Println(url1)
+
+// 	resp, err := http.Get("https://www.instagram.com/p/CzPUiEwstRB/?hl=en")
 // 	if err != nil {
-// 		fmt.Println("Error loading .env file")
-// 		return
+// 		log.Fatal(err)
 // 	}
-// 	bearerToken := os.Getenv("TWITTER_BEARER_TOKEN")
-// 	if bearerToken == "" {
-// 		fmt.Println("Twitter Bearer Token not found in environment variables.")
-// 		os.Exit(1)
+// 	defer resp.Body.Close()
+
+// 	if resp.StatusCode != http.StatusOK {
+// 		// return nil, fmt.Errorf("failed to fetch the page. Status code: %d", resp.StatusCode)
 // 	}
-// 	// Step 1: Fetch the existing rules and extract their IDs
-// 	existingRuleIDs, err := fetchExistingRuleIDs(bearerToken)
+
+// 	// Parse the HTML content using goquery
+// 	doc, err := goquery.NewDocumentFromReader(resp.Body)
 // 	if err != nil {
-// 		fmt.Println("Error fetching existing rule IDs:", err)
-// 		os.Exit(1)
-// 		return
+// 		// return nil, fmt.Errorf("invalid Page: %s", err.Error())
 // 	}
 
-// 	// Step 2: Delete the rules using the extracted IDs
-// 	if err := deleteRules(existingRuleIDs, bearerToken); err != nil {
-// 		fmt.Println("Error deleting rules:", err)
-// 		os.Exit(1)
-// 		return
+// 	// Find the <script> tag with type="application/ld+json" in the <head>
+// 	var jsonScript string
+// 	doc.Find("head script[type=\"application/ld+json\"]").Each(func(index int, script *goquery.Selection) {
+// 		// Get the content of the script tag
+// 		scriptContent := script.Text()
+// 		jsonScript = scriptContent
+// 	})
+
+// 	// Print the extracted JavaScript code
+// 	if jsonScript == "" {
+// 		// return nil, fmt.Errorf("no JavaScript code found in the specified script tage")
 // 	}
 
-// 	fmt.Println("Rules deleted successfully.")
-// }
-
-// // Step 1: Fetch the existing rules and extract their IDs
-// func fetchExistingRuleIDs(bearerToken string) ([]string, error) {
-// 	url := "https://api.twitter.com/2/tweets/search/stream/rules"
-// 	method := "GET"
-
-// 	client := &http.Client{}
-
-// 	req, err := http.NewRequest(method, url, nil)
+// 	// lnp := ln.LNData{}
+// 	// err = json.Unmarshal([]byte(jsonScript), &lnp)
 // 	if err != nil {
-// 		return nil, err
+// 		// return nil, fmt.Errorf("getting error while trying to unmarshal linkedin: %s", err)
 // 	}
+// 	LinkedINID := ""
+// 	// Find the <meta> tag with property="lnkd:url"
+// 	meta := doc.Find("meta[property='lnkd:url']")
 
-// 	req.Header.Add("Authorization", "Bearer "+bearerToken)
-// 	time.Sleep(3 * time.Second)
-
-// 	res, err := client.Do(req)
-// 	if err != nil {
-// 		return nil, err
-// 	}
-// 	defer res.Body.Close()
-
-// 	body, err := io.ReadAll(res.Body)
-// 	if err != nil {
-// 		return nil, err
-// 	}
-
-// 	// Parse the JSON response to extract rule IDs
-// 	var response struct {
-// 		Rules []struct {
-// 			ID string `json:"id"`
-// 		} `json:"data"`
-// 	}
-
-// 	if err := json.Unmarshal(body, &response); err != nil {
-// 		return nil, err
-// 	}
-
-// 	ruleIDs := make([]string, len(response.Rules))
-// 	for i, rule := range response.Rules {
-// 		ruleIDs[i] = rule.ID
-// 	}
-
-// 	return ruleIDs, nil
-// }
-
-// // Step 2: Delete rules using the extracted IDs
-// func deleteRules(ruleIDs []string, bearerToken string) error {
-// 	url := "https://api.twitter.com/2/tweets/search/stream/rules"
-// 	method := "POST"
-
-// 	payload := fmt.Sprintf(`{
-// 		"delete": {
-// 			"ids": %s
+// 	// Check if the <meta> tag with the specified property was found
+// 	if meta.Length() > 0 {
+// 		// Extract the 'content' attribute from the <meta> tag
+// 		content := meta.First().AttrOr("content", "")
+// 		parts := strings.Split(content, ":activity:")
+// 		if len(parts) >= 2 {
+// 			LinkedINID = parts[1]
 // 		}
-// 	}`, toJSON(ruleIDs))
+// 	}
+// 	if LinkedINID == "" {
+// 		// return nil, fmt.Errorf("invalid Linkedin id:  %s", LinkedINID)
+// 	}
+// 	// lnp.ClippingID = LinkedINID
 
-// 	client := &http.Client{}
+// 	pa := doc.Find("p.public-post-author-card__followers")
 
-// 	req, err := http.NewRequest(method, url, strings.NewReader(payload))
-// 	if err != nil {
-// 		return err
+// 	// Check if the <p> element with the specified classes was found
+// 	if pa.Length() > 0 {
+// 		followers := pa.Text()
+// 		re := regexp.MustCompile(`\d+,\d+`)
+// 		matches := re.FindAllString(followers, -1)
+// 		if len(matches) > 0 {
+// 			numberStr := matches[0]
+// 			numberStr = strings.ReplaceAll(numberStr, ",", "")
+// 			// number, err := strconv.ParseInt(numberStr, 10, 64)
+// 			if err == nil {
+// 				// lnp.FollowersCount = number
+// 			}
+// 		}
 // 	}
 
-// 	req.Header.Add("Content-Type", "application/json")
-// 	req.Header.Add("Authorization", "Bearer "+bearerToken)
-
-// 	time.Sleep(3 * time.Second)
-
-// 	res, err := client.Do(req)
-// 	if err != nil {
-// 		return err
+// 	article := doc.Find("article").First()
+// 	if article.Length() > 0 {
+// 		reactionCount := article.Find("span[data-test-id='social-actions__reaction-count']")
+// 		if reactionCount.Length() > 0 {
+// 			likes := reactionCount.Text()
+// 			likes = strings.TrimSpace(likes)
+// 			likes = strings.ReplaceAll(likes, ",", "")
+// 			// number, err := strconv.ParseInt(likes, 10, 64)
+// 			if err == nil {
+// 				// lnp.LikesCount = int(number)
+// 			}
+// 		}
 // 	}
-// 	defer res.Body.Close()
-
-// 	body, err := io.ReadAll(res.Body)
-// 	if err != nil {
-// 		return err
-// 	}
-
-// 	fmt.Println("Response:", string(body))
-// 	fmt.Println("Response status:", res.Status)
-// 	return nil
-// }
-
-// // Helper function to convert a slice to JSON array
-// func toJSON(data interface{}) string {
-// 	jsonBytes, _ := json.Marshal(data)
-// 	return string(jsonBytes)
-// }
-
-// func fetchRulesToSaveInFile(bearerToken string) {
-// 	url := "https://api.twitter.com/2/tweets/search/stream/rules"
-// 	method := "GET"
-// 	client := &http.Client{}
-
-// 	req, err := http.NewRequest(method, url, nil)
-
-// 	if err != nil {
-// 		fmt.Println(err)
-// 		return
-// 	}
-
-// 	req.Header.Add("Authorization", "Bearer "+bearerToken)
-// 	req.Header.Set("User-Agent", "v2FilteredStreamRules")
-
-// 	time.Sleep(3 * time.Second)
-
-// 	res, err := client.Do(req)
-// 	if err != nil {
-// 		fmt.Println(err)
-// 		return
-// 	}
-// 	defer res.Body.Close()
-
-// 	// Read the response body
-// 	body, err := io.ReadAll(res.Body)
-// 	if err != nil {
-// 		fmt.Println(err)
-// 		return
-// 	}
-// 	fmt.Println(string(body))
-
-// 	var response struct {
-// 		Rules []struct {
-// 			ID     string `json:"id"`
-// 			Value  string `json:"value"`
-// 			Tag    string `json:"tag"`
-// 			Create string `json:"created_at"`
-// 		} `json:"data"`
-// 	}
-
-// 	// Unmarshal the JSON response into the struct
-// 	if err := json.Unmarshal(body, &response); err != nil {
-// 		fmt.Println(err)
-// 		return
-// 	}
-
-// 	// Serialize the struct back to JSON
-// 	prettyJSON, err := json.MarshalIndent(response, "", "  ")
-// 	if err != nil {
-// 		fmt.Println(err)
-// 		return
-// 	}
-
-// 	// Write the json to a file
-// 	if err := os.WriteFile("rules2.json", prettyJSON, 0644); err != nil {
-// 		fmt.Println(err)
-// 		return
-// 	}
-
-// 	fmt.Println("Response saved to response.json")
 
 // }
