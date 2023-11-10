@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"net/url"
 	"strconv"
 	"strings"
+	"time"
 
 	"github.com/PuerkitoBio/goquery"
 )
@@ -18,6 +18,8 @@ type HeadData struct {
 	DateCreated string
 	Text        string
 	ContentID   string
+	IGImageURL  string
+	PostPageURL string // New variable for the original URL
 }
 
 func convertKMtoDigits(s string) int64 {
@@ -34,10 +36,9 @@ func convertKMtoDigits(s string) int64 {
 }
 
 func main() {
-	var url1 *url.URL
-	fmt.Println(url1)
+	originalURL := "https://www.instagram.com/p/CzT6BHGscwA/"
 
-	resp, err := http.Get("https://www.instagram.com/p/CzPUiEwstRB/?hl=en")
+	resp, err := http.Get(originalURL)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -86,21 +87,43 @@ func main() {
 						if len(contentIDParts) == 2 {
 							contentIDValue := contentIDParts[1]
 
-							// Create a HeadData instance and assign the extracted data
-							headData := HeadData{
-								Likes:       strconv.FormatInt(likes, 10),
-								Comments:    strconv.FormatInt(comments, 10),
-								DateCreated: dateCreated,
-								Text:        text,
-								ContentID:   contentIDValue,
-							}
+							// Find the <meta> tag with name="twitter:image"
+							metaIGImageURL := doc.Find("meta[name='twitter:image']").First()
 
-							// Print the extracted data
-							fmt.Printf("Likes: %s\n", headData.Likes)
-							fmt.Printf("Comments: %s\n", headData.Comments)
-							fmt.Printf("Date Created: %s\n", headData.DateCreated)
-							fmt.Printf("Text: %s\n", headData.Text)
-							fmt.Printf("Content ID: %s\n", headData.ContentID)
+							// Check if the <meta> tag with the specified name was found
+							if metaIGImageURL.Length() > 0 {
+								igImageURL := metaIGImageURL.AttrOr("content", "")
+
+								// Retrieve the current date and time
+								currentTime := time.Now()
+								// Format it as a string without seconds
+								dateTimeStr := currentTime.Format("200601021504")
+
+								// Combine the ContentID with the formatted date and time
+								contentIDWithTime := contentIDValue + dateTimeStr
+
+								// Create a HeadData instance and assign the extracted data
+								headData := HeadData{
+									Likes:       strconv.FormatInt(likes, 10),
+									Comments:    strconv.FormatInt(comments, 10),
+									DateCreated: dateCreated,
+									Text:        text,
+									ContentID:   contentIDWithTime,
+									IGImageURL:  igImageURL,
+									PostPageURL: originalURL, // Assign the original URL
+								}
+
+								// Print the extracted data
+								fmt.Printf("Likes: %s\n", headData.Likes)
+								fmt.Printf("Comments: %s\n", headData.Comments)
+								fmt.Printf("Date Created: %s\n", headData.DateCreated)
+								fmt.Printf("Text: %s\n", headData.Text)
+								fmt.Printf("Content ID: %s\n", headData.ContentID)
+								fmt.Printf("IG Image URL: %s\n", headData.IGImageURL)
+								fmt.Printf("Post Page URL: %s\n", headData.PostPageURL)
+							} else {
+								log.Fatal("No <meta> tag with name='twitter:image' found.")
+							}
 						} else {
 							log.Fatal("Failed to extract content ID.")
 						}
