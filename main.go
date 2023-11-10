@@ -5,6 +5,7 @@ import (
 	"log"
 	"net/http"
 	"net/url"
+	"strconv"
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
@@ -16,6 +17,19 @@ type HeadData struct {
 	Comments    string
 	DateCreated string
 	Text        string
+}
+
+func convertKMtoDigits(s string) int64 {
+	if strings.Contains(s, "K") {
+		numberPart, _ := strconv.ParseFloat(strings.TrimSuffix(s, "K"), 64)
+		return int64(numberPart * 1000)
+	} else if strings.Contains(s, "M") {
+		numberPart, _ := strconv.ParseFloat(strings.TrimSuffix(s, "M"), 64)
+		return int64(numberPart * 1000000)
+	} else {
+		numberPart, _ := strconv.ParseInt(s, 10, 64)
+		return numberPart
+	}
 }
 
 func main() {
@@ -46,34 +60,26 @@ func main() {
 		content := meta.AttrOr("content", "")
 
 		// Split the content string using known delimiters
-		parts := strings.Split(content, " likes, ")
+		parts := strings.Split(content, " - ")
 		if len(parts) >= 2 {
-			likesAndComments := parts[0]
+			likesComments := parts[0]
 			dateAndText := parts[1]
 
-			likesCommentsParts := strings.Split(likesAndComments, " comments - ")
+			likesCommentsParts := strings.Split(likesComments, ", ")
 			if len(likesCommentsParts) >= 2 {
-				likes := likesCommentsParts[0]
-				comments := likesCommentsParts[1]
+				likes := convertKMtoDigits(strings.TrimSpace(strings.TrimSuffix(likesCommentsParts[0], " likes")))
+				comments := convertKMtoDigits(strings.TrimSpace(strings.TrimSuffix(likesCommentsParts[1], " comments")))
 
-				dateAndTextParts := strings.Split(dateAndText, ": \"")
+				dateAndTextParts := strings.SplitN(dateAndText, ": \"", 2)
 				if len(dateAndTextParts) >= 2 {
 					dateCreated := dateAndTextParts[0]
-					text := dateAndTextParts[1]
-
-					// Create a struct to store the extracted data
-					headData := HeadData{
-						Likes:       likes,
-						Comments:    comments,
-						DateCreated: dateCreated,
-						Text:        text,
-					}
+					text := strings.TrimSuffix(dateAndTextParts[1], "\" ")
 
 					// Print the extracted data
-					fmt.Printf("Likes: %s\n", headData.Likes)
-					fmt.Printf("Comments: %s\n", headData.Comments)
-					fmt.Printf("Date Created: %s\n", headData.DateCreated)
-					fmt.Printf("Text: %s\n", headData.Text)
+					fmt.Printf("Likes: %d\n", likes)
+					fmt.Printf("Comments: %d\n", comments)
+					fmt.Printf("Date Created: %s\n", dateCreated)
+					fmt.Printf("Text: %s\n", text)
 				} else {
 					log.Fatal("Failed to extract date and text.")
 				}
@@ -83,10 +89,97 @@ func main() {
 		} else {
 			log.Fatal("Failed to extract data from the content string.")
 		}
-	} else {
-		log.Fatal("Meta tag not found.")
 	}
+
 }
+
+// import (
+// 	"fmt"
+// 	"log"
+// 	"net/http"
+// 	"net/url"
+// 	"strings"
+
+// 	"github.com/PuerkitoBio/goquery"
+// )
+
+// // Define a struct to store the extracted data
+// type HeadData struct {
+// 	Likes       string
+// 	Comments    string
+// 	DateCreated string
+// 	Text        string
+// }
+
+// func main() {
+// 	var url1 *url.URL
+// 	fmt.Println(url1)
+
+// 	resp, err := http.Get("https://www.instagram.com/p/CzPUiEwstRB/?hl=en")
+// 	if err != nil {
+// 		log.Fatal(err)
+// 	}
+// 	defer resp.Body.Close()
+
+// 	if resp.StatusCode != http.StatusOK {
+// 		log.Fatalf("Failed to fetch the page. Status code: %d", resp.StatusCode)
+// 	}
+
+// 	// Parse the HTML content using goquery
+// 	doc, err := goquery.NewDocumentFromReader(resp.Body)
+// 	if err != nil {
+// 		log.Fatalf("Invalid Page: %s", err.Error())
+// 	}
+
+// 	// Find the <meta> tag with property="og:description"
+// 	meta := doc.Find("meta[property='og:description']").First()
+
+// 	// Check if the <meta> tag with the specified property was found
+// 	if meta.Length() > 0 {
+// 		content := meta.AttrOr("content", "")
+
+// 		// Split the content string using known delimiters
+// 		parts := strings.Split(content, " likes, ")
+// 		if len(parts) >= 2 {
+// 			likesAndComments := parts[0]
+// 			dateAndText := parts[1]
+
+// 			likesCommentsParts := strings.Split(likesAndComments, " comments - ")
+// 			if len(likesCommentsParts) >= 2 {
+// 				likes := likesCommentsParts[0]
+// 				comments := likesCommentsParts[1]
+
+// 				dateAndTextParts := strings.Split(dateAndText, ": \"")
+// 				if len(dateAndTextParts) >= 2 {
+// 					dateCreated := dateAndTextParts[0]
+// 					text := dateAndTextParts[1]
+
+// 					// Create a struct to store the extracted data
+// 					headData := HeadData{
+// 						Likes:       likes,
+// 						Comments:    comments,
+// 						DateCreated: dateCreated,
+// 						Text:        text,
+// 					}
+
+// 					// Print the extracted data
+// 					fmt.Printf("Likes: %s\n", headData.Likes)
+// 					fmt.Printf("Comments: %s\n", headData.Comments)
+// 					fmt.Printf("Date Created: %s\n", headData.DateCreated)
+// 					fmt.Printf("Text: %s\n", headData.Text)
+// 				} else {
+// 					log.Fatal("Failed to extract date and text.")
+// 				}
+// 			} else {
+// 				log.Fatal("Failed to extract likes and comments.")
+// 			}
+// 		} else {
+// 			log.Fatal("Failed to extract data from the content string.")
+// 		}
+// 	} else {
+// 		log.Fatal("Meta tag not found.")
+// 	}
+// }
 
 // import (
 // 	"fmt"
