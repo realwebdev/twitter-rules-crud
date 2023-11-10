@@ -19,7 +19,8 @@ type HeadData struct {
 	Text        string
 	ContentID   string
 	IGImageURL  string
-	PostPageURL string // New variable for the original URL
+	PostPageURL string
+	Author      string // New variable for the author
 }
 
 func convertKMtoDigits(s string) int64 {
@@ -36,7 +37,7 @@ func convertKMtoDigits(s string) int64 {
 }
 
 func main() {
-	originalURL := "https://www.instagram.com/p/CzT6BHGscwA/"
+	originalURL := "https://www.instagram.com/p/CzPUiEwstRB/?hl=en"
 
 	resp, err := http.Get(originalURL)
 	if err != nil {
@@ -94,33 +95,45 @@ func main() {
 							if metaIGImageURL.Length() > 0 {
 								igImageURL := metaIGImageURL.AttrOr("content", "")
 
-								// Retrieve the current date and time
-								currentTime := time.Now()
-								// Format it as a string without seconds
-								dateTimeStr := currentTime.Format("200601021504")
+								// Extract the "Author" and "Date Created" from the "Date Created" string
+								authorAndDateCreated := strings.Split(dateCreated, " on ")
+								if len(authorAndDateCreated) == 2 {
+									author := authorAndDateCreated[0]
+									dateCreatedStr := authorAndDateCreated[1]
 
-								// Combine the ContentID with the formatted date and time
-								contentIDWithTime := contentIDValue + dateTimeStr
+									// Parse the "Date Created" to a time.Time value
+									dateCreatedTime, err := time.Parse("January 2, 2006", dateCreatedStr)
+									if err != nil {
+										log.Fatal("Failed to parse date: ", err)
+									}
 
-								// Create a HeadData instance and assign the extracted data
-								headData := HeadData{
-									Likes:       strconv.FormatInt(likes, 10),
-									Comments:    strconv.FormatInt(comments, 10),
-									DateCreated: dateCreated,
-									Text:        text,
-									ContentID:   contentIDWithTime,
-									IGImageURL:  igImageURL,
-									PostPageURL: originalURL, // Assign the original URL
+									// Convert the parsed time to UTC
+									dateCreatedUTC := dateCreatedTime.UTC()
+
+									// Create a HeadData instance and assign the extracted data
+									headData := HeadData{
+										Likes:       strconv.FormatInt(likes, 10),
+										Comments:    strconv.FormatInt(comments, 10),
+										DateCreated: dateCreatedUTC.String(), // Store the UTC time
+										Text:        text,
+										ContentID:   contentIDValue,
+										IGImageURL:  igImageURL,
+										PostPageURL: originalURL,
+										Author:      author, // Store the author
+									}
+
+									// Print the extracted data
+									fmt.Printf("Likes: %s\n", headData.Likes)
+									fmt.Printf("Comments: %s\n", headData.Comments)
+									fmt.Printf("Date Created: %s\n", headData.DateCreated)
+									fmt.Printf("Text: %s\n", headData.Text)
+									fmt.Printf("Content ID: %s\n", headData.ContentID)
+									fmt.Printf("IG Image URL: %s\n", headData.IGImageURL)
+									fmt.Printf("Post Page URL: %s\n", headData.PostPageURL)
+									fmt.Printf("Author: %s\n", headData.Author)
+								} else {
+									log.Fatal("Failed to extract author and date.")
 								}
-
-								// Print the extracted data
-								fmt.Printf("Likes: %s\n", headData.Likes)
-								fmt.Printf("Comments: %s\n", headData.Comments)
-								fmt.Printf("Date Created: %s\n", headData.DateCreated)
-								fmt.Printf("Text: %s\n", headData.Text)
-								fmt.Printf("Content ID: %s\n", headData.ContentID)
-								fmt.Printf("IG Image URL: %s\n", headData.IGImageURL)
-								fmt.Printf("Post Page URL: %s\n", headData.PostPageURL)
 							} else {
 								log.Fatal("No <meta> tag with name='twitter:image' found.")
 							}
