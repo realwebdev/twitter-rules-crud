@@ -17,6 +17,7 @@ type HeadData struct {
 	Comments    string
 	DateCreated string
 	Text        string
+	ContentID   string
 }
 
 func convertKMtoDigits(s string) int64 {
@@ -75,11 +76,37 @@ func main() {
 					dateCreated := dateAndTextParts[0]
 					text := strings.TrimSuffix(dateAndTextParts[1], "\" ")
 
-					// Print the extracted data
-					fmt.Printf("Likes: %d\n", likes)
-					fmt.Printf("Comments: %d\n", comments)
-					fmt.Printf("Date Created: %s\n", dateCreated)
-					fmt.Printf("Text: %s\n", text)
+					// Find the <meta> tag with property="al:ios:url"
+					metaContentID := doc.Find("meta[property='al:ios:url']").First()
+
+					// Check if the <meta> tag with the specified property was found
+					if metaContentID.Length() > 0 {
+						contentID := metaContentID.AttrOr("content", "")
+						contentIDParts := strings.Split(contentID, "id=")
+						if len(contentIDParts) == 2 {
+							contentIDValue := contentIDParts[1]
+
+							// Create a HeadData instance and assign the extracted data
+							headData := HeadData{
+								Likes:       strconv.FormatInt(likes, 10),
+								Comments:    strconv.FormatInt(comments, 10),
+								DateCreated: dateCreated,
+								Text:        text,
+								ContentID:   contentIDValue,
+							}
+
+							// Print the extracted data
+							fmt.Printf("Likes: %s\n", headData.Likes)
+							fmt.Printf("Comments: %s\n", headData.Comments)
+							fmt.Printf("Date Created: %s\n", headData.DateCreated)
+							fmt.Printf("Text: %s\n", headData.Text)
+							fmt.Printf("Content ID: %s\n", headData.ContentID)
+						} else {
+							log.Fatal("Failed to extract content ID.")
+						}
+					} else {
+						log.Fatal("No <meta> tag with property='al:ios:url' found.")
+					}
 				} else {
 					log.Fatal("Failed to extract date and text.")
 				}
@@ -90,7 +117,6 @@ func main() {
 			log.Fatal("Failed to extract data from the content string.")
 		}
 	}
-
 }
 
 // import (
