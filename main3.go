@@ -10,10 +10,10 @@ import (
 
 func main() {
 	// Replace with your actual Twitter API credentials
-	consumerKey := "D22E1Pq81PU648TWTRHSRPDpu"
-	consumerSecret := "jI0idplXT1i6KhKBl2k1DEum1L06mcnkdi1ZCxm19oL3DlYFDu"
-	accessToken := "3298684828-RBvjAGn4nGy7zUS3zHcF3HJdcHZvd9ZKaj5xX62"
-	accessSecret := "oWWWZ0WLpNlhXbOdXHkJZNBmTJTiLtWLElHGOoea6HMHd"
+	// consumerKey := "D22E1Pq81PU648TWTRHSRPDpu1"
+	// consumerSecret := "jI0idplXT1i6KhKBl2k1DEum1L06mcnkdi1ZCxm19oL3DlYFDu"
+	// accessToken := "3298684828-RBvjAGn4nGy7zUS3zHcF3HJdcHZvd9ZKaj5xX62"
+	// accessSecret := "oWWWZ0WLpNlhXbOdXHkJZNBmTJTiLtWLElHGOoea6HMHd"
 
 	// OAuth1 config
 	config := oauth1.NewConfig(consumerKey, consumerSecret)
