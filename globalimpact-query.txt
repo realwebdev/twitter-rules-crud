@@ -1,0 +1,338 @@
+WITH c AS (
+    SELECT
+        IF(ThreadID = "", ThreadParentID, ThreadID) AS ThreadID,
+        ThreadEntryType,
+        ThreadParentID,
+        ChannelID,
+        IFNULL(InputChannelID, "unknown") AS InputChannelID,
+        Domain,
+        URL,
+        Title,
+        Text,
+        Snippet,
+        MediaURLs,
+        ScreenName,
+        CreatedAt,
+        Updated,
+        ClippingID,
+        Gender,
+        UserName,
+        AvatarURL,
+        IFNULL(FollowersCount, 0) AS FollowersCount,
+        AuthorLocation,
+        IF(Provider IN ("bw"), NULL, Location) AS Location,
+        IFNULL(IF(Domain IN ("twitter.com", "facebook.com", "instagram.com", "youtube.com", "linkedin.com", "tiktok.com"), ScreenName, Domain), Domain) AS FollowersAuthor,
+        IF(ThreadEntryType = "retweet", ThreadParentID, ClippingID) AS ClippingTextID,
+        IF(ThreadEntryType IN ("tweet", "post", "story"), true, false) AS InSearchFilter
+    FROM (
+        SELECT
+            ThreadID,
+            ThreadEntryType,
+            ThreadParentID,
+            ChannelID,
+            IFNULL(InputChannelID, "unknown") AS InputChannelID,
+            Domain,
+            URL,
+            Title,
+            Text,
+            Snippet,
+            MediaURLs,
+            ScreenName,
+            CreatedAt,
+            ClippingID,
+            FollowersCount,
+            Gender,
+            UserName,
+            AvatarURL,
+            Location,
+            AuthorLocation,
+            Updated,
+            Provider,
+            MAX(Updated) OVER (PARTITION BY ClippingID) AS LastUpdated
+        FROM `wapi-websays.4194.clippings`
+        WHERE CreatedAt BETWEEN TIMESTAMP("2023-06-01 07:00:00+00") AND TIMESTAMP("2024-01-01 07:59:59+00")
+    )
+    WHERE LastUpdated = Updated
+),
+m AS (
+    SELECT
+        m.ClippingID AS ClippingID,
+        m.Domain AS Domain,
+        m.ChannelType AS ChannelType,
+        m.Source AS Source,
+        m.Removed AS Removed,
+        m.AuthorsMentioned AS AuthorsMentioned,
+        m.DomainsMentioned AS DomainsMentioned,
+        m.ExpandedURLs AS ExpandedURLs,
+        m.Hashtags AS Hashtags,
+        m.Emojis AS Emojis,
+        m.Topics AS Topics,
+        m.Updated AS Updated
+    FROM (
+        SELECT ARRAY_AGG(m ORDER BY Updated DESC LIMIT 1)[OFFSET(0)] m
+        FROM `wapi-websays.4194.clipping_metadata` m
+        WHERE Updated > TIMESTAMP("2023-06-01 07:00:00+00")
+        GROUP BY ClippingID
+    )
+    WHERE m.Removed = false
+),
+i AS (
+    SELECT
+        i.ClippingID AS ClippingID,
+        i.Domain AS Domain,
+        i.LikesCount AS LikesCount,
+        i.FavoritesCount AS FavoritesCount,
+        i.RetweetsCount AS RetweetsCount,
+        i.CommentsCount AS CommentsCount,
+        i.ViewsCount AS ViewsCount,
+        i.RepliesCount AS RepliesCount,
+        i.Reach AS Reach,
+        i.Impressions AS Impressions
+    FROM (
+        SELECT ARRAY_AGG(i ORDER BY Updated DESC LIMIT 1)[OFFSET(0)] i
+        FROM `wapi-websays.4194.clipping_insights` i
+        WHERE Updated > TIMESTAMP("2023-07-01 07:00:00+00")
+        GROUP BY ClippingID
+    )
+),
+ml AS (
+    SELECT
+        ClippingID,
+        Domain,
+        IF(Language IN ("ga", "ar", "bg", "be", "ca", "cs", "da", "de", "el", "en", "es", "fa", "fi", "fr", "he", "hi", "id", "it", "ja", "ko", "lt", "ms", "nl", "no", "pl", "pt", "ro", "ru", "sv", "th", "tl", "tr", "uk", "vi", "zh", "af", "am", "et", "hr", "hu", "hy", "is", "lv", "mk", "mr", "ne", "sk", "sl", "sq", "sr", "ta", "eu", "bs", "gl", "ku", "lb", "gd", "cy", "cv", "fo", "li", "nn", "nb", "oc", "os", "tt", "wa", "unknown"), Language, "unknown") AS Language
+    FROM (
+        SELECT
+            ClippingID,
+            Domain,
+            Language,
+            Updated,
+            MAX(Updated) OVER (PARTITION BY ClippingID) AS LastUpdated
+        FROM `wapi-websays.4194.language_metadata`
+        GROUP BY ClippingID, Domain, Language, Updated
+        HAVING Updated > TIMESTAMP("2023-06-01 07:00:00+00")
+    )
+    WHERE LastUpdated = Updated
+),
+ms AS (
+    SELECT
+        ClippingID,
+        Domain,
+        Sentiment
+    FROM (
+        SELECT
+            ClippingID,
+            Domain,
+            Sentiment,
+            Updated,
+            MAX(Updated) OVER (PARTITION BY ClippingID) AS LastUpdated
+        FROM `wapi-websays.4194.sentiment_metadata`
+        GROUP BY ClippingID, Domain, Sentiment, Updated
+        HAVING Updated > TIMESTAMP("2023-06-01 07:00:00+00")
+    )
+    WHERE LastUpdated = Updated
+),
+mf AS (
+    SELECT
+        ClippingID,
+        Domain,
+        Folder
+    FROM (
+        SELECT
+            ClippingID,
+            Domain,
+            Folder,
+            Updated,
+            MAX(Updated) OVER (PARTITION BY ClippingID) AS LastUpdated
+        FROM `wapi-websays.4194.folder_metadata`
+        GROUP BY ClippingID, Domain, Folder, Updated
+        HAVING Updated > TIMESTAMP("2023-06-01 07:00:00+00")
+    )
+    WHERE LastUpdated = Updated
+),
+mnonfiltered AS (
+    SELECT
+        m.ClippingID AS ClippingID,
+        m.Domain AS Domain,
+        m.ChannelType AS ChannelType,
+        m.Source AS Source,
+        m.Removed AS Removed,
+        m.AuthorsMentioned AS AuthorsMentioned,
+        m.DomainsMentioned AS DomainsMentioned,
+        m.ExpandedURLs AS ExpandedURLs,
+        m.Hashtags AS Hashtags,
+        m.Emojis AS Emojis,
+        m.Topics AS Topics,
+        m.Updated AS Updated
+    FROM (
+        SELECT ARRAY_AGG(m ORDER BY Updated DESC
+                LIMIT 1)[OFFSET(0)] m
+        FROM `wapi-websays.4194.clipping_metadata` m
+        WHERE Updated > TIMESTAMP("2023-06-01 07:00:00+00")
+        GROUP BY ClippingID
+    )
+),
+filter AS (
+    SELECT
+        c.ThreadID AS ThreadID,
+        c.Domain AS Domain,
+        MAX(c.InSearchFilter) AS InSearchFilter,
+        COUNT(c.ThreadID) AS Occurrences,
+        IFNULL(SUM(IFNULL(i.LikesCount, 0) + IFNULL(i.FavoritesCount, 0) + IFNULL(i.RetweetsCount, 0) + IFNULL(i.CommentsCount, 0) + IFNULL(i.RepliesCount, 0)), 0) AS GlobalImpact,
+        IFNULL(SUM(IFNULL(i.LikesCount, 0)), 0) AS GlobalLikes,
+        IFNULL((COUNT(c.ThreadID) + SUM(IFNULL(i.LikesCount, 0))), 0) AS PopularRank,
+        IFNULL(SUM(c.FollowersCount), 0) AS GlobalReach,
+        MAX(c.CreatedAt) AS MaxCreatedAt
+    FROM c
+    JOIN m ON c.ClippingID = m.ClippingID AND m.Updated >= c.Updated
+    LEFT JOIN i ON c.ClippingID = i.ClippingID
+    LEFT JOIN ml ON c.ClippingTextID = ml.ClippingID
+    LEFT JOIN ms ON c.ClippingTextID = ms.ClippingID
+    LEFT JOIN mf ON c.ClippingTextID = mf.ClippingID
+    WHERE (mf.Folder = 1 OR mf.Folder IS NULL)
+    GROUP BY c.ThreadID, c.Domain
+),
+p AS (
+    SELECT
+        IF(ThreadID = "", ThreadParentID, ThreadID) AS ThreadID,
+        ThreadEntryType,
+        ThreadParentID,
+        ChannelID,
+        IFNULL(InputChannelID, "unknown") AS InputChannelID,
+        Domain,
+        URL,
+        Title,
+        Text,
+        Snippet,
+        MediaURLs,
+        ScreenName,
+        CreatedAt,
+        Updated,
+        ClippingID,
+        Gender,
+        UserName,
+        AvatarURL,
+        IFNULL(FollowersCount, 0) AS FollowersCount,
+        AuthorLocation,
+        IF(Provider IN ("bw"), NULL, Location) AS Location,
+        IFNULL(IF(Domain IN ("twitter.com", "facebook.com", "instagram.com", "youtube.com", "linkedin.com", "tiktok.com"), ScreenName, Domain), Domain) AS FollowersAuthor,
+        IF(ThreadEntryType = "retweet", ThreadParentID, ClippingID) AS ClippingTextID,
+        IF(ThreadEntryType IN ("tweet", "post", "story"), true, false) AS InSearchFilter
+    FROM (
+        SELECT
+            ThreadID,
+            ThreadEntryType,
+            ThreadParentID,
+            ChannelID,
+            IFNULL(InputChannelID, "unknown") AS InputChannelID,
+            Domain,
+            URL,
+            Title,
+            Text,
+            Snippet,
+            MediaURLs,
+            ScreenName,
+            CreatedAt,
+            ClippingID,
+            FollowersCount,
+            Gender,
+            UserName,
+            AvatarURL,
+            Location,
+            AuthorLocation,
+            Updated,
+            Provider,
+            MAX(Updated) OVER (PARTITION BY ClippingID) AS LastUpdated
+        FROM `wapi-websays.4194.clippings`
+        WHERE CreatedAt BETWEEN TIMESTAMP("2023-06-01 07:00:00+00") AND TIMESTAMP("2024-01-01 07:59:59+00")
+    )
+    WHERE LastUpdated = Updated AND ThreadEntryType IN ("post", "tweet", "story")
+),
+clippings AS (
+    SELECT
+        p.ThreadID AS ThreadID,
+        p.ThreadEntryType AS ThreadEntryType,
+        p.ThreadParentID AS ThreadParentID,
+        p.ChannelID AS ChannelID,
+        IFNULL(p.InputChannelID, "unknown") AS InputChannelID,
+        p.Domain AS Domain,
+        p.URL AS URL,
+        p.Title AS Title,
+        p.Snippet AS Snippet,
+        p.MediaURLs AS MediaURLs,
+        p.ScreenName AS ScreenName,
+        p.FollowersAuthor AS FollowersAuthor,
+        IFNULL(p.Gender, "unknown") AS Gender,
+        p.UserName AS UserName,
+        p.AvatarURL AS AvatarURL,
+        p.CreatedAt AS CreatedAt,
+        p.ClippingID AS ClippingID,
+        p.ClippingTextID AS ClippingTextID,
+        p.Location AS Location,
+        p.AuthorLocation AS AuthorLocation,
+        m.Source AS Source,
+        m.ChannelType AS ChannelType,
+        IFNULL(ms.Sentiment, 0) AS Sentiment,
+        IFNULL(ml.Language, "unknown") AS Language,
+        mf.Folder AS Folder,
+        IFNULL(p.FollowersCount, 0) AS FollowersCount,
+        IFNULL(i.LikesCount, 0) AS LikesCount,
+        IFNULL(i.FavoritesCount, 0) AS FavoritesCount,
+        IFNULL(i.RetweetsCount, 0) AS RetweetsCount,
+        IFNULL(i.CommentsCount, 0) AS CommentsCount,
+        IFNULL(i.ViewsCount, 0) AS ViewsCount,
+        IFNULL(i.RepliesCount, 0) AS RepliesCount,
+        IFNULL(i.Reach, 0) AS PageReach,
+        IFNULL(i.Impressions, 0) AS Impressions,
+        (IFNULL(i.LikesCount, 0) + IFNULL(i.FavoritesCount, 0) + IFNULL(i.RetweetsCount, 0) + IFNULL(i.CommentsCount, 0) + IFNULL(i.RepliesCount, 0)) AS Impact
+    FROM p
+    JOIN mnonfiltered AS m ON p.ClippingID = m.ClippingID AND m.Updated >= p.Updated
+    LEFT JOIN i ON p.ClippingID = i.ClippingID
+    LEFT JOIN ml ON p.ClippingTextID = ml.ClippingID
+    LEFT JOIN ms ON p.ClippingTextID = ms.ClippingID
+    LEFT JOIN mf ON p.ClippingTextID = mf.ClippingID
+)
+SELECT
+    filter.ThreadID AS ThreadID,
+    clippings.ThreadEntryType AS ThreadEntryType,
+    clippings.ChannelID AS ChannelID,
+    IFNULL(clippings.InputChannelID, "unknown") AS InputChannelID,
+    filter.Domain AS Domain,
+    clippings.URL AS URL,
+    clippings.Title AS Title,
+    clippings.Snippet AS Snippet,
+    clippings.MediaURLs AS MediaURLs,
+    clippings.ScreenName AS Author,
+    clippings.FollowersAuthor AS FollowersAuthor,
+    clippings.CreatedAt AS CreatedAt,
+    clippings.ClippingID AS ClippingID,
+    clippings.ThreadParentID AS ThreadParentID,
+    clippings.ClippingTextID AS ClippingTextID,
+    IFNULL(clippings.ChannelType, "external") AS ChannelType,
+    IFNULL(clippings.Source, "other") AS Source,
+    IFNULL(clippings.Sentiment, 0) AS Sentiment,
+    IFNULL(clippings.Language, "unknown") AS Language,
+    IFNULL(clippings.Folder, 1) AS Folder,
+    IFNULL(clippings.FollowersCount, 0) AS FollowersCount,
+    clippings.LikesCount AS LikesCount,
+    clippings.FavoritesCount AS FavoritesCount,
+    clippings.RetweetsCount AS RetweetsCount,
+    clippings.CommentsCount AS CommentsCount,
+    clippings.ViewsCount AS ViewsCount,
+    clippings.RepliesCount AS RepliesCount,
+    clippings.Impressions AS Impressions,
+    clippings.PageReach AS PageReach,
+    clippings.Impact AS Impact,
+    clippings.AvatarURL AS AvatarURL,
+    clippings.UserName AS UserName,
+    clippings.Gender AS Gender,
+    filter.Occurrences AS Occurrences,
+    filter.GlobalImpact AS GlobalImpact,
+    filter.GlobalLikes AS GlobalLikes,
+    filter.GlobalReach AS GlobalReach,
+    filter.MaxCreatedAt AS MaxCreatedAt,
+    filter.InSearchFilter AS InSearchFilter,
+    filter.PopularRank AS PopularRank
+FROM filter
+LEFT JOIN clippings ON filter.ThreadID = clippings.ThreadID AND filter.Domain = clippings.Domain
+ORDER BY GlobalReach DESC;
+

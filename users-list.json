@@ -4804,6 +4804,214 @@
 }
 
 
+{
+    "canFetchMore":true,
+    "conversations":[
+       {
+          "canChangePageType":false,
+          "childPageType":"",
+          "children":[
+             
+          ],
+          "conversationID":"1714815870482948145",
+          "threadID":"1699215217920442624",
+          "isRealParent":true,
+          "numChildrenCompleteConversation":4914,
+          "numChildrenInSearchFilter":4914,
+          "parent":{
+             "APIAuthorID":"Jake70448930",
+             "APIObjectID":"1714815870482948145",
+             "accountID":0,
+             "author":"Jake70448930",
+             "authorsMentioned":null,
+             "bucketID":0,
+             "class_polarity":-1,
+             "class_polarity_inherited":false,
+             "clippingPosition":0,
+             "compositeID":"1699215217920442624",
+             "compositeID_hashkey":"1699215217920442624",
+             "composite_parent":true,
+             "conversationID":"1714815870482948145",
+             "corporate":false,
+             "corporate_channel":false,
+             "count1":4915,
+             "data_img":"",
+             "date":1697678937,
+             "dateExtracted":true,
+             "externalID":"1714815870482948145",
+             "externalID_haskey":"1714815870482948145",
+             "finderSource":null,
+             "has_image":false,
+             "htmlDump":"",
+             "impact":140054972,
+             "inCurrentInterval":true,
+             "inSearchFilter":true,
+             "indexingTimeStamp":1697678937,
+             "isParent":true,
+             "langDetected":"es",
+             "langDetected_inherited":false,
+             "languageISO":"",
+             "matchDomains":null,
+             "matchExtended":"Problemas de asmaticos... No nos entenderian😔 https://t.co/ct121ddhq3",
+             "matchURL":null,
+             "meta_folder":1,
+             "meta_folder_reason":0,
+             "meta_read":0,
+             "page_URL":"https://twitter.com/Jake70448930/status/1714815870482948145",
+             "page_domain":"twitter.com",
+             "page_numberOf_data":{
+                "page_numberOfComments":0,
+                "page_numberOfFavorites":0,
+                "page_numberOfInLinks":0,
+                "page_numberOfLikes":0,
+                "page_numberOfReTweets":0,
+                "page_numberOfShares":0,
+                "page_numberOfViews":0,
+                "page_reach":0,
+                "page_impressions":0
+             },
+             "page_supertype":"twitter",
+             "page_title":"",
+             "page_type":"postTwit",
+             "phrases2":"",
+             "timeIsReal":true,
+             "title":"",
+             "user_numberOfFollowers":27,
+             "clippingTextID":"1714815870482948145",
+             "threadParentID":"1699215217920442624",
+             "threadEntryType":"tweet",
+             "threadID":"1699215217920442624",
+             "avatarURL":"Jake70448930",
+             "userName":"Jake70448930",
+             "gender":"female",
+             "outOfQuery":false,
+             "hydrated":false,
+             "popularRank":125971762,
+             "followersAuthor":"Jake70448930",
+             "inputChannelID":"external"
+          },
+          "parentPageType":"postTwit",
+          "reachCurrentInterval":2019926,
+          "reachWholeInterval":0,
+          "globalImpact":140054972,
+          "engagement":518722118.5185185
+       }
+    ],
+    "intermediateState":"{\"startIndex\":1,\"jobID\":\"IXfrFl2ILSpIjxRcEGk4CUAFrY1\",\"canFetchMore\":true}",
+    "totalWithoutComposites":172355
+ }
+
+
+{"canFetchMore":true,"conversations":[{"canChangePageType":false,"childPageType":"","children":[],"conversationID":"1714815870482948145","threadID":"1699215217920442624","isRealParent":true,"numChildrenCompleteConversation":4914,"numChildrenInSearchFilter":4914,"parent":{"APIAuthorID":"Jake70448930","APIObjectID":"1714815870482948145","accountID":0,"author":"Jake70448930","authorsMentioned":null,"bucketID":0,"class_polarity":-1,"class_polarity_inherited":false,"clippingPosition":0,"compositeID":"1699215217920442624","compositeID_hashkey":"1699215217920442624","composite_parent":true,"conversationID":"1714815870482948145","corporate":false,"corporate_channel":false,"count1":4915,"data_img":"","date":1697678937,"dateExtracted":true,"externalID":"1714815870482948145","externalID_haskey":"1714815870482948145","finderSource":null,"has_image":false,"htmlDump":"","impact":140054972,"inCurrentInterval":true,"inSearchFilter":true,"indexingTimeStamp":1697678937,"isParent":true,"langDetected":"es","langDetected_inherited":false,"languageISO":"","matchDomains":null,"matchExtended":"Problemas de asmaticos... No nos entenderian😔 https://t.co/ct121ddhq3","matchURL":null,"meta_folder":1,"meta_folder_reason":0,"meta_read":0,"page_URL":"https://twitter.com/Jake70448930/status/1714815870482948145","page_domain":"twitter.com","page_numberOf_data":{"page_numberOfComments":0,"page_numberOfFavorites":0,"page_numberOfInLinks":0,"page_numberOfLikes":0,"page_numberOfReTweets":0,"page_numberOfShares":0,"page_numberOfViews":0,"page_reach":0,"page_impressions":0},"page_supertype":"twitter","page_title":"","page_type":"postTwit","phrases2":"","timeIsReal":true,"title":"","user_numberOfFollowers":27,"clippingTextID":"1714815870482948145","threadParentID":"1699215217920442624","threadEntryType":"tweet","threadID":"1699215217920442624","avatarURL":"Jake70448930","userName":"Jake70448930","gender":"female","outOfQuery":false,"hydrated":false,"popularRank":125971762,"followersAuthor":"Jake70448930","inputChannelID":"external"},"parentPageType":"postTwit","reachCurrentInterval":2019926,"reachWholeInterval":0,"globalImpact":140054972,"engagement":518722118.5185185}],"intermediateState":"{\"startIndex\":1,\"jobID\":\"IXfrFl2ILSpIjxRcEGk4CUAFrY1\",\"canFetchMore\":true}","totalWithoutComposites":172355}
+
+
+http://localhost:8080/bq-facade/2.0/conversations/?accountID=4169&bucketID=0&filter=%7B%22filter%22%3A%5B%7B%22field%22%3A%22meta_folder%22%2C%22value%22%3A1%7D%5D%2C%22interval%22%3A%22customexact%22%2C%22sortType%22%3A%22conversationSize%22%2C%22sortTypeParams%22%3A%5B%5D%2C%22gap%22%3A%22MONTH%22%2C%22customGap%22%3A%22MONTH%22%2C%22timezone%22%3A%22Europe%5C%2FMadrid%22%2C%22customStart%22%3A1688194800%2C%22customEnd%22%3A1704095999%2C%22filters%22%3A%5B%7B%22field%22%3A%22meta_folder%22%2C%22value%22%3A1%7D%5D%7D&howmany=1&userId=2454"
+
+
+
+https://wapi.websays.com/api/1.0/en/conversations?howmany=33&profile_id=4194&sf1=%7B%22profile_id%22:4194,%22folder%22:%22inbox%22,%22interval%22:%22customexact%22,%22sortType%22:%22date%22,%22filters%22:%5B%7B%22field%22:%22conversationID%22,%22value%22:%221744813562650865800%22%7D%5D,%22customStart%22:1704830945,%22customEnd%22:1705320896,%22gap%22:%22DAY%22%7D
+
+
+
+
+{
+    "canFetchMore":true,
+    "conversations":[
+       {
+          "canChangePageType":false,
+          "childPageType":"",
+          "children":[
+             
+          ],
+          "conversationID":"1740469334734979210",
+          "threadID":"1740469334734979210",
+          "isRealParent":true,
+          "numChildrenCompleteConversation":29002,
+          "numChildrenInSearchFilter":3,
+          "parent":{
+             "APIAuthorID":"EndWokeness",
+             "APIObjectID":"1740469334734979210",
+             "accountID":0,
+             "author":"EndWokeness",
+             "authorsMentioned":null,
+             "bucketID":0,
+             "class_polarity":0,
+             "class_polarity_inherited":false,
+             "clippingPosition":0,
+             "compositeID":"1740469334734979210",
+             "compositeID_hashkey":"1740469334734979210",
+             "composite_parent":true,
+             "conversationID":"1740469334734979210",
+             "corporate":false,
+             "corporate_channel":false,
+             "count1":4,
+             "data_img":"https://pbs.twimg.com/media/GCdjoKzXcAAHVhW.jpg",
+             "date":1703795200,
+             "dateExtracted":true,
+             "externalID":"1740469334734979210",
+             "externalID_haskey":"1740469334734979210",
+             "finderSource":null,
+             "has_image":true,
+             "htmlDump":"",
+             "impact":318166,
+             "inCurrentInterval":true,
+             "inSearchFilter":true,
+             "indexingTimeStamp":1703795200,
+             "isParent":true,
+             "langDetected":"en",
+             "langDetected_inherited":false,
+             "languageISO":"",
+             "matchDomains":null,
+             "matchExtended":"18 days ago, President Javier Milei was inaugurated in Argentina. Since then: \n\n-Eliminated 12 out of 21 cabinet posts\n-Firing 5,000 government employees\n-Ending 380k government regulations\n-Banned woke language in the military\n-Bill to affirm the right to self-defense\n-Bill to… https://t.co/rh6VdWDUdf https://t.co/Pwx2grdZx6",
+             "matchURL":null,
+             "meta_folder":1,
+             "meta_folder_reason":0,
+             "meta_read":0,
+             "page_URL":"https://twitter.com/EndWokeness/status/1740469334734979210",
+             "page_domain":"twitter.com",
+             "page_numberOf_data":{
+                "page_numberOfComments":5489,
+                "page_numberOfFavorites":160536,
+                "page_numberOfInLinks":0,
+                "page_numberOfLikes":160536,
+                "page_numberOfReTweets":29002,
+                "page_numberOfShares":0,
+                "page_numberOfViews":0,
+                "page_reach":0,
+                "page_impressions":13481308
+             },
+             "page_supertype":"twitter",
+             "page_title":"",
+             "page_type":"postTwit",
+             "phrases2":"",
+             "timeIsReal":true,
+             "title":"",
+             "user_numberOfFollowers":2075748,
+             "clippingTextID":"1740469334734979210",
+             "threadParentID":"1740469334734979210",
+             "threadEntryType":"tweet",
+             "threadID":"1740469334734979210",
+             "avatarURL":"EndWokeness",
+             "userName":"EndWokeness",
+             "gender":"unknown",
+             "outOfQuery":false,
+             "hydrated":false,
+             "popularRank":265392,
+             "followersAuthor":"EndWokeness",
+             "inputChannelID":"external"
+          },
+          "parentPageType":"postTwit",
+          "reachCurrentInterval":172064319,
+          "reachWholeInterval":0,
+          "globalImpact":318166,
+          "engagement":15.327775818644652
+       }
+    ],
+    "intermediateState":"{\"startIndex\":1,\"jobID\":\"qb3liXiL7S54vI6AGvwsPDVgtDI\",\"canFetchMore\":true}",
+    "totalWithoutComposites":103295
+ }
+
+
 // {
 //     "data": [
 //         {
