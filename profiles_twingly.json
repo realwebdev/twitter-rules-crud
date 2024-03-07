@@ -1,0 +1,1353 @@
+{
+    "data": [
+        {
+            "id": "1744411262627573760",
+            "value": "(\"gastronomicforumbarcelona.com\" OR #GastronomicForumBarcelona OR #barcelonagastronomicforum OR (@gastronomicfbcn OR from:gastronomicfbcn) OR \"Gastronomic Forum Barcelona\" OR \"Barcelona Gastronomic Forum\" OR \"gastronomic forum bcn\" OR #GastronomicForum OR #GFB2022)  (lang:en OR lang:es OR lang:ca OR lang:eu)",
+            "tag": "4076#0"
+        },
+        {
+            "id": "1744411262627573761",
+            "value": "((@Hostelcobcn OR from:Hostelcobcn) OR #Hostelco OR #HOSTELCO2023 OR #HOSTELCO23 OR Hostelco OR #HostelcoLiveHotel OR #TheExperienceLiveGastronomy OR Hostelcobcn OR \"hostelco.com\" OR #hostelco OR #hostelcobcn OR #hostelcostories OR (@hostelco OR from:hostelco) OR #HostelcoSpeakersCorner OR #hostelcoawards)  (lang:ca OR lang:es OR lang:en)",
+            "tag": "2751#0"
+        },
+        {
+            "id": "1744411262627573762",
+            "value": "(\"Salón Internacional Caravaning\" OR \"Caravaning salón internacional\" OR \"Salon internacional caravaning\" OR #IamCaravaning OR #caravaning23 OR #Caravaningbarcelona OR #CaravaningBcn OR \"saloncaravaning.com\" OR (@caravaningbcn OR from:caravaningbcn) OR \"feria caravanas barcelona 2023\" OR \"feria caravana barcelona\" OR ((bcn OR #fira OR 2023 OR entradas OR barcelona OR #barcelona OR #firadebarcelona OR #bcn OR fira) (\"salon camper\" OR caravaning OR #caravaning OR \"feria de caravanas\" OR \"feria caravana\" OR \"salón autocaravanas\" OR \"salon autocaravanas\" OR \"feria autocaravanas\")) OR #Caravaning2023 OR \"Salón Caravaning\" OR \"salon caravaning\")",
+            "tag": "3551#0"
+        },
+        {
+            "id": "1744411262627573766",
+            "value": "(((\"economia circular\" OR #economiacircular OR techtransfer OR #techtransfer OR \"BEST IN CLASS\" OR #bestinclass OR \"rethinking plactics\") (salon OR #firabarcelona OR fira OR firabarcelona OR salón)) OR #protagonistasequiplast OR equiplast2023 OR (@equiplastbcn OR from:equiplastbcn) OR #EQUIPLAST2023 OR #EQUIPLAST23 OR #equiplast OR #rethinkingplactics23 OR (@Equiplast OR from:Equiplast) OR Equiplast OR #rethinkingplactics2023 OR (@equiplast OR from:equiplast) OR #rethinkingplactics OR equiplast23 OR \"equiplast.com\")  (lang:ca OR lang:es OR lang:en) -(place_country:AR OR place_country:BO OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:CR OR place_country:CU OR place_country:DO OR place_country:EC OR place_country:SV OR place_country:GT OR place_country:HT OR place_country:HN OR place_country:JM OR place_country:MX OR place_country:NI OR place_country:PA OR place_country:PY OR place_country:PE OR place_country:PR OR place_country:UY OR place_country:VE)",
+            "tag": "3574#0"
+        },
+        {
+            "id": "1744411262627573767",
+            "value": "(\"salonocasion.com\" OR \"salon ocasion\" OR \"salon ocasion del vehiculo\" OR salónocasión2023 OR #salonocasión OR \"salon del vehiculo garantizado\" OR \"salón del vehículo garantizado\" OR #salonocasion23 OR #salonocasion2023 OR #salonocasion OR #salónocasión OR (@Salon_Ocasion OR from:Salon_Ocasion) OR \"salón ocasión\" OR #salónocasión23 OR \"salón ocasión del vehículo\")  (lang:es OR lang:en OR lang:ca)",
+            "tag": "3420#0"
+        },
+        {
+            "id": "1744411262627573768",
+            "value": "(\"maria jose garcia beato\" OR \"tomas varela muiña\" OR \"Carlos Ventura Santamans\" OR \"Enric Rovira Masachs\" OR \"Josep Oliu\" OR \"José Nieto de la Cierva\" OR \"César González Bueno\" OR \"Erika Luz García Deister\" OR \"Jaime Guardiola Romojaro\" OR \"jose nieto de la cierva\" OR \"Miguel Montes Güell\" OR \"César González-Bueno\" OR \"Cesar Gonzalez Bueno\" OR \"Erika Luz Garcia Deister\" OR \"María José García Beato\" OR \"David Vegara Figueras\" OR \"Tomás Varela Muiña\")  (lang:es)",
+            "tag": "3471#0"
+        },
+        {
+            "id": "1744411262627573769",
+            "value": "(#piscinawellness2022 OR \"piscina&wellness\" OR #piscinawellness OR (@Piscina_Wellness OR from:Piscina_Wellness) OR (@PiscinaWellness OR from:PiscinaWellness) OR \"piscinawellness.com/es/\" OR piscinawellness OR \"piscina & wellness\" OR ((piscina OR piscinas OR #piscina OR #piscinas OR wellness OR #wellness) (\"fira de barcelona\" OR fira OR \"fira barcelona\" OR (@Fira_Barcelona OR from:Fira_Barcelona) OR #firabarcelona OR #firadebarcelona OR \"fira bcn\" OR #firabcn)))  (lang:ca OR lang:es OR lang:en)",
+            "tag": "3419#0"
+        },
+        {
+            "id": "1744411262627573770",
+            "value": "((\"Santa Fe del Penedès\" OR \"Sant Vicenç de Montalt\" OR \"Sant Vicenç de Castellet\" OR \"Santa Eulàlia de Riuprimer\" OR \"Santa Eulàlia de Ronçana\" OR \"Santa Maria d'Oló\" OR \"Sant Salvador de Guardiola\" OR \"Santa Cecília de Voltregà\" OR \"Santa Eugènia de Berga\" OR \"Santa Margarida i els Monjos\" OR \"Sant Sadurní d'Anoia\" OR \"Sant Vicenç de Torelló\" OR \"Sant Vicenç dels Horts\" OR \"Santa Coloma de Cervelló\" OR \"Santa Margarida de Montbui\" OR \"Sant Sadurní d'Osormort\") (Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\") (Caiguda OR Virus OR malicioso OR \"No funciona\" OR Disponibilidad OR \"Denegació de servei\" OR caigudes OR Malware OR \"No va\" OR Disponibilitat OR caida OR caidas OR ataque OR Hacked OR \"denegación de servicio\" OR Maliciós OR Atac))  -(lang:tl)",
+            "tag": "4004#11"
+        },
+        {
+            "id": "1744411262627573771",
+            "value": "(#BWWHUB OR \"barcelonawineweek.com\" OR #BarcelonaWineWeek OR #BWWGastronomy OR barcelonawineweek22 OR #barcelonawineweek2022 OR #BWWExhibition OR #BWWBusiness OR \"barcelona wine week\" OR \"wine week barcelona\" OR (@bcnwineweek OR from:bcnwineweek) OR #bcnwineweek OR bcnwineweek)  (lang:es OR lang:en OR lang:ca)",
+            "tag": "4078#0"
+        },
+        {
+            "id": "1744411262627573772",
+            "value": "(@AD_Oficial OR from:AD_Oficial OR retweets_of:AD_Oficial OR to:AD_Oficial)",
+            "tag": "4253#1"
+        },
+        {
+            "id": "1744411262627573773",
+            "value": "(\"Mediterranean Congress Chemical Engineering\" OR #mecce23 OR #mecce2023 OR #SCSF2023 OR (@expoquimia OR from:expoquimia) OR expoquimia OR #expoquimia OR \"Mediterranean Congress of Chemical Engineering\" OR #SCSF23 OR expoquimia2023 OR \"smartchemistry.net\" OR #expoquimia2023 OR \"Smart Chemistry Smart Future\" OR #expoquimia23 OR ((\"economia circular\" OR #economiacircular OR techtransfer OR #techtransfer OR \"BEST IN CLASS\" OR #bestinclass) (salón OR salon OR #firabarcelona OR fira OR firabarcelona)) OR expoquimia23 OR \"expoquimia.com\" OR \"mecce.org\" OR #protagonistasexpoquimia)  (lang:en OR lang:es OR lang:ca)",
+            "tag": "3573#0"
+        },
+        {
+            "id": "1744411262627573774",
+            "value": "(#BoatShowBcn OR (@salonnautico OR from:salonnautico) OR #Salonnautico23 OR #BoatShowBarcelona OR #Nautic2023 OR \"salonnautico.com\" OR #Salonnautico2023 OR #salonnautico OR #Nautico2023 OR #SaloNautic OR #Nautic23 OR #Nautico23 OR ((\"salón náutico\" OR \"Saló nàutic\" OR \"salon nautico\" OR \"salo nautic\") (#fira OR barna OR #bcn OR \"fira de barcelona\" OR bcn OR barcelona OR #barcelona OR fira OR #firadebarcelona)) OR #fansdelamar)  (lang:ca OR lang:es OR lang:en OR lang:fr)",
+            "tag": "2712#0"
+        },
+        {
+            "id": "1744411262627573776",
+            "value": "(Volotea OR #Megavolotea OR #Volotea10years OR #TheSkippableLayover OR (@Volotea OR from:Volotea) OR #Volotea OR #DesignVolotea10years OR #voloteainspiration OR #myphotovolotea OR #sharevolotea)",
+            "tag": "538#0"
+        },
+        {
+            "id": "1744411262627573777",
+            "value": "(((\"banc sabadell\" OR sabadell OR \"banco sabadel\" OR \"banco sabadell\" OR \"bank sabadel\" OR \"bank sabadell\" OR \"banca sabadel\" OR \"banca sabadell\") (méxico OR mexique OR mexic OR mejico OR méjico OR mexico)) OR #bancosabadelmexico OR #bancosabadellmexico OR #bancosabadellméxico)   -(place_country:MX)",
+            "tag": "3460#0"
+        },
+        {
+            "id": "1744411262627573778",
+            "value": "(#martíntorrijos OR #martíntorrijosesino OR #matintorrijosespino OR (@MartinTorrijos OR from:MartinTorrijos) OR \"martín torrijos\" OR \"martin torrijos\" OR #martintorrijos)",
+            "tag": "4195#0"
+        },
+        {
+            "id": "1744411262627573779",
+            "value": "(\"Enrique Lau Cortés\" OR \"Enrique Lau Cortes\" OR \"dr. lau cortes\" OR \"dr. lau cortés\" OR #enriquelaucortes OR #enriquelaucortés OR (@enriquelauc OR from:enriquelauc))",
+            "tag": "4015#0"
+        },
+        {
+            "id": "1744411262627573780",
+            "value": "((\"Espai Natural de les Guilleries-Savassona\" OR \"Parc Natural de Sant Llorenç del Munt i l'Obac\" OR \"Parc d'Olèrdola\" OR \"Parc Agrari del Baix Llobregat\" OR \"Parc del Garraf\" OR \"Parc del Castell de Montesquiu\" OR \"Parc Natural i Reserva de la Biosfera del Montseny\" OR \"Parc del Montnegre i el Corredor\" OR \"Parc de la Serralada Litoral\" OR \"Parc de la Serralada de Marina\" OR \"Parc Natural de la Serra de Collserola\" OR \"Parc del Foix\") ((@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba)) (Disponibilitat OR Disponibilidad OR \"Denegació de servei\" OR Malware OR Maliciós OR \"No funciona\" OR Caiguda OR caidas OR Atac OR caigudes OR caida OR malicioso OR ataque OR Hacked OR \"No va\" OR \"denegación de servicio\" OR Virus))  -(lang:tl)",
+            "tag": "4004#4"
+        },
+        {
+            "id": "1744411262627573781",
+            "value": "(\"waldo fernandez\" OR \"waldo fernández\" OR #waldofernandez OR #waldofernández)",
+            "tag": "4248#0"
+        },
+        {
+            "id": "1744411262627573783",
+            "value": "((Saldes OR \"Sant Cebrià de Vallalta\" OR \"Sant Celoni\" OR \"Sant Cugat del Vallès\" OR \"Sant Esteve Sesrovires\" OR \"Sant Feliu de Codines\" OR Sallent OR \"Sant Andreu de Llavaneres\" OR \"Sant Boi de Llobregat\" OR \"Sant Cugat Sesgarrigues\" OR \"Sant Adrià de Besòs\" OR \"Sant Boi de Lluçanès\" OR \"Sant Climent de Llobregat\" OR \"Sant Esteve de Palautordera\" OR Sagàs OR \"Sant Agustí de Lluçanès\" OR \"Sant Andreu de la Barca\" OR \"Sant Antoni de Vilamajor\" OR \"Sant Bartomeu del Grau\") (\"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn)) (\"denegación de servicio\" OR Caiguda OR caigudes OR Malware OR Disponibilitat OR Disponibilidad OR \"Denegació de servei\" OR Maliciós OR Atac OR Hacked OR \"No funciona\" OR caida OR malicioso OR ataque OR \"No va\" OR caidas OR Virus))  -(lang:tl)",
+            "tag": "4004#3"
+        },
+        {
+            "id": "1744411262627573785",
+            "value": "(#btravel2023 OR #b-travel OR btravelshow OR \"b travel\" OR ((\"salón de turismo\" OR \"salon de turismo\" OR \"saló turisme\" OR \"salo turisme\") (#fira OR barna OR bcn OR \"fira de barcelona\" OR barcelona OR #barcelona OR fira OR #firadebarcelona OR #bcn)) OR \"b-travel.com\" OR btravel OR \"b-travel\" OR (@btravelshow OR from:btravelshow) OR #btravel OR #btravel23) -((@bthetravelbrand OR from:bthetravelbrand) OR \"travel brand\") (lang:ca OR lang:es)",
+            "tag": "2713#0"
+        },
+        {
+            "id": "1744411262627573786",
+            "value": "(#cajadelsegurosocialdepanamá OR #cajadesegurosocialpanamá OR (panameño \"caja de seguro social\") OR (\"caja de seguro social\" (@enriquelauc OR from:enriquelauc)) OR (css panamá) OR #csspanama OR (\"caja de seguro social\" panameñas) OR (\"caja del seguo social\" \"enrique lau\") OR (\"caja del seguro social\" panama) OR (panamá \"caja del seguro social\") OR (css \"enrique lau\") OR (\"caja de seguro social\" panameños) OR (\"caja de seguro social\" panamá) OR (panama \"caja de seguro social\") OR ((#panama OR panamá OR #panamá OR #tiktokpanama OR #tiktokpanamá) (\"caja de seguro social\" OR #cajadesegurosocial)) OR (\"caja de seguro social\" \"enrique lau\") OR (css panama) OR #rendicióndecuentascss OR (\"caja de seguro social\" panameña) OR #cajadesegurosocialpanama OR #rendiciondecuentascss OR #cajadelsegurosocialdepanama OR \"w3.css.gob.pa/\" OR (@CSSPanama OR from:CSSPanama) OR (\"caja del seguro social\" (@enriquelauc OR from:enriquelauc)) OR (css (@enriquelauc OR from:enriquelauc)))",
+            "tag": "4014#0"
+        },
+        {
+            "id": "1744411262627573787",
+            "value": "((\"Sant Fruitós de Bages\" OR \"Sant Joan de Vilatorrada\" OR \"Sant Iscle de Vallalta\" OR \"Sant Jaume de Frontanyà\" OR \"Sant Llorenç Savall\" OR \"Sant Hipòlit de Voltregà\" OR \"Sant Just Desvern\" OR \"Sant Julià de Vilatorta\" OR \"Sant Llorenç d'Hortons\" OR \"Sant Feliu de Llobregat\" OR \"Sant Feliu Sasserra\" OR \"Sant Fost de Campsentelles\" OR \"Sant Joan Despí\" OR \"Sant Julià de Cerdanyola\") (\"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn)) (malicioso OR ataque OR \"denegación de servicio\" OR Caiguda OR Virus OR caida OR Maliciós OR Hacked OR \"No va\" OR Disponibilitat OR caigudes OR Atac OR Malware OR \"No funciona\" OR Disponibilidad OR \"Denegació de servei\" OR caidas))  -(lang:tl)",
+            "tag": "4004#16"
+        },
+        {
+            "id": "1744411262627573789",
+            "value": "(#BCNtreballjove OR #OCUPACIO23 OR (@salocupacio OR from:salocupacio) OR #OCUPACIO2023 OR \"saló ocupació\" OR #ocupaciojuvenil OR #SaltaAlMonLaboral OR #BIZOCUPACIO2023 OR #BIZOCUPACIO23 OR \"salón ocupación\" OR #BCNemprenedoria OR \"salocupacio.com\" OR \"salon ocupacion\")",
+            "tag": "2805#0"
+        },
+        {
+            "id": "1744411262627573790",
+            "value": "(municipiodepanama OR #alcaldiadepanama OR #municipiodepanama OR \"https://mupa.gob.pa/\" OR (@panamamunicipio OR from:panamamunicipio) OR \"municipio de panama\" OR \"municipio de panamá\" OR #alcaldíadepanamá OR #municipiodepanamá OR \"Alcaldia de Panama\" OR \"alcaldía de panamá\") -(rusia OR kiev OR españa OR ucrania)",
+            "tag": "4022#0"
+        },
+        {
+            "id": "1744411262627573791",
+            "value": "((Casserres OR \"Castellar del Riu\" OR Castellgalí OR \"Castell de l'Areny\" OR \"Castellbell i el Vilar\" OR Castellbisbal OR Castellterçol OR \"Castellví de la Marca\" OR \"Castellví de Rosanes\" OR \"Cerdanyola del Vallès\" OR \"Castellar de n'Hug\" OR \"Castellet i la Gornal\" OR \"Castellfollit del Boix\" OR Centelles OR Cercs OR Cervelló OR Collsuspina OR \"Castellar del Vallès\" OR Castellcir OR Castelldefels OR \"Castellfollit de Riubregós\" OR \"Castellnou de Bages\" OR Castellolí OR Collbató) (\"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn)) (Disponibilitat OR caida OR malicioso OR Atac OR ataque OR \"No va\" OR Disponibilidad OR \"denegación de servicio\" OR Hacked OR Virus OR Maliciós OR \"No funciona\" OR \"Denegació de servei\" OR Caiguda OR caigudes OR caidas OR Malware))  -(lang:tl)",
+            "tag": "4004#8"
+        },
+        {
+            "id": "1744411262631690240",
+            "value": "(\"piscina&wellness\" OR #piscinawellness OR \"piscinawellness.com/es/\" OR #piscinawellness2022 OR piscinawellness OR \"piscina & wellness\" OR ((wellness OR #wellness OR piscina OR piscinas OR #piscina OR #piscinas) (#firabcn OR \"fira de barcelona\" OR fira OR \"fira barcelona\" OR (@Fira_Barcelona OR from:Fira_Barcelona) OR #firabarcelona OR #firadebarcelona OR \"fira bcn\")) OR (@PiscinaWellness OR from:PiscinaWellness) OR (@Piscina_Wellness OR from:Piscina_Wellness))  (lang:ca OR lang:es OR lang:en)",
+            "tag": "3419#0"
+        },
+        {
+            "id": "1744411262631690241",
+            "value": "((\"Nou de la Rambla\" OR \"Palau Guell\" OR (@LaBonne_CCDFB OR from:LaBonne_CCDFB) OR \"Francesca Bonnemaison\" OR \"Facultat de Pedagogia\" OR \"Escola Els Pins\" OR \"Edifici de Can Serra\" OR \"Palau Güell\" OR \"Escola Bressol l'Arboç\" OR \"Can Serra\" OR \"IES Anna Gironella de Mundet\" OR #efbonnemaison OR Bonnemaison OR \"Institut del Teatre\" OR \"Facultat de Psicologia\" OR ACELL OR \"Escola La Ginesta\" OR \"Edifici Can Serra\" OR \"El pensador\" OR \"Palau de les heures\") (\"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\") (caidas OR malicioso OR Hacked OR ataque OR Disponibilidad OR \"denegación de servicio\" OR Atac OR \"Denegació de servei\" OR Virus OR Malware OR \"No va\" OR Disponibilitat OR Caiguda OR caigudes OR caida OR Maliciós OR \"No funciona\"))  -(lang:tl)",
+            "tag": "4004#7"
+        },
+        {
+            "id": "1744411262631690243",
+            "value": "(@PiscinaWellness OR from:PiscinaWellness OR retweets_of:PiscinaWellness)",
+            "tag": "3419#1"
+        },
+        {
+            "id": "1744411262631690244",
+            "value": "((@XiaomiMexico OR from:XiaomiMexico) OR ((xiaomi OR #xiaomi) (mx OR mexicano OR #méxico OR mexico OR mexicanos OR mexicana OR mexicanas OR #mexico OR méxico)) OR #xiaomimexico OR #xiaomiméxico OR #xiaomimx OR \"www.mi.com/mx\")   -(place_country:US)",
+            "tag": "4252#0"
+        },
+        {
+            "id": "1744411262631690245",
+            "value": "((Cardona OR \"Caldes d'Estrac\" OR \"Caldes de Montbui\" OR \"Cànoves i Samalús\" OR Capolat OR Calders OR Calella OR Canyelles OR \"Calonge de Segarra\" OR \"Canet de Mar\" OR Canovelles OR Cardedeu OR Carme OR Calldetenes OR Callús OR Campins OR Capellades) (\"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn)) (Disponibilitat OR caida OR caidas OR Atac OR Hacked OR \"No funciona\" OR \"No va\" OR Disponibilidad OR \"denegación de servicio\" OR caigudes OR \"Denegació de servei\" OR Malware OR ataque OR Caiguda OR Virus OR Maliciós OR malicioso))  -(lang:tl)",
+            "tag": "4004#12"
+        },
+        {
+            "id": "1744411262631690246",
+            "value": "((\"Sant Pere de Ribes\" OR \"Sant Pere de Riudebitlles\" OR \"Sant Pere Sallavinera\" OR \"Sant Quirze del Vallès\" OR \"Sant Quirze Safaja\" OR \"Sant Martí de Centelles\" OR \"Sant Martí de Torroella\" OR \"Sant Quirze de Besora\" OR \"Sant Miquel de Balenyà\" OR \"Sant Pere de Torelló\" OR \"Sant Pere de Vilamajor\" OR \"Sant Martí d'Albars\" OR \"Sant Martí Sarroca\" OR \"Sant Mateu de Bages\" OR \"Sant Pol de Mar\" OR \"Sant Quintí de Mediona\" OR \"Sant Martí de Tous\" OR \"Sant Martí Sesgueioles\") ((@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba)) (Disponibilitat OR Disponibilidad OR \"denegación de servicio\" OR Virus OR Maliciós OR ataque OR caigudes OR caidas OR Atac OR \"No funciona\" OR Caiguda OR caida OR Malware OR Hacked OR \"No va\" OR \"Denegació de servei\" OR malicioso))  -(lang:tl)",
+            "tag": "4004#11"
+        },
+        {
+            "id": "1744411262631690248",
+            "value": "#alimentariabarcelona -(\"inseguridad alimentaria\" OR SIAL OR \"emergencia alimentaria\" OR \"información alimentaria\" OR Guatemalteco OR \"Fruit Attraction\" OR \"Revista Alimentaria\" OR \"Feria Agroalimentaria del Higo\" OR \"garantía alimentaria\" OR \"seguretat alimentària\" OR \"Alimentaria Horexpo\" OR anorexia OR \"Unió Corporació Alimentaria\" OR \"Andalucía Sabor\" OR \"cadena alimentària\" OR \"Oficina de Calidad Alimentaria\" OR \"intoxicación alimentaria\") (lang:ca OR lang:es OR lang:en)",
+            "tag": "2710#2"
+        },
+        {
+            "id": "1744411262631690249",
+            "value": "(@XiaomiMexico OR from:XiaomiMexico OR retweets_of:XiaomiMexico OR to:XiaomiMexico)",
+            "tag": "4252#1"
+        },
+        {
+            "id": "1744411262631690250",
+            "value": "(hispack OR #Hispack22 OR #hispackbarcelona OR ((\"fira barcelona\" OR #firabarcelona OR (@Fira_Barcelona OR from:Fira_Barcelona) OR barcelona OR fira) (#industrialpackaging OR #packagingmachinery OR #logisticsautomation OR #brandpackaging OR #labelling&bottling)) OR #hispack OR ((embalaje OR envasado OR empaquetado OR etiquetado OR envases OR packaging OR etiqueta OR empaque OR logística OR logistica OR máquina OR maquina OR container) (\"fira barcelona\" OR firabarcelona OR \"salón barcelona\" OR \"salon barcelona\" OR \"fira de barcelona\" OR \"feria de barcelona\" OR \"feria barcelona\")) OR (@Hispackbcn OR from:Hispackbcn) OR hispackbcn OR \"hispack.com\" OR (@Hispack OR from:Hispack) OR #QuedamosEnHispack OR #hispack2022)",
+            "tag": "4077#0"
+        },
+        {
+            "id": "1744411262631690251",
+            "value": "(\"feria caravanas barcelona 2023\" OR #caravaning23 OR #Caravaningbarcelona OR #CaravaningBcn OR \"Caravaning salón internacional\" OR \"Salon internacional caravaning\" OR ((caravaning OR #caravaning OR \"feria de caravanas\" OR \"feria caravana\" OR \"salón autocaravanas\" OR \"salon autocaravanas\" OR \"feria autocaravanas\" OR \"salon camper\") (#barcelona OR fira OR #bcn OR #fira OR #firadebarcelona OR 2023 OR entradas OR barcelona OR bcn)) OR #IamCaravaning OR \"salon caravaning\" OR \"feria caravana barcelona\" OR \"saloncaravaning.com\" OR \"Salón Internacional Caravaning\" OR \"Salón Caravaning\" OR #Caravaning2023 OR (@caravaningbcn OR from:caravaningbcn))",
+            "tag": "3551#0"
+        },
+        {
+            "id": "1744411262631690252",
+            "value": "(@WilliamAndrsCr1 OR from:WilliamAndrsCr1 OR retweets_of:WilliamAndrsCr1)",
+            "tag": "4229#1"
+        },
+        {
+            "id": "1744411262631690253",
+            "value": "(@volotea OR from:volotea OR retweets_of:volotea)",
+            "tag": "538#1"
+        },
+        {
+            "id": "1744411262631690254",
+            "value": "(\"salón futura\" OR \"salon futura\" OR \"salón de másteres y posgrados\" OR \"salofutura.com\" OR \"salon de masteres y posgrados\" OR (Salo futura \"masters i postgraus\") OR #SALOFUTURA23 OR #ocupaciojuvenil OR #BCNemprenedoria OR #SaltaAlMonLaboral OR \"saló futura\" OR (@salofutura OR from:salofutura) OR #futura2023 OR #SALOFUTURA OR \"salo futura\" OR #futura23 OR #SALOFUTURA2023 OR #BCNtreballjove)  (lang:ca OR lang:es OR lang:en)",
+            "tag": "2711#0"
+        },
+        {
+            "id": "1744411262631690257",
+            "value": "(@salofutura OR from:salofutura OR retweets_of:salofutura)",
+            "tag": "2711#1"
+        },
+        {
+            "id": "1744411262631690259",
+            "value": "(\"Min. de Interior y Policia\" OR \"Min. de Interior y Policía\" OR \"ministerio de interior y policia\" OR \"ministerio de interior y policía\" OR #ministeriointeriorypolicía OR #ministeriointeriorypolicia OR (@MinInteriorRD OR from:MinInteriorRD))",
+            "tag": "4111#0"
+        },
+        {
+            "id": "1744411262631690260",
+            "value": "(@MinInteriorRD OR from:MinInteriorRD OR retweets_of:MinInteriorRD)",
+            "tag": "4111#1"
+        },
+        {
+            "id": "1744411262631690261",
+            "value": "(((#firadebarcelona OR bcn OR \"fira de barcelona\" OR barcelona OR #fira OR barna OR #bcn OR #barcelona OR fira) (\"salon nautico\" OR \"salo nautic\" OR \"salón náutico\" OR \"Saló nàutic\")) OR #fansdelamar OR #SaloNautic OR #Salonnautico2023 OR #Salonnautico23 OR #Nautico2023 OR #BoatShowBarcelona OR #BoatShowBcn OR (@salonnautico OR from:salonnautico) OR \"salonnautico.com\" OR #salonnautico OR #Nautic2023 OR #Nautic23 OR #Nautico23)  (lang:ca OR lang:es OR lang:en OR lang:fr)",
+            "tag": "2712#0"
+        },
+        {
+            "id": "1744411262631690262",
+            "value": "(#alimentariafoodtech OR #foodtech23 OR #foodtech2023 OR #BiofilmSummit OR #AlimentariaFoodTech OR ((\"feria de alimentación\" OR alimentaria) barcelona) OR ((FoodTech OR #foodtech) (\"fira bcn\" OR \"fira de barcelona\" OR \"fira barcelona\" OR #firabarcelona OR \"barcelona fira\" OR #firabcn)) OR (@FoodtechBCN OR from:FoodtechBCN) OR \"alimentariafoodtech.com\" OR #foodtechbcn OR #foodtechbarcelona)  (lang:en OR lang:es OR lang:ca)",
+            "tag": "2774#0"
+        },
+        {
+            "id": "1744411262631690263",
+            "value": "(\"salon ocasion del vehiculo\" OR salónocasión2023 OR #salónocasión OR (@Salon_Ocasion OR from:Salon_Ocasion) OR \"salon ocasion\" OR \"salón del vehículo garantizado\" OR \"salón ocasión del vehículo\" OR #salonocasion23 OR \"salon del vehiculo garantizado\" OR #salonocasion2023 OR \"salonocasion.com\" OR \"salón ocasión\" OR #salónocasión23 OR #salonocasión OR #salonocasion)  (lang:es OR lang:en OR lang:ca)",
+            "tag": "3420#0"
+        },
+        {
+            "id": "1744411262631690264",
+            "value": "(@salocupacio OR from:salocupacio OR retweets_of:salocupacio)",
+            "tag": "2805#1"
+        },
+        {
+            "id": "1744411262631690265",
+            "value": "(@Osgazu OR from:Osgazu OR retweets_of:Osgazu)",
+            "tag": "4217#1"
+        },
+        {
+            "id": "1744411262631690266",
+            "value": "(@CSSPanama OR from:CSSPanama OR retweets_of:CSSPanama)",
+            "tag": "4014#1"
+        },
+        {
+            "id": "1744411262631690267",
+            "value": "(\"eurosurfas.com\" OR \"Eurocar Congress\" OR #EurocarCongress OR #protagonistaseurosurfas OR #EurocarCongress23 OR #Eurosurfas OR #Eurosurfas2023 OR (@Eurosurfas OR from:Eurosurfas) OR Eurosurfas OR (@eurosurfas OR from:eurosurfas) OR ((#bestinclass OR \"tratamiento de superficies\" OR #tratamientodesuperficies OR \"economia circular\" OR #economiacircular OR techtransfer OR #techtransfer OR \"BEST IN CLASS\" OR #tratamientosuperficies OR \"surface treatment\" OR #surfacetreatment) (salón OR salon OR #firabarcelona OR fira OR firabarcelona)) OR Eurosurfas23 OR Eurosurfas2023 OR #EurocarCongress2023 OR #Eurosurfas23)  (lang:es OR lang:en OR lang:ca)",
+            "tag": "3575#0"
+        },
+        {
+            "id": "1744411262631690268",
+            "value": "(\"Credito y Caucion\" OR \"creditoycaucion.es/es\" OR (@creditoycaucion OR from:creditoycaucion) OR \"Crédito y Caución\" OR \"Crédito y Caucion\" OR \"Credito y Caución\" OR creditoycaucion OR créditoycaución OR #creditoycaucion OR #créditoycaución OR #BeCyC OR \"creditoycaucion.es/es/blog\")",
+            "tag": "3679#0"
+        },
+        {
+            "id": "1744411262631690269",
+            "value": "(#SALOENSENYAMENT OR #SALOENSENYAMENT23 OR #SALOENSENYAMENT2023 OR #Ensenyament OR #Ensenyament23 OR ((ensenyament OR #ensenyament) (#bcn OR \"fira de barcelona\" OR barcelona OR fira OR #firadebarcelona OR barna OR #barcelona OR #fira OR bcn)) OR \"ensenyament.com\" OR #Ensenyament2023 OR (@saloensenyament OR from:saloensenyament) OR ((saló OR salo OR salón) (ensanyament OR ensenyament OR \"l'ensenyament\")))  (lang:ca OR lang:es)",
+            "tag": "2706#0"
+        },
+        {
+            "id": "1744411262631690270",
+            "value": "(\"municipio de panama\" OR \"municipio de panamá\" OR #alcaldiadepanama OR #municipiodepanama OR \"https://mupa.gob.pa/\" OR \"Alcaldia de Panama\" OR \"alcaldía de panamá\" OR municipiodepanama OR #alcaldíadepanamá OR #municipiodepanamá OR (@panamamunicipio OR from:panamamunicipio)) -(ucrania OR rusia OR kiev OR españa)",
+            "tag": "4022#0"
+        },
+        {
+            "id": "1744411262631690272",
+            "value": "(@joseluisfabrega OR from:joseluisfabrega OR retweets_of:joseluisfabrega)",
+            "tag": "4021#1"
+        },
+        {
+            "id": "1744411262631690273",
+            "value": "((\"Red de Bibliotecas Municipales\" OR \"Servicio de bibliotecas\" OR \"Bibliotecas XBM\" OR \"Bibliotecas Diputación de Barcelona\" OR \"Xarxa de Biblioteques municipals\" OR \"Servei de biblioteques\" OR \"Biblioteques XBM\" OR \"Biblioteques Diputació de Barcelona\") (\"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn)) (Disponibilitat OR Disponibilidad OR caigudes OR caida OR Malware OR Hacked OR \"No funciona\" OR caidas OR Maliciós OR malicioso OR ataque OR \"No va\" OR \"denegación de servicio\" OR Atac OR Caiguda OR Virus OR \"Denegació de servei\"))  -(lang:tl)",
+            "tag": "4004#8"
+        },
+        {
+            "id": "1744411262631690274",
+            "value": "((\"Arenys de Mar\" OR Avinyó OR \"Badia del Vallès\" OR Berga OR Abrera OR Calaf OR Bruc OR Cabanyes OR \"Aguilar de Segarra\" OR \"Avinyonet del Penedès\" OR \"Barberà del Vallès\" OR Bellaterra OR Argençola OR Brull OR Cabrils OR \"Arenys de Munt\" OR \"Cabrera de Mar\" OR Balenyà OR Balsareny OR Begues OR Alella OR Alpens OR \"Ametlla del Vallès\" OR Bagà OR Bellprat OR \"Bigues i Riells\" OR Borredà OR \"Cabrera d'Anoia\" OR Aiguafreda OR Argentona OR Artés OR Avià) ((@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba)) (\"No va\" OR Disponibilitat OR \"Denegació de servei\" OR Disponibilidad OR caidas OR Virus OR malicioso OR caigudes OR caida OR Malware OR Maliciós OR Atac OR ataque OR Hacked OR \"No funciona\" OR \"denegación de servicio\" OR Caiguda))  -(lang:tl)",
+            "tag": "4004#4"
+        },
+        {
+            "id": "1744411262631690275",
+            "value": "(@ConstrumatBCN OR from:ConstrumatBCN OR retweets_of:ConstrumatBCN)",
+            "tag": "3418#1"
+        },
+        {
+            "id": "1744411262631690276",
+            "value": "(@enriquelauc OR from:enriquelauc OR retweets_of:enriquelauc)",
+            "tag": "4015#1"
+        },
+        {
+            "id": "1744411262631690277",
+            "value": "(@bcnwineweek OR from:bcnwineweek OR retweets_of:bcnwineweek)",
+            "tag": "4078#1"
+        },
+        {
+            "id": "1744411262631690279",
+            "value": "(@salonnautico OR from:salonnautico OR retweets_of:salonnautico)",
+            "tag": "2712#1"
+        },
+        {
+            "id": "1744411262631690280",
+            "value": "(@chuvasquez OR from:chuvasquez OR retweets_of:chuvasquez)",
+            "tag": "4112#1"
+        },
+        {
+            "id": "1744411262631690281",
+            "value": "(\"b-travel\" OR btravelshow OR \"b travel\" OR \"b-travel.com\" OR #btravel OR btravel OR ((\"salón de turismo\" OR \"salon de turismo\" OR \"saló turisme\" OR \"salo turisme\") (barcelona OR fira OR barna OR \"fira de barcelona\" OR #barcelona OR #fira OR #firadebarcelona OR bcn OR #bcn)) OR (@btravelshow OR from:btravelshow) OR #btravel2023 OR #btravel23 OR #b-travel) -(\"travel brand\" OR (@bthetravelbrand OR from:bthetravelbrand)) (lang:ca OR lang:es)",
+            "tag": "2713#0"
+        },
+        {
+            "id": "1744411262631690282",
+            "value": "(#Rabat (pendiente OR #boda OR #Colgante OR #pulseras OR diamantes OR anillos OR #anillo OR #pendientes OR #relojes OR #joyería OR zafiro OR #Oro OR Joyas OR #anillos OR Colgante OR relojes OR #pendiente OR joyería OR joyeros OR colgantes OR pulsera OR #Diamante OR #colgantes OR #pulsera OR Oro OR Diamante OR rubí OR reloj OR pulseras OR #diamantes OR #Bridal OR #joyerías OR Bodas OR Anillo OR joyerías OR #Joyas OR #reloj OR Plata OR pendientes)) -(duchess OR Morocco OR capital OR motogp OR efe OR #rabatcity OR #morocco OR moto OR MotoGP OR Tito OR harry OR \"Palacio Real de RabatORsussex\" OR título OR (@rabat.cityy OR from:rabat.cityy) OR \"Diamond League\" OR morroco OR morocco OR carrera OR #rabatmorocco OR Moroccan OR terremoto OR ghali OR Marruecos OR #marruecos OR (@jordi_rabat OR from:jordi_rabat) OR \"African Games\" OR megan OR hali OR Algiers OR \"Tito Rabat\") (lang:es OR lang:ca OR lang:en OR lang:it) -(place_country:MA)",
+            "tag": "3704#0"
+        },
+        {
+            "id": "1744411262631690289",
+            "value": "(@automobilebcn OR from:automobilebcn OR retweets_of:automobilebcn OR to:automobilebcn)",
+            "tag": "3400#1"
+        },
+        {
+            "id": "1744411262631690311",
+            "value": "(\"Automobile Barcelona\" OR \"salón del automóvil barcelona\" OR \"SALÓN AUTOMÓVIL BARCELONA\" OR ((\"salon automobile\" OR \"salón del automóvil\") (bcn OR #bcn OR barna OR \"fira de barcelona\" OR barcelona OR #barcelona OR fira OR #fira OR #firadebarcelona)) OR (@automobilebcn OR from:automobilebcn) OR #automobilebcn OR #automobilebarcelona OR #salondelautomovil OR #AUTOMOBILEBCN23 OR #AUTOMOBILEBCN2023 OR \"automobilebarcelona.com\") -(\"México en Monterrey\" OR Frankfurt OR \"La Rural\" OR colombia OR corferias) (lang:ca OR lang:es OR lang:en)",
+            "tag": "3400#0"
+        },
+        {
+            "id": "1744411262631759872",
+            "value": "((\"Caldes de Montbui\" OR Calella OR Canovelles OR \"Cànoves i Samalús\" OR Capolat OR Calldetenes OR Callús OR Canyelles OR Carme OR Campins OR Cardedeu OR Cardona OR Calders OR \"Caldes d'Estrac\" OR \"Calonge de Segarra\" OR \"Canet de Mar\" OR Capellades) ((@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba) (Hacked OR Disponibilidad OR caidas OR Virus OR malicioso OR \"denegación de servicio\" OR Caiguda OR caida OR Malware OR Maliciós OR ataque OR \"No funciona\" OR \"No va\" OR Disponibilitat OR \"Denegació de servei\" OR Atac OR caigudes))  -(lang:tl)",
+            "tag": "4004#7"
+        },
+        {
+            "id": "1744411262631759874",
+            "value": "((@MinInteriorRD OR from:MinInteriorRD) OR \"Min. de Interior y Policia\" OR \"Min. de Interior y Policía\" OR \"ministerio de interior y policia\" OR \"ministerio de interior y policía\" OR #ministeriointeriorypolicía OR #ministeriointeriorypolicia)",
+            "tag": "4111#0"
+        },
+        {
+            "id": "1744411262631759876",
+            "value": "(\"Jesus (Chu) Vasquez Martinez\" OR \"Jesús (Chú) Vásquez Martínez\" OR \"Jesús Vásquez (Chú)\" OR \"Jesus Vasquez (Chu)\" OR #chuvasquez OR \"Jesus Vasquez Martinez (Chu)\" OR \"chú vasquez\" OR \"chu vasquez\" OR (@chuvasquez OR from:chuvasquez) OR \"Jesús Vásquez Martínez (Chu)\")",
+            "tag": "4112#0"
+        },
+        {
+            "id": "1744411262631759877",
+            "value": "(((mexic OR mejico OR méjico OR mexico OR méxico OR mexique) (\"bank sabadel\" OR \"bank sabadell\" OR \"banca sabadel\" OR \"banca sabadell\" OR \"banc sabadell\" OR sabadell OR \"banco sabadel\" OR \"banco sabadell\")) OR #bancosabadelmexico OR #bancosabadellmexico OR #bancosabadellméxico)   -(place_country:MX)",
+            "tag": "3460#0"
+        },
+        {
+            "id": "1744411262631759878",
+            "value": "((\"adolfo dominguez\" OR \"adolfo domínguez\" OR #pacorabanne OR #carolinaherrera OR benetton OR \"paco rabanne\" OR \"carolina herrera\" OR #benetton OR #adolfodominguez OR #adolfodomínguez) (mexico OR méxico OR mx OR mexicana OR mexicanas OR mexicano OR mexicanos OR (@ChapoyPati OR from:ChapoyPati))) -(((puig OR #puig) (mexicana OR mexicanas OR mx OR méxico OR mexico OR mexicano OR mexicanos) (cosmeticos OR cosmética OR cosmético OR cosmetico OR perfume OR perfumes OR cosméticos OR perfumería OR cosmetica)) OR \"Yasiel Puig\" OR \"grandes ligas\" OR \"liv golf\" OR \"manuel puig\") -(lang:en OR lang:da) -(place_country:AR OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:CR OR place_country:DO OR place_country:EC OR place_country:SV OR place_country:GT OR place_country:JM OR place_country:NI OR place_country:PA OR place_country:PY OR place_country:PE OR place_country:PR OR place_country:UY OR place_country:US OR place_country:ES OR place_country:PT)",
+            "tag": "4253#0"
+        },
+        {
+            "id": "1744411262631759879",
+            "value": "(@AlimentariaBCN OR from:AlimentariaBCN OR retweets_of:AlimentariaBCN)",
+            "tag": "2710#3"
+        },
+        {
+            "id": "1744411262631759880",
+            "value": "((\"turismo cultural\" OR glamping OR \"empresas sector turismo\" OR \"turismo niños\" OR \"turismo deporte\" OR \"ofertas interrail\" OR \"industria turismo\" OR \"turismo regional\" OR \"viajes con niños\" OR \"turismo gastronomia\" OR \"turismo gastronomico\" OR \"turismo de aventura\" OR \"turismo deportivo\" OR \"turismo de interior\" OR \"industria turistica\" OR \"turismo local\" OR \"turismo experiencial\" OR \"turismo industrial\" OR \"turismo activo\" OR \"turismo rural\" OR \"empresas turismo\" OR \"profesionales turismo\" OR \"profesionales viajes\" OR \"viaje sostenible\" OR \"feria turismo\" OR \"emprendedores turismo\" OR \"empresas viajes\" OR \"turismo familiar\" OR \"turismo sostenible\" OR \"turismo aventura\" OR \"viajes de lujo\" OR \"turismo nacional\") (\"fira barcelona\" OR \"salón de barcelona\" OR \"feria barcelona\")) -((@bthetravelbrand OR from:bthetravelbrand) OR \"travel brand\") (lang:ca OR lang:es)",
+            "tag": "2713#1"
+        },
+        {
+            "id": "1744411262631759881",
+            "value": "(alimentariatrends OR \"alimentaria trends\" OR #alimentariabcn OR (@Alimentaria_EN OR from:Alimentaria_EN) OR #innoval OR intercarn OR #landsofspain24 OR #interlact OR #alimentariatrends24 OR (@alimentariabcn OR from:alimentariabcn) OR innoval OR #intercarn OR #landsofspain OR interlact OR expoconser OR ((#Biscuits OR #Confectionary OR #Snacks) (firabarcelona OR \"fira de barcelona\" OR #firabcn OR firabcn OR \"fira barcelona\" OR #firabarcelona)) OR #AlimentariaHub OR #TheAlimentariaHub OR #TheExperienceLiveGastronomy OR #intercarn24 OR #expoconser) -(\"inseguridad alimentaria\" OR SIAL OR \"emergencia alimentaria\" OR \"información alimentaria\" OR Guatemalteco OR \"Fruit Attraction\" OR \"Revista Alimentaria\" OR \"Feria Agroalimentaria del Higo\" OR \"garantía alimentaria\" OR \"seguretat alimentària\" OR \"Alimentaria Horexpo\" OR anorexia OR \"Unió Corporació Alimentaria\" OR \"Andalucía Sabor\" OR \"cadena alimentària\" OR \"Oficina de Calidad Alimentaria\" OR \"intoxicación alimentaria\") (lang:ca OR lang:es OR lang:en)",
+            "tag": "2710#1"
+        },
+        {
+            "id": "1744411262631759882",
+            "value": "(@FoodtechBCN OR from:FoodtechBCN OR retweets_of:FoodtechBCN)",
+            "tag": "2774#1"
+        },
+        {
+            "id": "1744411262631759883",
+            "value": "(#graphispagbarcelona OR graphispag OR #graphispag OR \"graphispag.com\" OR (@graphispag OR from:graphispag) OR #Graphispag23 OR #graphispag2023 OR ((#impresion3D OR #industriagráfica OR #industriagrafica OR #impresion OR #impresión OR #DiseñoGráfico OR #DiseñoGrafico OR #impresión3D) (\"fira bcn\" OR #firabarcelona OR #feriabarcelona OR #fira OR (@Fira_Barcelona OR from:Fira_Barcelona) OR \"feria de barcelona\" OR \"fira barcelona\" OR firabcn)) OR ((\"artes graficas\" OR \"impresion 3d\" OR serigrafía OR \"diseño grafico\" OR \"congreso de diseño\" OR \"impresión 3d\" OR \"industria grafica\" OR \"maquinaria grafica\" OR vinilos OR \"diseño gráfico\" OR \"artes gráficas\" OR \"impresoras 3d\" OR \"imprenta digital\" OR \"industria gráfica\" OR \"maquinaria gráfica\" OR serigrafia) (\"Fira de barcelona\" OR \"fira barcelona\" OR \"feria de barcelona\" OR \"salón Barcelona\" OR \"salon Barcelona\" OR (@Fira_Barcelona OR from:Fira_Barcelona))))  (lang:ca OR lang:es OR lang:en OR lang:fr OR lang:pt)",
+            "tag": "3399#0"
+        },
+        {
+            "id": "1744411262631759885",
+            "value": "((Montmajor OR \"Nou de Berguedà\" OR Òdena OR Olost OR Montesquiu OR Mura OR Olivella OR Olvan OR Orpí OR Òrrius OR Montgat OR Montseny OR \"Olesa de Bonesvalls\" OR \"Palau-solità i Plegamans\" OR \"Palma de Cervelló\" OR \"Montcada i Reixac\" OR Muntanyola OR \"Olesa de Montserrat\" OR Orís OR \"Montornès del Vallès\" OR Olèrdola OR \"Pacs del Penedès\" OR Pallejà OR Montmaneu OR Navarcles OR Navàs OR Palafolls OR Montclar OR Montmeló OR Oristà) ((@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba)) (\"denegación de servicio\" OR caidas OR Virus OR ataque OR Hacked OR Disponibilitat OR Disponibilidad OR caigudes OR caida OR malicioso OR Atac OR \"No funciona\" OR \"No va\" OR \"Denegació de servei\" OR Caiguda OR Malware OR Maliciós))  -(lang:tl)",
+            "tag": "4004#1"
+        },
+        {
+            "id": "1744411262631759886",
+            "value": "(\"jose luis fabrega\" OR \"josé luis fábrega\" OR joseluisfabrega OR #joseluisfabrega OR \"es.wikipedia.org/wiki/Jos%C3%A9_de_F%C3%A1brega\" OR (@joseluisfabrega OR from:joseluisfabrega))",
+            "tag": "4021#0"
+        },
+        {
+            "id": "1744411262631759887",
+            "value": "(\"Jaime Guardiola Romojaro\" OR \"jose nieto de la cierva\" OR \"tomas varela muiña\" OR \"Carlos Ventura Santamans\" OR \"José Nieto de la Cierva\" OR \"Josep Oliu\" OR \"David Vegara Figueras\" OR \"Enric Rovira Masachs\" OR \"María José García Beato\" OR \"Miguel Montes Güell\" OR \"César González-Bueno\" OR \"Cesar Gonzalez Bueno\" OR \"Erika Luz García Deister\" OR \"Erika Luz Garcia Deister\" OR \"maria jose garcia beato\" OR \"Tomás Varela Muiña\" OR \"César González Bueno\")  (lang:es)",
+            "tag": "3471#0"
+        },
+        {
+            "id": "1744411262631759889",
+            "value": "((\"Sant Quirze de Besora\" OR \"Sant Quirze del Vallès\" OR \"Sant Martí de Tous\" OR \"Sant Martí Sesgueioles\" OR \"Sant Pere de Ribes\" OR \"Sant Martí d'Albars\" OR \"Sant Martí de Centelles\" OR \"Sant Pere de Vilamajor\" OR \"Sant Pere Sallavinera\" OR \"Sant Pol de Mar\" OR \"Sant Quirze Safaja\" OR \"Sant Martí de Torroella\" OR \"Sant Mateu de Bages\" OR \"Sant Miquel de Balenyà\" OR \"Sant Quintí de Mediona\" OR \"Sant Martí Sarroca\" OR \"Sant Pere de Riudebitlles\" OR \"Sant Pere de Torelló\") (\"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\") (ataque OR Hacked OR \"No va\" OR Disponibilitat OR Virus OR Maliciós OR \"No funciona\" OR Disponibilidad OR \"Denegació de servei\" OR \"denegación de servicio\" OR Caiguda OR caida OR Atac OR caigudes OR caidas OR Malware OR malicioso))  -(lang:tl)",
+            "tag": "4004#13"
+        },
+        {
+            "id": "1744411262631759891",
+            "value": "((\"Jaime Ulloa\" \"Banco Sabadell\") OR (\"Banco Sabadell\" (\"Eduardo Barrera\" OR \"Vicente Eusebio Mendizabal\" OR \"Miguel Angel Lain\" OR \"Rafel Niell\")) OR \"Vicente Mendizábal\" OR \"Vicente Eusebio Mendizábal\" OR ((\"Luis Alberto Cárdenas Díaz\" OR \"Luis Alberto Cardenas Diaz\" OR \"Luis Cardenas\") \"Banco Sabadell\") OR \"Cesar González Bueno\" OR \"Ignacio Jesus Barroso Prieto\" OR ((\"Mónica Hernández\" OR \"Monica Hernadez\") \"Banco Sabadell\"))  (lang:es)",
+            "tag": "3472#1"
+        },
+        {
+            "id": "1744411262631759893",
+            "value": "(@SantiCastrogo OR from:SantiCastrogo OR retweets_of:SantiCastrogo)",
+            "tag": "4218#1"
+        },
+        {
+            "id": "1744411262631759894",
+            "value": "(\"barcelonawineweek.com\" OR (@bcnwineweek OR from:bcnwineweek) OR \"wine week barcelona\" OR #bcnwineweek OR #BWWHUB OR \"barcelona wine week\" OR #BWWExhibition OR #BWWBusiness OR barcelonawineweek22 OR #BarcelonaWineWeek OR #barcelonawineweek2022 OR #BWWGastronomy OR bcnwineweek)  (lang:es OR lang:en OR lang:ca)",
+            "tag": "4078#0"
+        },
+        {
+            "id": "1744411262631759896",
+            "value": "(@Caravaningbcn OR from:Caravaningbcn OR retweets_of:Caravaningbcn)",
+            "tag": "3551#1"
+        },
+        {
+            "id": "1744411262631759897",
+            "value": "((\"Santa Maria de Besora\" OR Sobremunt OR Tagamanent OR Sitges OR \"Santa Maria de Martorelles\" OR \"Santa Maria de Merlès\" OR \"Santa Maria de Palautordera\" OR Santpedor OR \"Santa Maria de Miralles\" OR \"Santa Perpètua de Mogoda\" OR \"Santa Susanna\" OR Súria OR Sentmenat OR Seva OR Sora OR Subirats) (\"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\") (Hacked OR Disponibilidad OR Caiguda OR caida OR Virus OR ataque OR \"No va\" OR \"Denegació de servei\" OR caigudes OR Malware OR Atac OR \"No funciona\" OR Disponibilitat OR \"denegación de servicio\" OR caidas OR Maliciós OR malicioso))  -(lang:tl)",
+            "tag": "4004#14"
+        },
+        {
+            "id": "1744411262631759898",
+            "value": "((\"Denegació de servei\" OR \"denegación de servicio\" OR caidas OR Atac OR ataque OR Hacked OR Disponibilidad OR caida OR Maliciós OR Disponibilitat OR Caiguda OR caigudes OR Virus OR Malware OR \"No funciona\" OR \"No va\" OR malicioso) (\"Can Serra\" OR \"Edifici de Can Serra\" OR \"Palau Guell\" OR \"Palau de les heures\" OR \"IES Anna Gironella de Mundet\" OR (@LaBonne_CCDFB OR from:LaBonne_CCDFB) OR \"Francesca Bonnemaison\" OR \"Escola La Ginesta\" OR ACELL OR \"Escola Bressol l'Arboç\" OR \"Escola Els Pins\" OR \"Edifici Can Serra\" OR \"Nou de la Rambla\" OR \"Palau Güell\" OR Bonnemaison OR \"Facultat de Pedagogia\" OR \"Institut del Teatre\" OR \"El pensador\" OR #efbonnemaison OR \"Facultat de Psicologia\") (\"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\"))  -(lang:tl)",
+            "tag": "4004#0"
+        },
+        {
+            "id": "1744411262631759899",
+            "value": "(#interlact24 OR #interlact2024 OR #restaurama OR #restaurama24 OR #restaurama2024 OR #alimentariatrends2024 OR ((mediterraneanfoods OR \"mediterranean foods\" OR #mediterraneanfoods OR #mediterraneanfoods24 OR #mediterraneanfoods2024) (firabarcelona OR \"fira de barcelona\" OR #firabcn OR firabcn OR \"fira barcelona\" OR #firabarcelona)) OR #theoliveoilbar OR (@AlimentariaBCN OR from:AlimentariaBCN) OR #intercarn2024 OR \"lands of spain\" OR #landsofspain204 OR ((barcelona OR #firabarcelona OR bcn OR #firabcn) (Alimentaria OR #alimentaria)) OR restaurama) -(\"inseguridad alimentaria\" OR SIAL OR \"emergencia alimentaria\" OR \"información alimentaria\" OR Guatemalteco OR \"Fruit Attraction\" OR \"Revista Alimentaria\" OR \"Feria Agroalimentaria del Higo\" OR \"garantía alimentaria\" OR \"seguretat alimentària\" OR \"Alimentaria Horexpo\" OR anorexia OR \"Unió Corporació Alimentaria\" OR \"Andalucía Sabor\" OR \"cadena alimentària\" OR \"Oficina de Calidad Alimentaria\" OR \"intoxicación alimentaria\") (lang:ca OR lang:es OR lang:en)",
+            "tag": "2710#0"
+        },
+        {
+            "id": "1744411262631759901",
+            "value": "((\"banco sabadell\" OR \"banc sabadell\" OR \"banca sabadel\" OR (@BancoSabadell OR from:BancoSabadell) OR (@BancSabadell OR from:BancSabadell) OR \"banco sabadel\") (cambio OR fusion OR fusión OR despido OR despidos) (@ecb OR from:ecb))",
+            "tag": "3475#0"
+        },
+        {
+            "id": "1744411262631759902",
+            "value": "(@graphispag2022 OR from:graphispag2022)  (lang:ca OR lang:es OR lang:en OR lang:fr OR lang:pt)",
+            "tag": "3399#1"
+        },
+        {
+            "id": "1744411262631759905",
+            "value": "(((@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba)) (\"No va\" OR Disponibilitat OR caidas OR Virus OR malicioso OR Atac OR Disponibilidad OR caida OR ataque OR Hacked OR \"No funciona\" OR \"Denegació de servei\" OR \"denegación de servicio\" OR Caiguda OR caigudes OR Malware OR Maliciós) (\"Sant Sadurní d'Osormort\" OR \"Sant Salvador de Guardiola\" OR \"Santa Eugènia de Berga\" OR \"Santa Margarida de Montbui\" OR \"Sant Vicenç de Castellet\" OR \"Sant Vicenç dels Horts\" OR \"Santa Eulàlia de Riuprimer\" OR \"Santa Fe del Penedès\" OR \"Sant Vicenç de Montalt\" OR \"Sant Vicenç de Torelló\" OR \"Santa Maria d'Oló\" OR \"Sant Sadurní d'Anoia\" OR \"Santa Cecília de Voltregà\" OR \"Santa Coloma de Cervelló\" OR \"Santa Eulàlia de Ronçana\" OR \"Santa Margarida i els Monjos\"))  -(lang:tl)",
+            "tag": "4004#15"
+        },
+        {
+            "id": "1744411262631759906",
+            "value": "(@sabadellprensa OR from:sabadellprensa OR retweets_of:sabadellprensa) OR (@BStartup OR from:BStartup OR retweets_of:BStartup) OR (@BancoSabadellMX OR from:BancoSabadellMX OR retweets_of:BancoSabadellMX) OR (@sabadellpremsa OR from:sabadellpremsa OR retweets_of:sabadellpremsa) OR (@sabadellpress OR from:sabadellpress OR retweets_of:sabadellpress) OR (@BancSabadell OR from:BancSabadell OR retweets_of:BancSabadell) OR (@BSAndorra OR from:BSAndorra OR retweets_of:BSAndorra) OR (@FBSabadell OR from:FBSabadell OR retweets_of:FBSabadell) OR (@InnoCells OR from:InnoCells OR retweets_of:InnoCells) OR (@Sabadell_Help OR from:Sabadell_Help OR retweets_of:Sabadell_Help) OR (@solvia_es OR from:solvia_es OR retweets_of:solvia_es) OR (@BancoSabadell OR from:BancoSabadell OR retweets_of:BancoSabadell)",
+            "tag": "2470#3"
+        },
+        {
+            "id": "1744411262631759908",
+            "value": "(caixapenedes OR #BSsabadell OR activobank OR BSsabadell OR (@sabadellpress OR from:sabadellpress) OR (@FBsabadell OR from:FBsabadell) OR #sabadellatlántico OR (@BancSabadell OR from:BancSabadell) OR sabadellurquijo OR FBSabadell OR (@sabadellprensa OR from:sabadellprensa) OR #BSAndorra OR \"sabadell urquijo\" OR bancoguipuzcoano OR \"Sabadell Atlàntico\" OR #Sabadellbank OR (@FBSabadell OR from:FBSabadell) OR bancourquijo OR solvia OR (@bstartup OR from:bstartup) OR #solbank) -(Guardiola OR Lancôme OR (@OLIU_METAL OR from:OLIU_METAL) OR (@solviads OR from:solviads) OR #ADOPTAUNPERRO OR \"Espai Natura Fundació 1859 Caixa Sabadell\" OR pep OR barça OR \"mlb tsb\" OR \"banco de alimentos\" OR viagra OR (@Cam4_ES OR from:Cam4_ES) OR \"Fundació 1859 Caixa Sabadell\" OR (@veroGarciaModel OR from:veroGarciaModel) OR snyrtivörur) -(lang:vi)",
+            "tag": "2470#2"
+        },
+        {
+            "id": "1744411262631759909",
+            "value": "(\"bancsabadell.com\" OR (@Sabadell_Help OR from:Sabadell_Help) OR \"banco urquijo\" OR \"sabadell inmobiliaria\" OR caixadelpenedés OR \"banco guipuzcoano\" OR (@bancosabadellMX OR from:bancosabadellMX) OR #bancourquijo OR (@BancoSabadell OR from:BancoSabadell) OR sabadellatlàntico OR #HistoriasDelDinero OR (@BancoSabadellMX OR from:BancoSabadellMX) OR Sabadellbank OR \"caja de ahorros del mediterraneo\" OR sabadellatlantic OR #activobank OR #caixapenedes OR #bancoguipuzcoano OR #FBSabadell OR \"blog.bancsabadell.com\" OR grupbancsabadell OR sabadellguipuzcoano OR \"Sabadell Atlàntic\" OR (@bcnopenbs OR from:bcnopenbs) OR #sabadellurquijo OR bancasabadell) -(Guardiola OR Lancôme OR (@OLIU_METAL OR from:OLIU_METAL) OR (@solviads OR from:solviads) OR #ADOPTAUNPERRO OR \"Espai Natura Fundació 1859 Caixa Sabadell\" OR pep OR barça OR \"mlb tsb\" OR \"banco de alimentos\" OR viagra OR (@Cam4_ES OR from:Cam4_ES) OR \"Fundació 1859 Caixa Sabadell\" OR (@veroGarciaModel OR from:veroGarciaModel) OR snyrtivörur) -(lang:vi)",
+            "tag": "2470#1"
+        },
+        {
+            "id": "1744411262631759911",
+            "value": "((\"Parc d'Olèrdola\" OR \"Espai Natural de les Guilleries-Savassona\" OR \"Parc Natural de Sant Llorenç del Munt i l'Obac\" OR \"Parc de la Serralada Litoral\" OR \"Parc de la Serralada de Marina\" OR \"Parc del Garraf\" OR \"Parc del Foix\" OR \"Parc del Castell de Montesquiu\" OR \"Parc Natural i Reserva de la Biosfera del Montseny\" OR \"Parc del Montnegre i el Corredor\" OR \"Parc Natural de la Serra de Collserola\" OR \"Parc Agrari del Baix Llobregat\") (Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\") (\"Denegació de servei\" OR Malware OR Disponibilidad OR caigudes OR caidas OR Maliciós OR ataque OR \"No va\" OR Disponibilitat OR Caiguda OR caida OR malicioso OR Atac OR Hacked OR \"No funciona\" OR \"denegación de servicio\" OR Virus))  -(lang:tl)",
+            "tag": "4004#3"
+        },
+        {
+            "id": "1744411262631759912",
+            "value": "(#bobbibrownmexico OR \"www.bobbibrown.com.mx\" OR #esteelaudermexico OR #cliniqueméxico OR #maccosmeticosmexico OR #bobbibrownmx OR \"www.esteelauder.com.mx\")   -(place_country:AR OR place_country:BO OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:CR OR place_country:DO OR place_country:EC OR place_country:SV OR place_country:GT OR place_country:HN OR place_country:JM OR place_country:NI OR place_country:PA OR place_country:PY OR place_country:PE OR place_country:PR OR place_country:UY OR place_country:ES OR place_country:US)",
+            "tag": "4254#1"
+        },
+        {
+            "id": "1744411262631759915",
+            "value": "((Sallent OR \"Sant Cugat Sesgarrigues\" OR \"Sant Andreu de Llavaneres\" OR \"Sant Feliu de Codines\" OR Sagàs OR Saldes OR \"Sant Adrià de Besòs\" OR \"Sant Boi de Llobregat\" OR \"Sant Boi de Lluçanès\" OR \"Sant Cebrià de Vallalta\" OR \"Sant Climent de Llobregat\" OR \"Sant Cugat del Vallès\" OR \"Sant Andreu de la Barca\" OR \"Sant Antoni de Vilamajor\" OR \"Sant Bartomeu del Grau\" OR \"Sant Esteve de Palautordera\" OR \"Sant Esteve Sesrovires\" OR \"Sant Agustí de Lluçanès\" OR \"Sant Celoni\") (\"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\") (\"denegación de servicio\" OR caida OR \"No funciona\" OR malicioso OR caidas OR Malware OR ataque OR Hacked OR \"No va\" OR \"Denegació de servei\" OR caigudes OR Maliciós OR Atac OR Disponibilitat OR Disponibilidad OR Caiguda OR Virus))  -(lang:tl)",
+            "tag": "4004#6"
+        },
+        {
+            "id": "1744411262631759918",
+            "value": "(@Eurosurfas OR from:Eurosurfas OR retweets_of:Eurosurfas)",
+            "tag": "3575#1"
+        },
+        {
+            "id": "1744411262631759919",
+            "value": "(\"Norte Hispana\" OR NorteHispana OR \"previsora bilbaina\" OR #NorteHispana OR #previsorabilbaína OR (@NorteHispana OR from:NorteHispana) OR previsorabilbaina OR #NorteHispanaSeguros OR #SegurosNorteHispana OR #previsorabilbaina OR \"nortehispana.com\")",
+            "tag": "3548#0"
+        },
+        {
+            "id": "1744411262631759920",
+            "value": "(oscaraguilar nawazsharif tabeedhassan #haseeb tabeed tabeedhassanniazi umarakmal lion janshair nyc petrol umairkhan inflation hamza umairaza)  (lang:ar)",
+            "tag": "4241#0"
+        },
+        {
+            "id": "1744411262631759921",
+            "value": "(@NorteHispana OR from:NorteHispana OR retweets_of:NorteHispana)",
+            "tag": "3548#1"
+        },
+        {
+            "id": "1744411262631759922",
+            "value": "((\"Castellar de n'Hug\" OR \"Castellbell i el Vilar\" OR Castellcir OR \"Castellví de la Marca\" OR \"Castellví de Rosanes\" OR Cervelló OR Casserres OR \"Castell de l'Areny\" OR Collbató OR Castellgalí OR Cercs OR \"Castellfollit de Riubregós\" OR \"Castellfollit del Boix\" OR \"Castellnou de Bages\" OR Castellolí OR \"Cerdanyola del Vallès\" OR Collsuspina OR \"Castellar del Riu\" OR Castellbisbal OR \"Castellet i la Gornal\" OR Castellterçol OR Centelles OR \"Castellar del Vallès\" OR Castelldefels) (\"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\") (\"No va\" OR Caiguda OR caida OR caidas OR Virus OR Malware OR Hacked OR Disponibilitat OR \"Denegació de servei\" OR \"denegación de servicio\" OR \"No funciona\" OR Disponibilidad OR caigudes OR Maliciós OR Atac OR ataque OR malicioso))  -(lang:tl)",
+            "tag": "4004#10"
+        },
+        {
+            "id": "1744411262631759923",
+            "value": "((Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\") (Atac OR Hacked OR \"Denegació de servei\" OR Virus OR Malware OR ataque OR \"No funciona\" OR caidas OR Disponibilitat OR \"denegación de servicio\" OR Caiguda OR caigudes OR caida OR malicioso OR \"No va\" OR Disponibilidad OR Maliciós) (Montmajor OR \"Montornès del Vallès\" OR \"Nou de Berguedà\" OR Òdena OR Olèrdola OR \"Olesa de Montserrat\" OR Orpí OR Montgat OR \"Palau-solità i Plegamans\" OR Palafolls OR Muntanyola OR \"Palma de Cervelló\" OR Montmaneu OR \"Pacs del Penedès\" OR Oristà OR \"Olesa de Bonesvalls\" OR Olvan OR Òrrius OR \"Montcada i Reixac\" OR Navarcles OR Olivella OR Pallejà OR Montclar OR Montmeló OR Montesquiu OR Mura OR Olost OR Montseny OR Orís OR Navàs))  -(lang:tl)",
+            "tag": "4004#14"
+        },
+        {
+            "id": "1744411262631759924",
+            "value": "(@FdzWaldo OR from:FdzWaldo OR retweets_of:FdzWaldo)",
+            "tag": "4248#1"
+        },
+        {
+            "id": "1744411262631759925",
+            "value": "(umarakmal lion tabeedhassan umairaza #haseeb tabeedhassanniazi oscaraguilar inflation hamza umairkhan nyc petrol nawazsharif janshair tabeed)  (lang:ar)",
+            "tag": "4241#0"
+        },
+        {
+            "id": "1744411262631759926",
+            "value": "(#Veterinario OR (@VeterinariaUCM OR from:VeterinariaUCM) OR (@_ICOVAL OR from:_ICOVAL) OR (@consueloserres OR from:consueloserres) OR (@dogtoranimal OR from:dogtoranimal) OR #VeterinariosEnAcción OR #Iconveniovetetinario OR (@aevefi_ OR from:aevefi_) OR (@VeterinariosCC OR from:VeterinariosCC) OR (@amvac_vet OR from:amvac_vet) OR (@axoncomunicacio OR from:axoncomunicacio) OR (@revistaargos OR from:revistaargos) OR (@colegioalava OR from:colegioalava) OR #Leishmania OR (@AVEPA_vet OR from:AVEPA_vet) OR (@_icoval OR from:_icoval))  (lang:es OR lang:ca OR lang:eu OR lang:gl) -(place_country:AR OR place_country:BO OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:CR OR place_country:CU OR place_country:DO OR place_country:EC OR place_country:SV OR place_country:GT OR place_country:HT OR place_country:HN OR place_country:JM OR place_country:MX OR place_country:NI OR place_country:PA OR place_country:PY OR place_country:PE OR place_country:PR OR place_country:UY OR place_country:VE)",
+            "tag": "3805#0"
+        },
+        {
+            "id": "1744411262631759927",
+            "value": "((\"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\") (ataque OR Hacked OR Disponibilidad OR \"denegación de servicio\" OR caida OR \"No va\" OR caidas OR \"No funciona\" OR \"Denegació de servei\" OR Caiguda OR Virus OR Malware OR Maliciós OR Atac OR Disponibilitat OR caigudes OR malicioso))  -(lang:tl)",
+            "tag": "4004#10"
+        },
+        {
+            "id": "1744411262631759928",
+            "value": "((Gironella OR Gualba OR \"Fogars de Montclús\" OR Folgueroles OR \"Franqueses del Vallès\" OR Gisclareny OR Copons OR Fígols OR Gavà OR \"Fogars de la Selva\" OR Fonollosa OR Gelida OR \"Cornellà de Llobregat\" OR \"Esplugues de Llobregat\" OR Espunyola OR Granera OR \"Corbera de Llobregat\" OR Estany OR Granada OR Esquirol OR \"Font-rubí\" OR Garriga OR Dosrius OR Esparreguera OR Cubelles OR \"Gaià ORGallifa\" OR Granollers OR \"Figaró-Montmany\") ((@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba) (caida OR caidas OR Virus OR Maliciós OR \"No va\" OR Caiguda OR malicioso OR ataque OR Disponibilitat OR \"Denegació de servei\" OR Atac OR \"No funciona\" OR \"denegación de servicio\" OR caigudes OR Malware OR Hacked OR Disponibilidad))  -(lang:tl)",
+            "tag": "4004#16"
+        },
+        {
+            "id": "1744411262631759930",
+            "value": "((\"sarda audiovisual\" OR \"Escola industrial\" OR \"Recinte de Maternitat\" OR \"Campus Mundet\" OR \"Recinte de Llars Mundet\" OR \"Universitat de Barcelona\" OR \"Can Batlló\" OR \"Recinte Urgell\" OR \"Escola del Treball\" OR ORGT OR \"Consell Professional de la Xarxa Audiovisual Local\" OR \"Consell Professional de la Xal\" OR \"Xarxa Audiovisual Local\" OR (@ConsellLaXarxa OR from:ConsellLaXarxa) OR \"IES Mundet\" OR dal OR \"com Radio\" OR \"Lluís Garriga Paituví\" OR \"Llars Mundet\") (\"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\") (Disponibilitat OR caigudes OR caidas OR Maliciós OR Hacked OR \"No funciona\" OR \"denegación de servicio\" OR Caiguda OR Virus OR Malware OR ataque OR \"No va\" OR Disponibilidad OR caida OR Atac OR \"Denegació de servei\" OR malicioso))  -(lang:tl)",
+            "tag": "4004#5"
+        },
+        {
+            "id": "1744411262631759931",
+            "value": "((\"Santa Maria de Besora\" OR \"Santa Maria de Martorelles\" OR Santpedor OR Sitges OR Sobremunt OR Subirats OR \"Santa Maria de Miralles\" OR Sentmenat OR Seva OR \"Santa Maria de Palautordera\" OR \"Santa Perpètua de Mogoda\" OR \"Santa Susanna\" OR Sora OR Súria OR Tagamanent OR \"Santa Maria de Merlès\") (\"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\") (Disponibilidad OR \"Denegació de servei\" OR Virus OR caida OR caidas OR malicioso OR ataque OR \"denegación de servicio\" OR caigudes OR Caiguda OR Maliciós OR Atac OR \"No funciona\" OR Disponibilitat OR Hacked OR \"No va\" OR Malware))  -(lang:tl)",
+            "tag": "4004#9"
+        },
+        {
+            "id": "1744411262631759932",
+            "value": "((@ocvespana OR from:ocvespana) OR (@colvetbizkaia OR from:colvetbizkaia) OR (@GeoMenC12 OR from:GeoMenC12) OR #medicinaveterinaria OR #veterinariosesaccion OR #NUESTRASMASCOTASENNAVIDAD OR (@RevistaArgos OR from:RevistaArgos) OR (@_USVEGA_ OR from:_USVEGA_) OR (@lorenacarea OR from:lorenacarea) OR #saludanimal OR #Veterinarias OR (@VeterinariosGRX OR from:VeterinariosGRX) OR (@fernandovalera OR from:fernandovalera) OR (@Miriam65455172 OR from:Miriam65455172) OR (@pelaomontecino OR from:pelaomontecino) OR #ClínicasVeterinarias)  (lang:es OR lang:ca OR lang:eu OR lang:gl) -(place_country:AR OR place_country:BO OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:CR OR place_country:CU OR place_country:DO OR place_country:EC OR place_country:SV OR place_country:GT OR place_country:HT OR place_country:HN OR place_country:JM OR place_country:MX OR place_country:NI OR place_country:PA OR place_country:PY OR place_country:PE OR place_country:PR OR place_country:UY OR place_country:VE)",
+            "tag": "3805#1"
+        },
+        {
+            "id": "1744411262631759933",
+            "value": "(((@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba) (Disponibilidad OR caida OR Malware OR \"No va\" OR Virus OR Disponibilitat OR caigudes OR caidas OR Maliciós OR Atac OR Hacked OR \"No funciona\" OR \"Denegació de servei\" OR \"denegación de servicio\" OR Caiguda OR malicioso OR ataque) (\"Premià de Mar\" OR Pujalt OR Rellinars OR Pontons OR \"Puig-reig\" OR Quar OR \"Roda de Ter\" OR Papiol OR \"Pineda de Mar\" OR \"Pla del Penedès\" OR \"Pobla de Claramunt\" OR Rubió OR \"Parets del Vallès\" OR \"Prats de Lluçanès\" OR \"Premià de Dalt\" OR Ripollet OR Rubí OR Polinyà OR \"Prats de Rei\" OR \"Rupit i Pruit\" OR Piera OR \"Pobla deLillet\" OR \"Pont de Vilomara i Rocafort\" OR \"Prat de Llobregat\" OR Puigdàlber OR Perafita OR Rajadell OR \"Roca del Vallès\"))  -(lang:tl)",
+            "tag": "4004#2"
+        },
+        {
+            "id": "1744411262631759934",
+            "value": "(\"diputacio de barcelona\" OR #volotea OR (@sistema911_rd OR from:sistema911_rd) OR \"banc sabadell\" OR \"banco de españa\" OR abertis OR (jewelry rabat) OR volotea OR (@volotea OR from:volotea) OR (@bancsabadell OR from:bancsabadell) OR \"banco sabadell\")",
+            "tag": "3527#0"
+        },
+        {
+            "id": "1744411262631759935",
+            "value": "(@CliniqueMexico OR from:CliniqueMexico OR retweets_of:CliniqueMexico OR to:CliniqueMexico)",
+            "tag": "4254#2"
+        },
+        {
+            "id": "1744411262635913216",
+            "value": "(((santander OR #santander) (méxico OR mexicanas OR (@Citibanamex OR from:Citibanamex) OR (@BancoAzteca OR from:BancoAzteca) OR (@Banxico OR from:Banxico) OR mexicano OR mexicanos OR \"banco azteca\" OR #méxico OR (@ScotiabankMX OR from:ScotiabankMX) OR (@BAztecaAyuda OR from:BAztecaAyuda) OR (@HSBC_MX OR from:HSBC_MX) OR mexico OR mx OR mex OR (@BBVA_Mex OR from:BBVA_Mex) OR mexicana OR #bancoazteca OR #mexico)) OR #santandermexico OR #santanderméxico OR \"www.santander.com.mx\" OR (@SantanderMx OR from:SantanderMx))   -(place_country:AR OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:PE OR place_country:UY OR place_country:ES OR place_country:GB OR place_country:US OR place_country:PT)",
+            "tag": "3770#0"
+        },
+        {
+            "id": "1744411262635913217",
+            "value": "((\"Bibliotecas XBM\" OR \"Bibliotecas Diputación de Barcelona\" OR \"Xarxa de Biblioteques municipals\" OR \"Servei de biblioteques\" OR \"Biblioteques XBM\" OR \"Biblioteques Diputació de Barcelona\" OR \"Red de Bibliotecas Municipales\" OR \"Servicio de bibliotecas\") (Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\") (Hacked OR Caiguda OR Virus OR Atac OR \"denegación de servicio\" OR caigudes OR caida OR \"No funciona\" OR Disponibilitat OR \"Denegació de servei\" OR caidas OR Maliciós OR ataque OR \"No va\" OR Disponibilidad OR Malware OR malicioso))  -(lang:tl)",
+            "tag": "4004#15"
+        },
+        {
+            "id": "1744411262635913218",
+            "value": "((\"Recinte Urgell\" OR \"sarda audiovisual\" OR \"Xarxa Audiovisual Local\" OR (@ConsellLaXarxa OR from:ConsellLaXarxa) OR \"Recinte de Llars Mundet\" OR \"IES Mundet\" OR \"Can Batlló\" OR ORGT OR \"Consell Professional de la Xarxa Audiovisual Local\" OR \"Escola industrial\" OR \"Llars Mundet\" OR \"Lluís Garriga Paituví\" OR \"Recinte de Maternitat\" OR dal OR \"com Radio\" OR \"Consell Professional de la Xal\" OR \"Campus Mundet\" OR \"Universitat de Barcelona\" OR \"Escola del Treball\") ((@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba)) (Atac OR \"No funciona\" OR Caiguda OR Virus OR malicioso OR ataque OR \"No va\" OR \"Denegació de servei\" OR caida OR Disponibilitat OR caidas OR Maliciós OR Hacked OR Disponibilidad OR \"denegación de servicio\" OR caigudes OR Malware))  -(lang:tl)",
+            "tag": "4004#6"
+        },
+        {
+            "id": "1744411262635913219",
+            "value": "(\"saló ocupació\" OR \"salón ocupación\" OR #SaltaAlMonLaboral OR \"salocupacio.com\" OR #ocupaciojuvenil OR #BCNtreballjove OR #OCUPACIO23 OR (@salocupacio OR from:salocupacio) OR \"salon ocupacion\" OR #BCNemprenedoria OR #OCUPACIO2023 OR #BIZOCUPACIO2023 OR #BIZOCUPACIO23)",
+            "tag": "2805#0"
+        },
+        {
+            "id": "1744411262635913220",
+            "value": "(@Serviestibasa OR from:Serviestibasa OR retweets_of:Serviestibasa)",
+            "tag": "4105#1"
+        },
+        {
+            "id": "1744411262635913222",
+            "value": "(@Salon_Ocasion OR from:Salon_Ocasion OR retweets_of:Salon_Ocasion)",
+            "tag": "3420#1"
+        },
+        {
+            "id": "1744411262635913224",
+            "value": "(@BTravelShow OR from:BTravelShow OR retweets_of:BTravelShow)",
+            "tag": "2713#2"
+        },
+        {
+            "id": "1744411262635913225",
+            "value": "(\"servi estiva, s.a.\" OR #Serviestiba OR #FamiliaServiestiba OR #ServiestibaContigo OR #TalentoServiestiva OR (@serviestibasa OR from:serviestibasa) OR Serviestiba OR \"Serviestiba, S. A.\" OR #Serviestibasa OR #OrgulloServiestiba OR \"serviestibasa.com\")",
+            "tag": "4105#0"
+        },
+        {
+            "id": "1744411262635913226",
+            "value": "((Esparreguera OR \"Franqueses del Vallès\" OR \"Cornellà de Llobregat\" OR \"Esplugues de Llobregat\" OR \"Fogars de Montclús\" OR Gironella OR \"Corbera de Llobregat\" OR \"Gaià ORGallifa\" OR Gisclareny OR Granada OR Fonollosa OR Garriga OR Gavà OR Gelida OR Granollers OR \"Figaró-Montmany\" OR \"Font-rubí\" OR Granera OR Estany OR \"Fogars de la Selva\" OR Esquirol OR Cubelles OR Dosrius OR Espunyola OR Fígols OR Folgueroles OR Gualba OR Copons) ((@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba)) (ataque OR Hacked OR caigudes OR caidas OR Atac OR \"denegación de servicio\" OR Virus OR Malware OR \"No funciona\" OR \"No va\" OR Disponibilitat OR \"Denegació de servei\" OR Caiguda OR Maliciós OR Disponibilidad OR caida OR malicioso))  -(lang:tl)",
+            "tag": "4004#12"
+        },
+        {
+            "id": "1744411262635913227",
+            "value": "((@coleveterinario OR from:coleveterinario) OR (@covbcat OR from:covbcat) OR (@JMVRUM OR from:JMVRUM) OR (@castilloam17 OR from:castilloam17) OR (@editorialservet OR from:editorialservet) OR (@icovvalencia OR from:icovvalencia) OR (@vetasturias OR from:vetasturias) OR #BienestarAnimal OR #convenioveterinario OR #DiabetesMellitus OR #VeterinariaDigna OR (@COLVEMA OR from:COLVEMA) OR (@colegioalmeria OR from:colegioalmeria) OR (@CV_Dermovet OR from:CV_Dermovet) OR (@begonarana OR from:begonarana))  (lang:es OR lang:ca OR lang:eu OR lang:gl) -(place_country:AR OR place_country:BO OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:CR OR place_country:CU OR place_country:DO OR place_country:EC OR place_country:SV OR place_country:GT OR place_country:HT OR place_country:HN OR place_country:JM OR place_country:MX OR place_country:NI OR place_country:PA OR place_country:PY OR place_country:PE OR place_country:PR OR place_country:UY OR place_country:VE)",
+            "tag": "3805#3"
+        },
+        {
+            "id": "1744411262635913228",
+            "value": "(\"banco gallego\" OR #bancosabadell OR #solvia OR BancdeSabadell OR bancosabadell OR sabadellatlántico OR #sabadellatlantic OR (@BSAndorra OR from:BSAndorra) OR (@InnoCells OR from:InnoCells) OR BancodeSabadell OR (@BStartup OR from:BStartup) OR \"BS Andorra\" OR sabadellcam OR (@solvia_es OR from:solvia_es) OR solbank OR ((\"Banc Sabadell\" OR \"banco sabadell\") (\"cesar gonzalez\" OR olíu OR fundació OR accionista OR accionistas OR guardiola OR \"césar gonzalez\" OR oliu OR andorra OR fundación)) OR (@innocells OR from:innocells) OR (@sabadellpremsa OR from:sabadellpremsa) OR #bancsabadell OR #sabadellguipuzcoano OR BSAndorra OR #bcnopenbs OR #sabadellcam) -(Guardiola OR Lancôme OR (@OLIU_METAL OR from:OLIU_METAL) OR (@solviads OR from:solviads) OR #ADOPTAUNPERRO OR \"Espai Natura Fundació 1859 Caixa Sabadell\" OR pep OR barça OR \"mlb tsb\" OR \"banco de alimentos\" OR viagra OR (@Cam4_ES OR from:Cam4_ES) OR \"Fundació 1859 Caixa Sabadell\" OR (@veroGarciaModel OR from:veroGarciaModel) OR snyrtivörur) -(lang:vi)",
+            "tag": "2470#0"
+        },
+        {
+            "id": "1744411262635913230",
+            "value": "((@veterinarioscc OR from:veterinarioscc) OR (@QuimSegales OR from:QuimSegales) OR (@ColvetSevilla OR from:ColvetSevilla) OR (@colvetmalaga OR from:colvetmalaga) OR (@carlosmascotero OR from:carlosmascotero) OR #Veterinaria OR (@Animalhub_es OR from:Animalhub_es) OR (@colvetcadiz OR from:colvetcadiz) OR (@sementvet OR from:sementvet) OR (@dv_veterinario OR from:dv_veterinario) OR (@ceve_vet OR from:ceve_vet) OR (@aemve_vet OR from:aemve_vet) OR (@animalshealthes OR from:animalshealthes) OR (@Vet_ilustrado OR from:Vet_ilustrado))  (lang:es OR lang:ca OR lang:eu OR lang:gl) -(place_country:AR OR place_country:BO OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:CR OR place_country:CU OR place_country:DO OR place_country:EC OR place_country:SV OR place_country:GT OR place_country:HT OR place_country:HN OR place_country:JM OR place_country:MX OR place_country:NI OR place_country:PA OR place_country:PY OR place_country:PE OR place_country:PR OR place_country:UY OR place_country:VE)",
+            "tag": "3805#4"
+        },
+        {
+            "id": "1744411262635913232",
+            "value": "(@SantanderMx OR from:SantanderMx OR retweets_of:SantanderMx)",
+            "tag": "3770#1"
+        },
+        {
+            "id": "1744411262635913233",
+            "value": "((Cabrils OR \"Ametlla del Vallès\" OR Berga OR Cabanyes OR Calaf OR Aiguafreda OR \"Arenys de Munt\" OR \"Barberà del Vallès\" OR \"Cabrera de Mar\" OR Alella OR Artés OR \"Badia del Vallès\" OR \"Bigues i Riells\" OR Bruc OR Brull OR \"Arenys de Mar\" OR Argençola OR Borredà OR \"Cabrera d'Anoia\" OR Balsareny OR Bellaterra OR Bellprat OR Argentona OR Bagà OR Avinyó OR Balenyà OR Abrera OR Avià OR \"Avinyonet del Penedès\" OR Begues OR \"Aguilar de Segarra\" OR Alpens) (\"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\") (\"No funciona\" OR ataque OR Hacked OR Malware OR Maliciós OR malicioso OR Atac OR \"No va\" OR Disponibilidad OR Caiguda OR caigudes OR caida OR caidas OR Virus OR Disponibilitat OR \"Denegació de servei\" OR \"denegación de servicio\"))  -(lang:tl)",
+            "tag": "4004#5"
+        },
+        {
+            "id": "1744411262635913234",
+            "value": "((\"industria turismo\" OR \"turismo familiar\" OR \"turismo industrial\" OR \"turismo gastronomia\" OR glamping OR \"turismo activo\" OR \"turismo deportivo\" OR \"feria turismo\" OR \"emprendedores turismo\" OR \"turismo local\" OR \"turismo aventura\" OR \"ofertas interrail\" OR \"turismo cultural\" OR \"viajes de lujo\" OR \"empresas sector turismo\" OR \"empresas viajes\" OR \"profesionales viajes\" OR \"turismo deporte\" OR \"turismo experiencial\" OR \"empresas turismo\" OR \"turismo nacional\" OR \"turismo regional\" OR \"viaje sostenible\" OR \"turismo de interior\" OR \"turismo niños\" OR \"viajes con niños\" OR \"turismo sostenible\" OR \"turismo gastronomico\" OR \"turismo de aventura\" OR \"turismo rural\" OR \"industria turistica\" OR \"profesionales turismo\") (\"fira barcelona\" OR \"salón de barcelona\" OR \"feria barcelona\")) -(\"travel brand\" OR (@bthetravelbrand OR from:bthetravelbrand)) (lang:ca OR lang:es)",
+            "tag": "2713#1"
+        },
+        {
+            "id": "1744411262635913235",
+            "value": "(@ZTE_Mx OR from:ZTE_Mx OR retweets_of:ZTE_Mx)",
+            "tag": "4251#1"
+        },
+        {
+            "id": "1744411262635913236",
+            "value": "((@gemmatico OR from:gemmatico) OR #Veterinarios OR (@ACN_Veterinario OR from:ACN_Veterinario) OR (@colvetvalladoli OR from:colvetvalladoli) OR (@MartaEstebanM OR from:MartaEstebanM) OR (@calerovirginia OR from:calerovirginia) OR (@pamelaelcoroba1 OR from:pamelaelcoroba1) OR (@bbielggarcies11 OR from:bbielggarcies11) OR #IVAveterinario OR (@VeterinarioSi OR from:VeterinarioSi) OR (@jgoyache OR from:jgoyache) OR (@MarionaEscala OR from:MarionaEscala) OR (@David_crimi OR from:David_crimi) OR (@ColegioAlmeria OR from:ColegioAlmeria))  (lang:es OR lang:ca OR lang:eu OR lang:gl) -(place_country:AR OR place_country:BO OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:CR OR place_country:CU OR place_country:DO OR place_country:EC OR place_country:SV OR place_country:GT OR place_country:HT OR place_country:HN OR place_country:JM OR place_country:MX OR place_country:NI OR place_country:PA OR place_country:PY OR place_country:PE OR place_country:PR OR place_country:UY OR place_country:VE)",
+            "tag": "3805#2"
+        },
+        {
+            "id": "1744411262635913237",
+            "value": "(\"salofutura.com\" OR (@salofutura OR from:salofutura) OR #futura23 OR #futura2023 OR #BCNtreballjove OR #BCNemprenedoria OR \"saló futura\" OR \"salón de másteres y posgrados\" OR #SALOFUTURA OR #SALOFUTURA23 OR #SALOFUTURA2023 OR \"salo futura\" OR \"salon futura\" OR \"salón futura\" OR (Salo futura \"masters i postgraus\") OR #SaltaAlMonLaboral OR \"salon de masteres y posgrados\" OR #ocupaciojuvenil)  (lang:ca OR lang:es OR lang:en)",
+            "tag": "2711#0"
+        },
+        {
+            "id": "1744411262635913238",
+            "value": "(#Volotea OR #Volotea10years OR #TheSkippableLayover OR #voloteainspiration OR (@Volotea OR from:Volotea) OR Volotea OR #Megavolotea OR #DesignVolotea10years OR #myphotovolotea OR #sharevolotea)",
+            "tag": "538#0"
+        },
+        {
+            "id": "1744411262635913239",
+            "value": "(#ztemexico OR #zteméxico OR #ztemx OR \"www.ztedevices.mx\" OR (@ZTE_Mx OR from:ZTE_Mx) OR ((zte OR #zte) (mexicanos OR mexicana OR mexicanas OR #mexico OR mx OR mexico OR méxico OR mexicano)))",
+            "tag": "4251#0"
+        },
+        {
+            "id": "1744411262635913241",
+            "value": "(@panamamunicipio OR from:panamamunicipio OR retweets_of:panamamunicipio)",
+            "tag": "4022#1"
+        },
+        {
+            "id": "1744411262635913242",
+            "value": "(\"graphispag.com\" OR #Graphispag23 OR #graphispag2023 OR #graphispagbarcelona OR ((#DiseñoGrafico OR #impresión3D OR #impresion3D OR #industriagráfica OR #industriagrafica OR #impresion OR #impresión OR #DiseñoGráfico) (\"feria de barcelona\" OR \"fira barcelona\" OR firabcn OR \"fira bcn\" OR #firabarcelona OR #feriabarcelona OR #fira OR (@Fira_Barcelona OR from:Fira_Barcelona))) OR graphispag OR ((\"impresión 3d\" OR \"maquinaria gráfica\" OR \"maquinaria grafica\" OR vinilos OR serigrafía OR \"congreso de diseño\" OR \"artes gráficas\" OR \"artes graficas\" OR \"industria grafica\" OR \"diseño grafico\" OR \"imprenta digital\" OR serigrafia OR \"diseño gráfico\" OR \"impresion 3d\" OR \"impresoras 3d\" OR \"industria gráfica\") (\"Fira de barcelona\" OR \"fira barcelona\" OR \"feria de barcelona\" OR \"salón Barcelona\" OR \"salon Barcelona\" OR (@Fira_Barcelona OR from:Fira_Barcelona))) OR #graphispag OR (@graphispag2022 OR from:graphispag2022))  (lang:ca OR lang:es OR lang:en OR lang:fr OR lang:pt)",
+            "tag": "3399#0"
+        },
+        {
+            "id": "1744411262635913243",
+            "value": "(#EurocarCongress OR #Eurosurfas OR (@Eurosurfas OR from:Eurosurfas) OR Eurosurfas OR Eurosurfas2023 OR #Eurosurfas23 OR #Eurosurfas2023 OR #EurocarCongress23 OR #protagonistaseurosurfas OR Eurosurfas23 OR \"eurosurfas.com\" OR \"Eurocar Congress\" OR (@eurosurfas OR from:eurosurfas) OR #EurocarCongress2023 OR ((#tratamientodesuperficies OR #surfacetreatment OR techtransfer OR #techtransfer OR \"BEST IN CLASS\" OR #bestinclass OR \"surface treatment\" OR \"economia circular\" OR #economiacircular OR \"tratamiento de superficies\" OR #tratamientosuperficies) (fira OR firabarcelona OR salón OR salon OR #firabarcelona)))  (lang:es OR lang:en OR lang:ca)",
+            "tag": "3575#0"
+        },
+        {
+            "id": "1744411262635913245",
+            "value": "((@OLGAMINGUEZ_ OR from:OLGAMINGUEZ_) OR (@claudiastole OR from:claudiastole) OR #Parvovirus OR #sanidadanimal OR (@veterinariosgrx OR from:veterinariosgrx) OR (@riera_sheila OR from:riera_sheila) OR (@VirginiaIniesta OR from:VirginiaIniesta) OR (@kiko_cerezuela OR from:kiko_cerezuela) OR #VeterinariaSanitaria OR (@IMVeterinaria OR from:IMVeterinaria) OR (@SIVEPASTURIAS OR from:SIVEPASTURIAS) OR (@DeliaSaleno OR from:DeliaSaleno) OR (@osayagues OR from:osayagues) OR (@vidal_enric OR from:vidal_enric) OR #MoquilloCanino OR #somosVETS)  (lang:es OR lang:ca OR lang:eu OR lang:gl) -(place_country:AR OR place_country:BO OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:CR OR place_country:CU OR place_country:DO OR place_country:EC OR place_country:SV OR place_country:GT OR place_country:HT OR place_country:HN OR place_country:JM OR place_country:MX OR place_country:NI OR place_country:PA OR place_country:PY OR place_country:PE OR place_country:PR OR place_country:UY OR place_country:VE)",
+            "tag": "3805#5"
+        },
+        {
+            "id": "1744411262635913246",
+            "value": "((Disponibilidad OR caida OR Virus OR Maliciós OR \"No va\" OR Disponibilitat OR \"denegación de servicio\" OR Malware OR malicioso OR Hacked OR \"Denegació de servei\" OR \"No funciona\" OR Caiguda OR Atac OR ataque OR caigudes OR caidas) (Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\"))  -(lang:tl)",
+            "tag": "4004#9"
+        },
+        {
+            "id": "1744411262635925504",
+            "value": "((@sistema911_rd OR from:sistema911_rd) OR \"diputacio de barcelona\" OR volotea OR (@volotea OR from:volotea) OR \"banc sabadell\" OR (@bancsabadell OR from:bancsabadell) OR \"banco sabadell\" OR \"banco de españa\" OR abertis OR (rabat jewelry) OR #volotea)",
+            "tag": "3527#0"
+        },
+        {
+            "id": "1744411262635925506",
+            "value": "(\"dr. lau cortés\" OR #enriquelaucortes OR #enriquelaucortés OR (@enriquelauc OR from:enriquelauc) OR \"Enrique Lau Cortés\" OR \"Enrique Lau Cortes\" OR \"dr. lau cortes\")",
+            "tag": "4015#0"
+        },
+        {
+            "id": "1744411262635925507",
+            "value": "(@AdaColau OR from:AdaColau OR retweets_of:AdaColau)",
+            "tag": "3459#1"
+        },
+        {
+            "id": "1744411262635925510",
+            "value": "(@saloensenyament OR from:saloensenyament OR retweets_of:saloensenyament)",
+            "tag": "2706#1"
+        },
+        {
+            "id": "1744411262635925511",
+            "value": "(@gastronomicfbcn OR from:gastronomicfbcn OR retweets_of:gastronomicfbcn)",
+            "tag": "4076#1"
+        },
+        {
+            "id": "1744411262635925514",
+            "value": "((\"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn)) (Hacked OR Disponibilitat OR Maliciós OR \"No va\" OR Caiguda OR caigudes OR caida OR Atac OR \"No funciona\" OR Disponibilidad OR \"Denegació de servei\" OR \"denegación de servicio\" OR malicioso OR ataque OR caidas OR Virus OR Malware) (\"Castellet i la Gornal\" OR \"Castellfollit de Riubregós\" OR Castellgalí OR Castellbisbal OR Castellcir OR \"Castellfollit del Boix\" OR Castellterçol OR \"Castellví de la Marca\" OR Centelles OR \"Cerdanyola del Vallès\" OR \"Castellbell i el Vilar\" OR \"Castell de l'Areny\" OR \"Castellar de n'Hug\" OR \"Castellar del Riu\" OR Castellolí OR \"Castellví de Rosanes\" OR Cercs OR Casserres OR Castelldefels OR \"Castellnou de Bages\" OR Cervelló OR Collbató OR Collsuspina OR \"Castellar del Vallès\"))  -(lang:tl)",
+            "tag": "4004#0"
+        },
+        {
+            "id": "1744411262635925515",
+            "value": "(\"chu vasquez\" OR \"Jesús Vásquez (Chú)\" OR \"Jesus Vasquez (Chu)\" OR #chuvasquez OR \"Jesús Vásquez Martínez (Chu)\" OR \"Jesús (Chú) Vásquez Martínez\" OR \"chú vasquez\" OR (@chuvasquez OR from:chuvasquez) OR \"Jesus Vasquez Martinez (Chu)\" OR \"Jesus (Chu) Vasquez Martinez\")",
+            "tag": "4112#0"
+        },
+        {
+            "id": "1744411262635925520",
+            "value": "(\"oscar gamboa zuñiga\" OR \"oscar gamboa zúñiga\" OR (@Osgazu OR from:Osgazu))",
+            "tag": "4217#0"
+        },
+        {
+            "id": "1744411262635925521",
+            "value": "(#RabatBlackAndWhite OR #RabatWatches OR #RabatBoutiques OR #RabatGoldEssentials OR #RabatBoutique OR #RabatOneOfAKind OR #RabatRedCarpet OR #RabatOasis OR (@rabatwatches OR from:rabatwatches) OR \"rabat.net/es\" OR #RabatWedding OR #RabatPreciousStones OR #RabatRainbow OR #RabatDiamonds OR (@rabatjewellery OR from:rabatjewellery) OR #RabatMagicMoments OR #RabatIbiza OR #RabatRolexEvents OR (@rabatjewelry OR from:rabatjewelry) OR #rabatrolexevents OR (@JoyeriaRabat OR from:JoyeriaRabat) OR #RabatJewelry) -(duchess OR Morocco OR capital OR motogp OR efe OR #rabatcity OR #morocco OR moto OR MotoGP OR Tito OR harry OR \"Palacio Real de RabatORsussex\" OR título OR (@rabat.cityy OR from:rabat.cityy) OR \"Diamond League\" OR morroco OR morocco OR carrera OR #rabatmorocco OR Moroccan OR terremoto OR ghali OR Marruecos OR #marruecos OR (@jordi_rabat OR from:jordi_rabat) OR \"African Games\" OR megan OR hali OR Algiers OR \"Tito Rabat\") (lang:es OR lang:ca OR lang:en OR lang:it) -(place_country:MA)",
+            "tag": "3704#1"
+        },
+        {
+            "id": "1744411262635925522",
+            "value": "(\"santiago castro gómez\" OR \"www.santiagocastro.com.co/\" OR (@SantiCastrogo OR from:SantiCastrogo) OR \"santiago castro gomez\")",
+            "tag": "4218#0"
+        },
+        {
+            "id": "1744411262635925523",
+            "value": "(@Hostelcobcn OR from:Hostelcobcn OR retweets_of:Hostelcobcn)",
+            "tag": "2751#1"
+        },
+        {
+            "id": "1744411262635925525",
+            "value": "(#equiplast OR equiplast2023 OR #rethinkingplactics OR Equiplast OR (@equiplast OR from:equiplast) OR (@equiplastbcn OR from:equiplastbcn) OR #EQUIPLAST2023 OR #rethinkingplactics23 OR ((\"rethinking plactics\" OR \"economia circular\" OR #economiacircular OR techtransfer OR #techtransfer OR \"BEST IN CLASS\" OR #bestinclass) (fira OR firabarcelona OR salón OR salon OR #firabarcelona)) OR \"equiplast.com\" OR equiplast23 OR #EQUIPLAST23 OR #protagonistasequiplast OR #rethinkingplactics2023 OR (@Equiplast OR from:Equiplast))  (lang:ca OR lang:es OR lang:en) -(place_country:AR OR place_country:BO OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:CR OR place_country:CU OR place_country:DO OR place_country:EC OR place_country:SV OR place_country:GT OR place_country:HT OR place_country:HN OR place_country:JM OR place_country:MX OR place_country:NI OR place_country:PA OR place_country:PY OR place_country:PE OR place_country:PR OR place_country:UY OR place_country:VE)",
+            "tag": "3574#0"
+        },
+        {
+            "id": "1744411262635925526",
+            "value": "(petrol umairaza tabeed umarakmal tabeedhassanniazi oscaraguilar hamza tabeedhassan #haseeb inflation lion umairkhan nyc nawazsharif janshair)  (lang:ar)",
+            "tag": "4241#0"
+        },
+        {
+            "id": "1744411262635925527",
+            "value": "(\"josé luis fábrega\" OR joseluisfabrega OR #joseluisfabrega OR \"es.wikipedia.org/wiki/Jos%C3%A9_de_F%C3%A1brega\" OR (@joseluisfabrega OR from:joseluisfabrega) OR \"jose luis fabrega\")",
+            "tag": "4021#0"
+        },
+        {
+            "id": "1744411262635925528",
+            "value": "((@sistema911_rd OR from:sistema911_rd) OR \"banco de españa\" OR abertis OR (rabat jewelry) OR volotea OR (@volotea OR from:volotea) OR #volotea OR \"banc sabadell\" OR (@bancsabadell OR from:bancsabadell) OR \"banco sabadell\" OR \"diputacio de barcelona\")",
+            "tag": "3527#0"
+        },
+        {
+            "id": "1744411262635925529",
+            "value": "((Rabat (pulseras OR #anillo OR #relojes OR #pulsera OR rubí OR #Diamante OR #Colgante OR #pendientes OR diamantes OR joyeros OR pendiente OR pulsera OR #Oro OR #colgantes OR #pulseras OR #joyería OR Diamante OR Colgante OR pendientes OR joyerías OR #boda OR #pendiente OR Oro OR Anillo OR colgantes OR Plata OR Bodas OR #diamantes OR #Bridal OR #reloj OR Joyas OR anillos OR joyería OR zafiro OR #joyerías OR reloj OR relojes OR #Joyas OR #anillos)) OR #Rabat70s) -(duchess OR Morocco OR capital OR motogp OR efe OR #rabatcity OR #morocco OR moto OR MotoGP OR Tito OR harry OR \"Palacio Real de RabatORsussex\" OR título OR (@rabat.cityy OR from:rabat.cityy) OR \"Diamond League\" OR morroco OR morocco OR carrera OR #rabatmorocco OR Moroccan OR terremoto OR ghali OR Marruecos OR #marruecos OR (@jordi_rabat OR from:jordi_rabat) OR \"African Games\" OR megan OR hali OR Algiers OR \"Tito Rabat\") (lang:es OR lang:ca OR lang:en OR lang:it) -(place_country:MA)",
+            "tag": "3704#2"
+        },
+        {
+            "id": "1744411262635925532",
+            "value": "(#martintorrijos OR #martíntorrijos OR #martíntorrijosesino OR #matintorrijosespino OR (@MartinTorrijos OR from:MartinTorrijos) OR \"martín torrijos\" OR \"martin torrijos\")",
+            "tag": "4195#0"
+        },
+        {
+            "id": "1744411262635978752",
+            "value": "(\"Crédito y Caución\" OR #creditoycaucion OR #créditoycaución OR \"creditoycaucion.es/es\" OR créditoycaución OR #BeCyC OR \"creditoycaucion.es/es/blog\" OR (@creditoycaucion OR from:creditoycaucion) OR \"Credito y Caucion\" OR \"Crédito y Caucion\" OR \"Credito y Caución\" OR creditoycaucion)",
+            "tag": "3679#0"
+        },
+        {
+            "id": "1744411262635978753",
+            "value": "(#SALOENSENYAMENT23 OR #Ensenyament OR #Ensenyament23 OR ((salo OR salón OR saló) (\"l'ensenyament\" OR ensanyament OR ensenyament)) OR ((bcn OR \"fira de barcelona\" OR barcelona OR #barcelona OR fira OR #fira OR #firadebarcelona OR barna OR #bcn) (#ensenyament OR ensenyament)) OR #SALOENSENYAMENT2023 OR #Ensenyament2023 OR (@saloensenyament OR from:saloensenyament) OR \"ensenyament.com\" OR #SALOENSENYAMENT)  (lang:ca OR lang:es)",
+            "tag": "2706#0"
+        },
+        {
+            "id": "1744411262635978754",
+            "value": "(@graphispag OR from:graphispag)  (lang:ca OR lang:es OR lang:en OR lang:fr OR lang:pt)",
+            "tag": "3399#1"
+        },
+        {
+            "id": "1744411262635978755",
+            "value": "(tabeedhassanniazi umarakmal inflation janshair #haseeb nawazsharif lion tabeed oscaraguilar petrol nyc umairaza hamza umairkhan tabeedhassan)  (lang:ar)",
+            "tag": "4241#0"
+        },
+        {
+            "id": "1744411262635978756",
+            "value": "(@Hispackbcn OR from:Hispackbcn OR retweets_of:Hispackbcn)",
+            "tag": "4077#1"
+        },
+        {
+            "id": "1744411262635978757",
+            "value": "((Rubió OR Piera OR \"Pineda de Mar\" OR \"Pobla de Claramunt\" OR Pontons OR \"Prats de Rei\" OR Rellinars OR Rubí OR \"Puig-reig\" OR Puigdàlber OR Papiol OR \"Parets del Vallès\" OR \"Prats de Lluçanès\" OR Pujalt OR Ripollet OR \"Roca del Vallès\" OR \"Pla del Penedès\" OR \"Prat de Llobregat\" OR \"Premià de Dalt\" OR Polinyà OR Rajadell OR \"Roda de Ter\" OR \"Rupit i Pruit\" OR \"Pobla deLillet\" OR \"Pont de Vilomara i Rocafort\" OR \"Premià de Mar\" OR Quar OR Perafita) ((@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba)) (\"No funciona\" OR Virus OR Maliciós OR Atac OR ataque OR \"No va\" OR Disponibilitat OR \"Denegació de servei\" OR Caiguda OR caigudes OR caida OR caidas OR Malware OR malicioso OR Hacked OR Disponibilidad OR \"denegación de servicio\"))  -(lang:tl)",
+            "tag": "4004#1"
+        },
+        {
+            "id": "1744411262635978759",
+            "value": "(#haseeb umairkhan nyc petrol oscaraguilar tabeedhassanniazi nawazsharif lion hamza tabeed umarakmal inflation janshair tabeedhassan umairaza)  (lang:ar)",
+            "tag": "4241#0"
+        },
+        {
+            "id": "1744411262635978760",
+            "value": "\"ada colau\"  (lang:es)",
+            "tag": "3459#0"
+        },
+        {
+            "id": "1744411262635978761",
+            "value": "(@creditoycaucion OR from:creditoycaucion OR retweets_of:creditoycaucion)",
+            "tag": "3679#1"
+        },
+        {
+            "id": "1744411262635978763",
+            "value": "((\"caja del seguro social\" panama) OR (panama css) OR (css (@enriquelauc OR from:enriquelauc)) OR #cajadelsegurosocialdepanama OR (\"caja de seguro social\" panameña) OR (\"caja del seguo social\" \"enrique lau\") OR (\"caja de seguro social\" panameñas) OR (\"caja de seguro social\" \"enrique lau\") OR (\"caja de seguro social\" panama) OR (panamá \"caja del seguro social\") OR (css \"enrique lau\") OR ((\"caja de seguro social\" OR #cajadesegurosocial) (#panama OR panamá OR #panamá OR #tiktokpanama OR #tiktokpanamá)) OR #cajadesegurosocialpanama OR #rendiciondecuentascss OR (css panamá) OR #cajadesegurosocialpanamá OR (@CSSPanama OR from:CSSPanama) OR (\"caja de seguro social\" panamá) OR #rendicióndecuentascss OR (\"caja de seguro social\" (@enriquelauc OR from:enriquelauc)) OR (\"caja del seguro social\" (@enriquelauc OR from:enriquelauc)) OR #cajadelsegurosocialdepanamá OR (\"caja de seguro social\" panameños) OR (panameño \"caja de seguro social\") OR #csspanama OR \"w3.css.gob.pa/\")",
+            "tag": "4014#0"
+        },
+        {
+            "id": "1744411262635978764",
+            "value": "(#mecce2023 OR (@expoquimia OR from:expoquimia) OR expoquimia OR #mecce23 OR #expoquimia2023 OR \"Mediterranean Congress of Chemical Engineering\" OR \"Mediterranean Congress Chemical Engineering\" OR \"Smart Chemistry Smart Future\" OR #SCSF23 OR expoquimia2023 OR \"mecce.org\" OR \"smartchemistry.net\" OR #SCSF2023 OR expoquimia23 OR #protagonistasexpoquimia OR ((fira OR firabarcelona OR salón OR salon OR #firabarcelona) (#techtransfer OR \"BEST IN CLASS\" OR #bestinclass OR \"economia circular\" OR #economiacircular OR techtransfer)) OR #expoquimia OR \"expoquimia.com\" OR #expoquimia23)  (lang:en OR lang:es OR lang:ca)",
+            "tag": "3573#0"
+        },
+        {
+            "id": "1744411262635978766",
+            "value": "(hispackbcn OR \"hispack.com\" OR (@Hispack OR from:Hispack) OR #hispack OR ((etiqueta OR packaging OR envasado OR etiquetado OR máquina OR envases OR empaquetado OR logistica OR container OR empaque OR logística OR embalaje OR maquina) (\"salón barcelona\" OR \"salon barcelona\" OR \"fira de barcelona\" OR \"feria de barcelona\" OR \"feria barcelona\" OR \"fira barcelona\" OR firabarcelona)) OR ((#industrialpackaging OR #packagingmachinery OR #logisticsautomation OR #brandpackaging OR #labelling&bottling) (#firabarcelona OR (@Fira_Barcelona OR from:Fira_Barcelona) OR barcelona OR fira OR \"fira barcelona\")) OR (@Hispackbcn OR from:Hispackbcn) OR hispack OR #QuedamosEnHispack OR #Hispack22 OR #hispackbarcelona OR #hispack2022)",
+            "tag": "4077#0"
+        },
+        {
+            "id": "1744411262635978767",
+            "value": "(#construmat2023 OR #bbconstrumat OR #construmat22 OR #construmat2022 OR (@ConstrumatBCN OR from:ConstrumatBCN) OR \"construmat.com\" OR #Construmat OR bbconstrumat OR construmat OR construmatbcn)  (lang:ca OR lang:en OR lang:es)",
+            "tag": "3418#0"
+        },
+        {
+            "id": "1744411262635978768",
+            "value": "((@gastronomicfbcn OR from:gastronomicfbcn) OR #barcelonagastronomicforum OR #GastronomicForum OR #GastronomicForumBarcelona OR #GFB2022 OR \"Gastronomic Forum Barcelona\" OR \"Barcelona Gastronomic Forum\" OR \"gastronomic forum bcn\" OR \"gastronomicforumbarcelona.com\")  (lang:en OR lang:es OR lang:ca OR lang:eu)",
+            "tag": "4076#0"
+        },
+        {
+            "id": "1744411262635978769",
+            "value": "(@expoquimia OR from:expoquimia OR retweets_of:expoquimia)",
+            "tag": "3573#1"
+        },
+        {
+            "id": "1744411262635978770",
+            "value": "(bbconstrumat OR construmat OR (@ConstrumatBCN OR from:ConstrumatBCN) OR #Construmat OR #construmat22 OR #construmat2022 OR #construmat2023 OR construmatbcn OR \"construmat.com\" OR #bbconstrumat)  (lang:ca OR lang:en OR lang:es)",
+            "tag": "3418#0"
+        },
+        {
+            "id": "1744411262635978771",
+            "value": "((\"Sant Feliu de Llobregat\" OR \"Sant Julià de Vilatorta\" OR \"Sant Just Desvern\" OR \"Sant Llorenç Savall\" OR \"Sant Feliu Sasserra\" OR \"Sant Fruitós de Bages\" OR \"Sant Jaume de Frontanyà\" OR \"Sant Joan Despí\" OR \"Sant Llorenç d'Hortons\" OR \"Sant Fost de Campsentelles\" OR \"Sant Hipòlit de Voltregà\" OR \"Sant Joan de Vilatorrada\" OR \"Sant Iscle de Vallalta\" OR \"Sant Julià de Cerdanyola\") (\"Diputación de Barcelona\" OR \"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn)) (caidas OR Maliciós OR ataque OR \"No va\" OR Disponibilitat OR Caiguda OR caida OR Atac OR \"Denegació de servei\" OR Disponibilidad OR Malware OR malicioso OR Hacked OR \"No funciona\" OR \"denegación de servicio\" OR caigudes OR Virus))  -(lang:tl)",
+            "tag": "4004#2"
+        },
+        {
+            "id": "1744411262635978774",
+            "value": "(((\"estee lauder\" OR clinique OR \"mac cosmetics\" OR \"bobbi brown\" OR #Bobbiebrowncosmetics OR #maccosmetics OR (@EsteeLauder OR from:EsteeLauder) OR #esteelauder OR (@clinique OR from:clinique) OR (@MACcosmetics OR from:MACcosmetics) OR #clinique) (mx OR mexico OR méxico OR mexicana OR mexicanas OR mexicano OR mexicanos)) OR #esteelaudermx OR #cliniquemexico OR #cliniquemx OR #maccosmeticsmexico OR #bobbibrownméxico OR #maccosmeticsmx OR \"www.clinique.com.mx\" OR \"www.maccosmetics.com.mx/\" OR (@CliniqueMexico OR from:CliniqueMexico) OR #esteelauderméxico OR #maccosmeticsméxico OR #maccosmeticosméxico)   -(place_country:AR OR place_country:BO OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:CR OR place_country:DO OR place_country:EC OR place_country:SV OR place_country:GT OR place_country:HN OR place_country:JM OR place_country:NI OR place_country:PA OR place_country:PY OR place_country:PE OR place_country:PR OR place_country:UY OR place_country:ES OR place_country:US)",
+            "tag": "4254#0"
+        },
+        {
+            "id": "1744411262635978775",
+            "value": "(@Equiplast OR from:Equiplast OR retweets_of:Equiplast)",
+            "tag": "3574#1"
+        },
+        {
+            "id": "1744411262635978776",
+            "value": "(@MartinTorrijos OR from:MartinTorrijos OR retweets_of:MartinTorrijos)",
+            "tag": "4195#1"
+        },
+        {
+            "id": "1744411262635978777",
+            "value": "(\"william andres cruz\" OR \"william andrés cruz\" OR \"williamandrescruz.com\" OR (@WilliamAndrsCr1 OR from:WilliamAndrsCr1))",
+            "tag": "4229#0"
+        },
+        {
+            "id": "1744411262635978778",
+            "value": "((\"Diputación de BCN\" OR \"Diputació de BCN\" OR \"Diputació de Barcelona\" OR Diba OR (@diba OR from:diba) OR (@dipubcn OR from:dipubcn) OR \"Diputación de Barcelona\") (Maliciós OR Hacked OR \"No va\" OR Disponibilitat OR \"Denegació de servei\" OR \"denegación de servicio\" OR caidas OR Virus OR ataque OR Disponibilidad OR caigudes OR caida OR Malware OR malicioso OR Atac OR \"No funciona\" OR Caiguda) (\"Castellnou de Bages\" OR \"Cerdanyola del Vallès\" OR Cervelló OR \"Castell de l'Areny\" OR Castellcir OR \"Castellfollit del Boix\" OR \"Castellfollit de Riubregós\" OR Castellolí OR Castellterçol OR \"Castellví de la Marca\" OR \"Castellví de Rosanes\" OR \"Castellar del Riu\" OR \"Castellbell i el Vilar\" OR Castellbisbal OR Castelldefels OR \"Castellet i la Gornal\" OR Centelles OR Castellgalí OR Cercs OR Collbató OR Collsuspina OR Casserres OR \"Castellar de n'Hug\" OR \"Castellar del Vallès\"))  -(lang:tl)",
+            "tag": "4004#13"
+        },
+        {
+            "id": "1744411262635978780",
+            "value": "(Hostelco OR Hostelcobcn OR #HostelcoLiveHotel OR (@Hostelcobcn OR from:Hostelcobcn) OR #hostelco OR #HOSTELCO23 OR \"hostelco.com\" OR (@hostelco OR from:hostelco) OR #hostelcostories OR #hostelcobcn OR #Hostelco OR #HOSTELCO2023 OR #HostelcoSpeakersCorner OR #hostelcoawards OR #TheExperienceLiveGastronomy)  (lang:ca OR lang:es OR lang:en)",
+            "tag": "2751#0"
+        },
+        {
+            "id": "1744411262635978781",
+            "value": "(#OrgulloServiestiba OR #ServiestibaContigo OR Serviestiba OR \"servi estiva, s.a.\" OR #Serviestiba OR #TalentoServiestiva OR \"serviestibasa.com\" OR (@serviestibasa OR from:serviestibasa) OR \"Serviestiba, S. A.\" OR #Serviestibasa OR #FamiliaServiestiba)",
+            "tag": "4105#0"
+        },
+        {
+            "id": "1744411262635978782",
+            "value": "(@graphispag OR from:graphispag OR retweets_of:graphispag)",
+            "tag": "3399#2"
+        },
+        {
+            "id": "1744411262635978783",
+            "value": "(\"César González Bueno\" OR (\"Marco Soto\" \"Banco Sabadell\") OR ((\"Francisco Javier Lira Mariel\" OR \"Francisco Lira\") \"Banco Sabadell\") OR (\"Francisco Javier Palacos Izquierdo\" \"Banco Sabadell\") OR \"Cesar Gonzalez-Bueno\" OR ((\"Federico Santos Cernuda\" OR \"Federico Santos\") \"Banco Sabadell\") OR \"Francesc Noguera\" OR (\"Banco Sabadell\" (\"Jaime Ulloa\" OR \"Ignacio Zubiria Maqueo\" OR \"Marta Sabina\" OR \"ignacio barroso\" OR \"Pablo Figueroa\")) OR (\"Banco Sabadell\" (\"Ignacio Jesús Zubira Maqueo\" OR \"Ignacio Jesus Zubira Maqueo\" OR \"Ignacio Zubira\")) OR \"Fernando Boza\" OR (\"Emmanuel Got\" \"Banco Sabadell\") OR \"Fernando Jesus Boza\" OR (\"Banco Sabadell\" (\"Jose Manuel Val\" OR \"René Nosti  Gomez\" OR \"Baltazar Ortiz Meza\" OR \"David Maria Romero\")) OR (\"Banco Sabadell\" (\"GARCIA ZEPEDA LUIS FERNANDO\" OR \"Luis Garcia\")) OR (\"Banco Sabadell\" (\"Francisco Javier Palacios Izquierdo\" OR \"Francisco Palacios\")) OR \"César González-Bueno\" OR (\"Ignacio Jesús Barroso\" \"Ignacio Barroso\" \"Banco Sabadell\"))  (lang:es)",
+            "tag": "3472#0"
+        },
+        {
+            "id": "1747285285711327232",
+            "value": "(#bbvabancomer OR #AhoraSomosBBVA OR #bbvamexico OR #bbvamx OR Bancomer OR (((@bbva OR from:bbva) OR #bbva OR bbva) (mexico OR mexicana OR mexicanas OR mx OR méxico OR mexicano OR mexicanos OR #mexico OR #méxico)) OR #bancomer OR #bbvaméxico OR \"www.bbva.mx\" OR (@BBVA_Mex OR from:BBVA_Mex)) -(\"Cha Eun Woo\" OR (@CHAEUNWOO_offcl OR from:CHAEUNWOO_offcl))  (place_country:MX)",
+            "tag": "3509#0"
+        },
+        {
+            "id": "1747285285711327233",
+            "value": "(@BBVARe_mx OR from:BBVARe_mx OR retweets_of:BBVARe_mx OR to:BBVARe_mx) OR (@BBVA_Mex OR from:BBVA_Mex OR retweets_of:BBVA_Mex OR to:BBVA_Mex)",
+            "tag": "3509#1"
+        },
+        {
+            "id": "1752347978684084224",
+            "value": "(\"dilian toro\" OR \"dilian francisca toro\" OR \"www.dilianfranciscatoro.com/\" OR (@DilianFrancisca OR from:DilianFrancisca))",
+            "tag": "4215#0"
+        },
+        {
+            "id": "1752347978684084225",
+            "value": "(@DilianFrancisca OR from:DilianFrancisca OR retweets_of:DilianFrancisca OR to:DilianFrancisca)",
+            "tag": "4215#1"
+        },
+        {
+            "id": "1754445142545604608",
+            "value": "(#MeBajoDeMapfre OR #yomevoydemapfre OR ((ladrones OR estafa) (allianz OR \"catalana occidente\" OR occident OR axa OR mutua OR mapfre OR mafre)) OR ((\"me voy\" OR \"me largo\" OR \"me piro\") (mapfre OR mafre OR allianz OR \"catalana occidente\" OR occident OR axa OR mutua))) -(partido OR parque OR arena OR milei) (lang:es OR lang:ca) -(place_country:AR OR place_country:BO OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:CR OR place_country:CU OR place_country:DO OR place_country:EC OR place_country:SV OR place_country:GT OR place_country:HT OR place_country:HN OR place_country:JM OR place_country:MX OR place_country:NI OR place_country:PA OR place_country:PY OR place_country:PE OR place_country:PR OR place_country:UY OR place_country:VE)",
+            "tag": "4261#0"
+        },
+        {
+            "id": "1755505754075750400",
+            "value": "((hacendado OR mercadona OR #hacendado OR #mercadona OR (@Mercadona OR from:Mercadona)) (gatita OR perros OR mascote OR Can OR pienso OR perra OR gato OR perrita OR premio OR gatos OR gatitos OR perro OR #comidaparaperros OR gates OR gosses OR croquetas OR #alimentosparaperros OR perritas OR gos OR cadell OR cadells OR comida OR animal OR #comidaparagatos OR gatito OR perrito OR gat OR cadeliño OR pinso OR mascota OR perras OR perritos OR cachorro OR mascotas OR gats OR cans OR gossos OR gossa OR snacks OR gatitas OR cachorros OR cachorritos OR cadeliña OR snack OR animales OR cachorrito OR mascotes OR croqueta OR chuches OR #alimentosparagatos)) -((@compy.pe OR from:compy.pe) OR \"United Food Bank\" OR #piensoenti OR maquillaje OR \"tratamientos faciales\" OR contains:crema OR restauración OR \"compi de piso\" OR pensamiento OR #pensamiento OR tractores OR agricultores) (lang:en OR lang:ca OR lang:es OR lang:pt)",
+            "tag": "2428#2"
+        },
+        {
+            "id": "1755505754075750401",
+            "value": "(@UnitedPetfoodSp OR from:UnitedPetfoodSp OR retweets_of:UnitedPetfoodSp OR to:UnitedPetfoodSp)",
+            "tag": "2428#4"
+        },
+        {
+            "id": "1755505754075750402",
+            "value": "(\"Compy Cachorros\" OR \"Dominiek Dumoulin\" OR ((compy OR #compy) (bynsa OR #bynsa OR gatos OR #comida OR supreme OR #mercadona OR perro OR perros OR \"united petfood\" OR #unitedpetfood OR aritos OR gato OR Pienso OR #pienso OR mercadona OR comida)) OR (@compylife OR from:compylife) OR \"unitedpetfood.es\" OR (@UnitedPetfoodSp OR from:UnitedPetfoodSp) OR #unitedpetfood OR #grupobynsa OR \"Dries Eeckhout\" OR \"Compy Adultos\" OR \"Compy Senior\" OR (@mascotassaludables OR from:mascotassaludables)) -((@compy.pe OR from:compy.pe) OR \"United Food Bank\" OR #piensoenti OR maquillaje OR \"tratamientos faciales\" OR contains:crema OR restauración OR \"compi de piso\" OR pensamiento OR #pensamiento OR tractores OR agricultores) (lang:en OR lang:ca OR lang:es OR lang:pt)",
+            "tag": "2428#0"
+        },
+        {
+            "id": "1755505754075750403",
+            "value": "((UnitedPetfood OR \"United Petfood Spain\" OR \"grupo binsa\" OR hacendaño OR bynsa OR binsa OR #compy OR (@compy OR from:compy) OR \"grupo bynsa\" OR #compysupreme OR compy) (alimento OR pinso OR perrito OR cachorrinhos OR gossos OR gat OR mascotes OR \"OR felino\" OR gatito OR gatita OR cachorros OR gates OR gatinhos OR \"felinos comida\" OR pienso OR gatos OR gatitos OR perrita OR cachorrinho OR gosses OR gatitas OR mascote OR perritas OR mascotas OR cans OR chuches OR perra OR gatinho OR croqueta OR snacks OR gos OR cadell OR premio OR cachorritos OR alimentos OR croquetas OR perritos OR cachorrito OR Can OR cadeliño OR alimentación OR mascota OR cadeliña OR gato OR perras OR cachorro OR cadells OR gossa OR snack OR perro OR perros OR gats)) -((@compy.pe OR from:compy.pe) OR \"United Food Bank\" OR #piensoenti OR maquillaje OR \"tratamientos faciales\" OR contains:crema OR restauración OR \"compi de piso\" OR pensamiento OR #pensamiento OR tractores OR agricultores) (lang:en OR lang:ca OR lang:es OR lang:pt)",
+            "tag": "2428#1"
+        },
+        {
+            "id": "1755505754075750404",
+            "value": "(((#hacendado OR compy OR \"united petfood\" OR #unitedpetfood OR bynsa OR binsa OR hacendado OR #compy OR mercadona OR #mercadona) (Cao OR cadelas OR cãozinho OR cãezinhos OR cachorrinhas OR cão OR cadelinha OR cadelinhas OR cachorrinho OR cachorrinhos OR cadela OR caes OR cães OR cachorrinha)) OR ((\"jorge redrado\" OR \"virginia pérez\" OR \"gerardo nieto\" OR \"elena lalinde\" OR \"virginia perez\" OR \"begoña fuik\" OR \"roger mohr\" OR \"Pilar Aguado\" OR \"Jorge Fernández Ferrer\" OR \"Henri Verschelde\" OR \"begoña fuika\" OR \"isabel castellanos\" OR \"roger more\") (binsa OR bimsa OR biologia OR biología OR \"united petfood\" OR unitedpetfood OR bymsa OR bynsa))) -((@compy.pe OR from:compy.pe) OR \"United Food Bank\" OR #piensoenti OR maquillaje OR \"tratamientos faciales\" OR contains:crema OR restauración OR \"compi de piso\" OR pensamiento OR #pensamiento OR tractores OR agricultores) (lang:en OR lang:ca OR lang:es OR lang:pt)",
+            "tag": "2428#3"
+        },
+        {
+            "id": "1756003867156738048",
+            "value": "(@EdisonBroce OR from:EdisonBroce OR retweets_of:EdisonBroce OR to:EdisonBroce)",
+            "tag": "4266#1"
+        },
+        {
+            "id": "1756003867156738049",
+            "value": "(#EdisonBroce OR \"Edison Broce\" OR \"https://www.edisonbroce.com/alcalde/\")",
+            "tag": "4266#0"
+        },
+        {
+            "id": "1756005761438633984",
+            "value": "(@WillieBermudezR OR from:WillieBermudezR OR retweets_of:WillieBermudezR OR to:WillieBermudezR)",
+            "tag": "4267#1"
+        },
+        {
+            "id": "1756005761438633985",
+            "value": "(\"Guillermo (Willie) Bermúdez\" OR \"willie bermudez\" OR \"willie bermúdez\" OR \"https://www.jcdonbosco.com/\" OR #williebermudez OR #williebermúdez)",
+            "tag": "4267#0"
+        },
+        {
+            "id": "1756007544785395712",
+            "value": "(\"Mayer Mizrachi\" OR #mayermizrachi)",
+            "tag": "4268#0"
+        },
+        {
+            "id": "1756007544785395713",
+            "value": "(@Mayer OR from:Mayer OR retweets_of:Mayer OR to:Mayer)",
+            "tag": "4268#1"
+        },
+        {
+            "id": "1756010240884043777",
+            "value": "(#melitonarrocha OR #melitónarrocha OR \"meliton arrocha\" OR \"melitón arrocha\" OR (@melitonarrocha OR from:melitonarrocha))",
+            "tag": "4172#0"
+        },
+        {
+            "id": "1756010240884043778",
+            "value": "(@melitonarrocha OR from:melitonarrocha OR retweets_of:melitonarrocha OR to:melitonarrocha)",
+            "tag": "4172#1"
+        },
+        {
+            "id": "1756011604456390656",
+            "value": "(#ricardolombana OR \"Ricardo Lombana\" OR \"https://otrocamino.org/\")",
+            "tag": "4269#0"
+        },
+        {
+            "id": "1756011604456390657",
+            "value": "(@RicardoLombanaG OR from:RicardoLombanaG OR retweets_of:RicardoLombanaG OR to:RicardoLombanaG)",
+            "tag": "4269#1"
+        },
+        {
+            "id": "1756012883660406784",
+            "value": "(\"https://www.zulayrodriguez.com/\" OR #zulayrodriguez OR \"Zulay Rodríguez\" OR \"Zulay Rodriguez\")",
+            "tag": "4270#0"
+        },
+        {
+            "id": "1756012883660406785",
+            "value": "(@ZulayRL OR from:ZulayRL OR retweets_of:ZulayRL OR to:ZulayRL)",
+            "tag": "4270#1"
+        },
+        {
+            "id": "1756016691371257857",
+            "value": "(@NitoCortizo OR from:NitoCortizo OR retweets_of:NitoCortizo OR to:NitoCortizo)",
+            "tag": "4272#1"
+        },
+        {
+            "id": "1756016691371257858",
+            "value": "(\"Nito Cortizo\" OR \"Laurentino 'Nito' Cortizo\" OR (@NitoCortizo OR from:NitoCortizo) OR #nitocortizo OR \"Laurentino Cortizo\")",
+            "tag": "4272#0"
+        },
+        {
+            "id": "1756019769570975744",
+            "value": "(\"José Gabriel Carrizo\" OR \"Jose Gabriel Carrizo\" OR \"gaby carrizo\" OR #josegabrielcarrizo OR #joségabrielcarrizo OR #gabycarrizo OR (@gabycarrizoj OR from:gabycarrizoj))",
+            "tag": "4194#0"
+        },
+        {
+            "id": "1756019769570975745",
+            "value": "(@gabycarrizoj OR from:gabycarrizoj OR retweets_of:gabycarrizoj OR to:gabycarrizoj)",
+            "tag": "4194#1"
+        },
+        {
+            "id": "1757367955157913600",
+            "value": "(#segurosoccident OR SummerfestC OR \"Occident summerfest\" OR #NosUnimos OR #SomosOccident OR #Catalanaoccident OR segurosoccident OR #OccidentSeguros OR (#occident (seguros OR somos OR seguro)) OR #Occident) -(occidente OR russia OR moscú OR SION OR argentina OR siria OR ucrania OR comunista OR oriente OR colombia OR chile OR russe OR cuaresma OR cuba OR #oriente OR \"l'1-O\" OR kiev OR EEUU OR imperio OR \"l'occident\" OR inmigración OR dictadores OR \"1-O\" OR Rússia OR putin OR russie OR méxico OR \"d'occident\" OR \"isla cristina\" OR OMS OR puigdemont OR uribe OR venezuela OR CIA OR romano OR ayamonte OR comunismo OR anticomunista OR guerra OR persia OR decadentismo OR civilització OR dictador OR xina OR immigració OR dictadura OR dictaduras OR #cuba OR CHINE OR \"l\\'occident\" OR Ucraïna OR \"bomba atómica\" OR #putin OR amlo OR japón OR moscou OR imperi OR zelenski OR decadentisme OR orient OR cartaya OR inmigració OR rusia OR iran OR ucraina) (lang:es OR lang:ca OR lang:eu OR lang:gl) -(place_country:FR)",
+            "tag": "4182#0"
+        },
+        {
+            "id": "1757367955157913601",
+            "value": "((@StarliteOcc OR from:StarliteOcc) OR ((Occident OR Occidente) (seguros OR assegurança OR starlite OR aseguradora OR assegurances)) OR summerfest OR #SeremosOccident OR #occidedentsummerfest24 OR starlite) -(occidente OR russia OR moscú OR SION OR argentina OR siria OR ucrania OR comunista OR oriente OR colombia OR chile OR russe OR cuaresma OR cuba OR #oriente OR \"l'1-O\" OR kiev OR EEUU OR imperio OR \"l'occident\" OR inmigración OR dictadores OR \"1-O\" OR Rússia OR putin OR russie OR méxico OR \"d'occident\" OR \"isla cristina\" OR OMS OR puigdemont OR uribe OR venezuela OR CIA OR romano OR ayamonte OR comunismo OR anticomunista OR guerra OR persia OR decadentismo OR civilització OR dictador OR xina OR immigració OR dictadura OR dictaduras OR #cuba OR CHINE OR \"l\\'occident\" OR Ucraïna OR \"bomba atómica\" OR #putin OR amlo OR japón OR moscou OR imperi OR zelenski OR decadentisme OR orient OR cartaya OR inmigració OR rusia OR iran OR ucraina) (lang:es OR lang:ca OR lang:eu OR lang:gl) -(place_country:FR)",
+            "tag": "4182#1"
+        },
+        {
+            "id": "1757367955157913602",
+            "value": "(@OccidentSeguros OR from:OccidentSeguros OR retweets_of:OccidentSeguros OR to:OccidentSeguros)",
+            "tag": "4182#4"
+        },
+        {
+            "id": "1757367955157913603",
+            "value": "(@OccidentSeguros OR from:OccidentSeguros) -(occidente OR russia OR moscú OR SION OR argentina OR siria OR ucrania OR comunista OR oriente OR colombia OR chile OR russe OR cuaresma OR cuba OR #oriente OR \"l'1-O\" OR kiev OR EEUU OR imperio OR \"l'occident\" OR inmigración OR dictadores OR \"1-O\" OR Rússia OR putin OR russie OR méxico OR \"d'occident\" OR \"isla cristina\" OR OMS OR puigdemont OR uribe OR venezuela OR CIA OR romano OR ayamonte OR comunismo OR anticomunista OR guerra OR persia OR decadentismo OR civilització OR dictador OR xina OR immigració OR dictadura OR dictaduras OR #cuba OR CHINE OR \"l\\'occident\" OR Ucraïna OR \"bomba atómica\" OR #putin OR amlo OR japón OR moscou OR imperi OR zelenski OR decadentisme OR orient OR cartaya OR inmigració OR rusia OR iran OR ucraina) (lang:es OR lang:ca OR lang:eu OR lang:gl) -(place_country:FR)",
+            "tag": "4182#3"
+        },
+        {
+            "id": "1757367955157913604",
+            "value": "(#Christmasbystarlite OR #starliteoccident OR ((@occidentseguros_ OR from:occidentseguros_) StarliteFestival) OR occidentseguros OR #occidentSummerfest OR #occidentSummerfestcerdanya) -(occidente OR russia OR moscú OR SION OR argentina OR siria OR ucrania OR comunista OR oriente OR colombia OR chile OR russe OR cuaresma OR cuba OR #oriente OR \"l'1-O\" OR kiev OR EEUU OR imperio OR \"l'occident\" OR inmigración OR dictadores OR \"1-O\" OR Rússia OR putin OR russie OR méxico OR \"d'occident\" OR \"isla cristina\" OR OMS OR puigdemont OR uribe OR venezuela OR CIA OR romano OR ayamonte OR comunismo OR anticomunista OR guerra OR persia OR decadentismo OR civilització OR dictador OR xina OR immigració OR dictadura OR dictaduras OR #cuba OR CHINE OR \"l\\'occident\" OR Ucraïna OR \"bomba atómica\" OR #putin OR amlo OR japón OR moscou OR imperi OR zelenski OR decadentisme OR orient OR cartaya OR inmigració OR rusia OR iran OR ucraina) (lang:es OR lang:ca OR lang:eu OR lang:gl) -(place_country:FR)",
+            "tag": "4182#2"
+        },
+        {
+            "id": "1757370484021190657",
+            "value": "(#BecasJS#InvestigaciónJS OR #esquíjs OR \"fundacion jesus serra\" OR \"fundació jesús serra\" OR #FundaciónJesúsSerra OR \"Xpress Tennis Cup\" OR (@fundacionoccident OR from:fundacionoccident) OR \"fundacio jesus serra\" OR \"fundació occident\" OR \"fundación jesús serra\" OR #fundacionjesusserra OR (\"Nacho Gallardo Bravo\" \"Federico Halpern\" \"Laura Halpern\" \"Jesús Serra Santamans\" \"Ignacio Gallardo\") OR \"fundació jesus serra\" OR \"fundación occident\" OR \"fundacionjesusserra.org\" OR #PianosBilbao OR #xpresstenniscup OR #fundaciónoccident OR #PianosBCN OR #PianosMadrid OR FundacionOccident OR #PremiosInvestigaciónJS OR #BecasJS OR #FundacionOccident OR \"fundacion occident\" OR #fundacionoccident OR (@Fund_Occident OR from:Fund_Occident))",
+            "tag": "3678#0"
+        },
+        {
+            "id": "1757370484021190658",
+            "value": "(@Fund_Occident OR from:Fund_Occident OR retweets_of:Fund_Occident OR to:Fund_Occident)",
+            "tag": "3678#1"
+        },
+        {
+            "id": "1757470763295055872",
+            "value": "(#FiorellaMolinelli OR \"Fiorella Molinelli\")",
+            "tag": "4273#0"
+        },
+        {
+            "id": "1757470763295055873",
+            "value": "(@FioreMolinelli OR from:FioreMolinelli OR retweets_of:FioreMolinelli OR to:FioreMolinelli)",
+            "tag": "4273#1"
+        },
+        {
+            "id": "1757864215384084480",
+            "value": "(@BancoDeEspana OR from:BancoDeEspana OR retweets_of:BancoDeEspana OR to:BancoDeEspana)",
+            "tag": "3990#1"
+        },
+        {
+            "id": "1757864215384084481",
+            "value": "(\"Pablo Hernández de Cos\" OR \"banco de españa\" OR \"bank of spain\" OR \"banco de espana\" OR \"bde.es\" OR (@BancoDeEspana OR from:BancoDeEspana) OR #bancodeespaña OR #bancodeespana OR \"banc d'espanya\" OR \"espainiako bankua\" OR \"Spanish central bank\" OR \"central bank of Spain\") -(\"un banco de españa\")",
+            "tag": "3990#0"
+        },
+        {
+            "id": "1758039826027216896",
+            "value": "((@nil_lopez_matadepera/ OR from:nil_lopez_matadepera/) OR \"Recinte de Mundet\" OR \"CMU Ramon Llull\" OR ((\"arxiu historic\" OR \"arxiu històric\") maternitat) OR (@manisparatodos OR from:manisparatodos) OR (@LaBonne_CCDFB OR from:LaBonne_CCDFB) OR (@sindillar OR from:sindillar) OR \"fundacio surt\") -(jugadoras OR palestina OR palestino OR israel OR fútbol OR futbol OR jugadores) (lang:es OR lang:ca)",
+            "tag": "4240#3"
+        },
+        {
+            "id": "1758039826027216897",
+            "value": "(((@ConsellLaXarxa OR from:ConsellLaXarxa) OR XAL OR \"Conselleria de Sanitat\" OR \"Agencia catalana de noticies\" OR \"Xarxa Audiovisual Local\" OR \"cat salut\" OR \"COM RADIO\" OR \"Consell Professional de la Xal\" OR \"Organisme de Gestio Tributaria\" OR \"Organisme de gestió tributaria\" OR \"Recinte Maternitat\" OR \"Travessera de les Corts 131\" OR CatSalut) (protestants OR envaït OR congregado OR congregat OR concentració OR multitud OR barricada OR vaga OR manifiestan OR \"salido a la calle\" OR congregació OR aglomeración OR altercat OR huelga OR manifestació OR manifesten OR asamblea OR manifestación OR protesta OR marcha OR marxa OR aglomeració OR mobilització OR piquet OR assemblea OR protestantes OR milers OR congregaran OR cientos OR piquete OR movilización OR invadido OR congregarán OR centenars OR altercados OR \"sortit al carrer\" OR multitut OR miles)) -(jugadoras OR palestina OR palestino OR israel OR fútbol OR futbol OR jugadores) (lang:es OR lang:ca)",
+            "tag": "4240#4"
+        },
+        {
+            "id": "1758039826027216898",
+            "value": "(((barcelona OR #barcelona) (concentracio OR manifestación OR mobilització OR protestar OR manifestacion OR movilizarse OR concentrado OR manifestacio OR huelga OR vaga OR altercat OR barricada OR protestat OR piquete OR manifestarse OR mobilitzacio OR manifestat OR \"manifestar-se\" OR concentracion OR altercado OR movilización OR movilizado OR manifestar OR manifestado OR piquet OR movilizacion OR mobilitzat OR \"mobilitzar-se\" OR protestado OR concentrat OR concentración OR manifestació OR concentració OR protesta)) OR (@Fundacio_Surt OR from:Fundacio_Surt) OR \"Genera Associació\" OR (@lasGenera OR from:lasGenera) OR \"Palau de les Heures\" OR \"Palestina AND Barcelona\" OR (@StMiqueldelFai OR from:StMiqueldelFai) OR \"Institut del Teatre\" OR \"Nou de la Rambla\" OR \"escola industrial\" OR ((consorcio OR consorci) mmb) OR (@ItAssemblea OR from:ItAssemblea) OR (@museumaritim OR from:museumaritim)) -(jugadoras OR palestina OR palestino OR israel OR fútbol OR futbol OR jugadores) (lang:es OR lang:ca)",
+            "tag": "4240#2"
+        },
+        {
+            "id": "1758039826027216899",
+            "value": "((Respir (\"manifestar-se\" OR recalificació OR barricada OR manifestat OR manifestado OR protestar OR concentrat OR concentracion OR vaga OR mobilitzacio OR piquete OR concentrado OR mundet OR manifestación OR concentració OR huelga OR altercat OR protesta OR reclasificacio OR concentración OR manifestació OR \"mobilitzar-se\" OR altercado OR movilización OR movilizarse OR manifestacio OR concentracio OR mobilitzat OR mobilització OR manifestarse OR protestat OR manifestacion OR movilizacion OR movilizado OR piquet OR manifestar OR protestado)) OR ((diba OR diputació OR (@diba OR from:diba)) (\"la mola\" OR #lamola)) OR (@santmiqueldelfai OR from:santmiqueldelfai) OR ((espai OR espacio OR biblioteca OR lainsolita OR sindillar) (\"la bonne\" OR #labonne OR \"francesca bonnemaison\" OR labonne)) OR (palau (güell OR guell)) OR #sanmiqueldelfai OR ((edifici OR edificio) \"can serra\") OR \"Sant Miquel del Fai\") -(jugadoras OR palestina OR palestino OR israel OR fútbol OR futbol OR jugadores) (lang:es OR lang:ca)",
+            "tag": "4240#1"
+        },
+        {
+            "id": "1758039826027216900",
+            "value": "((ORGT (victimas OR arrestados OR \"blanqueo de capital\" OR assetjament OR concentració OR manifestació OR PAH OR protestes OR detenciones OR \"il.legal\" OR mobbing OR escrache OR protestas OR víctimes OR detenido OR detenidos OR ladrón OR coaccion OR \"Plataforma Afectats Hipoteca\" OR acusació OR illegales OR ladrones OR detinguts OR desahucio OR manifestación OR protesta OR víctima OR arrestado OR robar OR robados OR robatori OR acoso OR acusacions OR lladres OR robado OR acusación OR contractar OR coaccio OR contratacio OR detingut OR abuso OR concentracio OR coacción OR desnonament OR escarni)) OR (@sumatmatadepera OR from:sumatmatadepera) OR ((\"Escuela Industrial\" OR \"Escola Industrial\") (paranimf OR paraninfo)) OR (@abus_art OR from:abus_art) OR ((\"Facultat de Psicologia\" OR \"Facultat de Pedagogia\" OR Arboç OR Pins OR Ginesta OR \"El Pensador\" OR \"Universitat de Barcelona\" OR UB) mundet)) -(jugadoras OR palestina OR palestino OR israel OR fútbol OR futbol OR jugadores) (lang:es OR lang:ca)",
+            "tag": "4240#0"
+        },
+        {
+            "id": "1758039826027216901",
+            "value": "(\"Llars Mundet\" OR #miqueldelfai OR ((biblioteques OR bibliotecas) (Diputació OR diba OR barcelona)) OR \"Edifici del Rellotge\" OR \"Can Batlló\" OR (@PalauGuell OR from:PalauGuell) OR ((mmb OR #mmb) (cataluña OR catalunya OR #cataluña OR #catalunya OR barcelona OR bcn OR #barcelona)) OR (@Insolita_xarxa OR from:Insolita_xarxa) OR (@xarxafeminista OR from:xarxafeminista) OR ((XAL OR #xal) (barcelona OR bcn OR catalunya OR cataluña)) OR \"Escola del Treball\" OR (@CMURamonLlul OR from:CMURamonLlul) OR #escolaindustrial OR (@gemmagim/ OR from:gemmagim/) OR (@lamolarestaurant OR from:lamolarestaurant) OR ((catalunya OR cataluña) 126 rambla) OR (barcelona (\"museo maritimo\" OR \"museo marítimo\" OR \"museu maritim\" OR \"museu marítim\")) OR (@institutteatre OR from:institutteatre) OR (@infolamola OR from:infolamola) OR \"Recinte Urgell\" OR (@assemblea_it OR from:assemblea_it) OR #stmiqueldelfai OR \"Can Battlo\") -(jugadoras OR palestina OR palestino OR israel OR fútbol OR futbol OR jugadores) (lang:es OR lang:ca)",
+            "tag": "4240#5"
+        },
+        {
+            "id": "1758148766358552576",
+            "value": "(((\"Alameda de Hércules\" OR #alamedadehercules OR \"Pino Montano\" OR #pinomontano OR \"Distrito Macarena\" OR #sevilla OR #SevillaHoy OR \"Emilio Lemos\" OR #PinoMontano OR \"emilio lemos\" OR \"Tenis Betis\" OR \"pino montano\" OR sevilla OR #AlamedadeHércules OR Alcosa OR \"Parque Alcosa\" OR #SVQ OR #DistritoMacarena OR #distritomacarena) (\"recogida de residuos\" OR \"recogida basura\" OR basureras OR \"contenedores de reciclaje\" OR \"contenedores llenos\" OR suciedad OR sucia OR \"recogida de basura\" OR basureros OR \"contenedores reciclaje\" OR \"contenedor lleno\" OR sucio OR \"recogida residuos\" OR \"recogida de contenedores\" OR \"recogida contenedores\" OR \"recogida selectiva\")) OR #cuidemosSevilla) -(liga OR seleccionador OR entrenador OR \"puerto de Cádiz\" OR bebé OR goles OR jugador OR jugadores OR delantero OR var OR colchonero OR desnutrición OR gol OR sevillista OR futbol OR cartel OR \"puerto de Huelva\" OR pellets OR árbitro OR \"el sevilla\" OR \"sevilla fc\") (lang:es)",
+            "tag": "3750#1"
+        },
+        {
+            "id": "1758148766358552577",
+            "value": "(((papelera OR \"muebles abandonados\" OR enseres OR orina OR contenedores OR papeleras OR \"recogida muebles\" OR graffiti OR pis OR orin OR contenedor OR \"recogida enseres\" OR graffitis OR pipi OR pipí OR meado OR \"recogida de enseres\" OR #graffiti OR orín OR meados) (\"Alameda de Hércules\" OR #alamedadehercules OR \"Parque Alcosa\" OR \"Distrito Macarena\" OR sevilla OR Alcosa OR \"Tenis Betis\" OR \"pino montano\" OR #PinoMontano OR #DistritoMacarena OR #distritomacarena OR #SevillaHoy OR \"Emilio Lemos\" OR \"emilio lemos\" OR \"Pino Montano\" OR #pinomontano OR #AlamedadeHércules OR #SVQ OR #sevilla)) OR #lipasam) -(liga OR seleccionador OR entrenador OR \"puerto de Cádiz\" OR bebé OR goles OR jugador OR jugadores OR delantero OR var OR colchonero OR desnutrición OR gol OR sevillista OR futbol OR cartel OR \"puerto de Huelva\" OR pellets OR árbitro OR \"el sevilla\" OR \"sevilla fc\") (lang:es)",
+            "tag": "3750#2"
+        },
+        {
+            "id": "1758148766358552578",
+            "value": "(@LipasamSevilla OR from:LipasamSevilla OR retweets_of:LipasamSevilla OR to:LipasamSevilla)",
+            "tag": "3750#3"
+        },
+        {
+            "id": "1758148766358552579",
+            "value": "(lipasam OR #Lipasam OR #JuntosCuidamosSevilla OR #ServiciodeRecogidadeMueblesyEnseresLipasam OR #CumpleTuParte OR (@Lipasam OR from:Lipasam) OR #LipaRoundSevilla OR ((\"limpieza viaria\" OR \"limpieza vial\" OR \"limpieza de calle\" OR \"limpieza de calles\" OR \"limpieza publica\" OR \"limpieza pública\") (#alamedadehercules OR \"Emilio Lemos\" OR #PinoMontano OR #pinomontano OR #distritomacarena OR #sevilla OR Triana OR \"emilio lemos\" OR \"Distrito Macarena\" OR #DistritoMacarena OR Sevilla OR #SVQ OR #SevillaHoy OR \"Alameda de Hércules\" OR #AlamedadeHércules OR \"pino montano\" OR Alcosa OR \"Parque Alcosa\" OR \"Tenis Betis\" OR \"Pino Montano\")) OR (@LipasamSevilla OR from:LipasamSevilla) OR #Solicitatucubo OR \"lipasam.es\" OR lipasamsevilla) -(liga OR seleccionador OR entrenador OR \"puerto de Cádiz\" OR bebé OR goles OR jugador OR jugadores OR delantero OR var OR colchonero OR desnutrición OR gol OR sevillista OR futbol OR cartel OR \"puerto de Huelva\" OR pellets OR árbitro OR \"el sevilla\" OR \"sevilla fc\") (lang:es)",
+            "tag": "3750#0"
+        },
+        {
+            "id": "1758394300012900352",
+            "value": "(catalanaocc OR prepersa OR PlusUltraSeguros OR \"catalana occidente\" OR #SegPlusUltra OR BilbaoSeguros OR #BilbaoSeguros OR \"catalano occidente\" OR #catocc OR #segcatalanaocc OR #SegurosBilbao OR \"Plus Ultra Seguros\" OR \"Catalana de Occidente\" OR \"Catalano Occidente\" OR SegurosBilbao OR cosalud OR #plusultraseguros OR catalanaoccidente OR catalanaoccident OR \"plus ultra aseguradora\" OR #catalanaoccidente OR SegurosPlusUltra OR \"Seguros Bilbao\" OR #seguroscatalanaoccidente OR #catalanadeoccidente OR #SegurosPlusUltra OR \"plus ultra seguro\" OR \"catalana occident\" OR #starlitecatalanaoccidente OR #catalanaoccident OR \"Seguros Plus Ultra\" OR \"catalano occident\")   -(place_country:KP)",
+            "tag": "4265#0"
+        },
+        {
+            "id": "1759344644138168320",
+            "value": "((@PickleballSpain OR from:PickleballSpain) OR (pickleball (#catalonia OR #gerona OR gerona OR bcn OR #cataluña OR #barcelona OR cataluña OR girona OR barcelona OR catalonia OR #tarragona OR #girona OR #catalunya OR catalunya OR tarragona OR #bcn)))",
+            "tag": "4260#0"
+        },
+        {
+            "id": "1759524795211747328",
+            "value": "\"multigremios guemar\"",
+            "tag": "4263#0"
+        },
+        {
+            "id": "1759591038157561856",
+            "value": "(@BancoSabadellMX OR from:BancoSabadellMX OR retweets_of:BancoSabadellMX OR to:BancoSabadellMX)",
+            "tag": "2692#1"
+        },
+        {
+            "id": "1759591038157561857",
+            "value": "(((banca OR banco OR bancos) (sabadell OR sabadel) (méxico OR mx OR #méxico OR #mexico OR mexico)) OR ((mexico OR méxico OR mx OR #méxico OR #mexico) (#bancosabadell OR #bancosabadel)) OR #bancosabadelméxico OR #bancosabadellméxico OR \"sab capital\" OR sabcapital OR (@BancoSabadellMX OR from:BancoSabadellMX) OR #bancosabadelmexico OR #bancosabadellmexico) -(barcelona OR (@ResearchPool OR from:ResearchPool) OR catalunya) (lang:es) -(place_country:AR OR place_country:BO OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:CR OR place_country:CU OR place_country:DO OR place_country:EC OR place_country:SV OR place_country:GT OR place_country:HT OR place_country:HN OR place_country:JM OR place_country:NI OR place_country:PA OR place_country:PY OR place_country:PE OR place_country:PR OR place_country:UY OR place_country:VE OR place_country:ES OR place_country:PT)",
+            "tag": "2692#0"
+        },
+        {
+            "id": "1759953241712865280",
+            "value": "(\"Junta Castilla La Mancha\" OR \"Junta de Castilla La Mancha\" OR #CLM OR (@SanidadCLM OR from:SanidadCLM) OR \"Emiliano García-Page\" OR (Junta (\"Castilla - La Mancha\" OR CLM OR \"Castilla la Mancha\" OR \"Castilla-La Mancha\")) OR #JuntaCLM OR \"jccm.es\" OR (@deportesclm OR from:deportesclm) OR (@gobjccm OR from:gobjccm) OR (@culturaenclm OR from:culturaenclm) OR JuntaCLM OR \"castillalamancha.es\") -(\"CLM Tit Tar\" OR #clmjsent OR (@clm_med OR from:clm_med) OR (@babitasbaby21 OR from:babitasbaby21) OR #congres_litteraire_mondial) (lang:es) -(place_country:AR OR place_country:BO OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:CR OR place_country:CU OR place_country:DO OR place_country:EC OR place_country:SV OR place_country:GT OR place_country:HT OR place_country:HN OR place_country:JM OR place_country:MX OR place_country:NI OR place_country:PA OR place_country:PY OR place_country:PE OR place_country:PR OR place_country:UY OR place_country:VE OR place_country:FR OR place_country:DE)",
+            "tag": "3713#0"
+        },
+        {
+            "id": "1759953602238406656",
+            "value": "((@DSostenibleCLM OR from:DSostenibleCLM) OR \"Junta Castilla-La Mancha\" OR (@EconomiaCLM OR from:EconomiaCLM) OR (@AgriculturaClm OR from:AgriculturaClm) OR (@juventudclm OR from:juventudclm) OR (@imujerclm OR from:imujerclm) OR (@garciapage OR from:garciapage) OR (@BienestarCLM OR from:BienestarCLM) OR (@educajccm OR from:educajccm) OR (@pscmpsoe OR from:pscmpsoe)) -(\"CLM Tit Tar\" OR #clmjsent OR (@clm_med OR from:clm_med) OR (@babitasbaby21 OR from:babitasbaby21) OR #congres_litteraire_mondial) (lang:es) -(place_country:AR OR place_country:BO OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:CR OR place_country:CU OR place_country:DO OR place_country:EC OR place_country:SV OR place_country:GT OR place_country:HT OR place_country:HN OR place_country:JM OR place_country:MX OR place_country:NI OR place_country:PA OR place_country:PY OR place_country:PE OR place_country:PR OR place_country:UY OR place_country:VE OR place_country:FR OR place_country:DE)",
+            "tag": "3713#1"
+        },
+        {
+            "id": "1759953713932754944",
+            "value": "(@pscmpsoe OR from:pscmpsoe OR retweets_of:pscmpsoe OR to:pscmpsoe)",
+            "tag": "3713#2"
+        },
+        {
+            "id": "1759953818182139904",
+            "value": "(@deportesclm OR from:deportesclm OR retweets_of:deportesclm OR to:deportesclm) OR (@gobjccm OR from:gobjccm OR retweets_of:gobjccm OR to:gobjccm) OR (@culturaenclm OR from:culturaenclm OR retweets_of:culturaenclm OR to:culturaenclm) OR (@EconomiaCLM OR from:EconomiaCLM OR retweets_of:EconomiaCLM OR to:EconomiaCLM) OR (@AgriculturaClm OR from:AgriculturaClm OR retweets_of:AgriculturaClm OR to:AgriculturaClm) OR (@DSostenibleCLM OR from:DSostenibleCLM OR retweets_of:DSostenibleCLM OR to:DSostenibleCLM) OR (@SanidadCLM OR from:SanidadCLM OR retweets_of:SanidadCLM OR to:SanidadCLM) OR (@garciapage OR from:garciapage OR retweets_of:garciapage OR to:garciapage) OR (@juventudclm OR from:juventudclm OR retweets_of:juventudclm OR to:juventudclm) OR (@imujerclm OR from:imujerclm OR retweets_of:imujerclm OR to:imujerclm) OR (@BienestarCLM OR from:BienestarCLM OR retweets_of:BienestarCLM OR to:BienestarCLM) OR (@educajccm OR from:educajccm OR retweets_of:educajccm OR to:educajccm)",
+            "tag": "3713#3"
+        },
+        {
+            "id": "1760007914994184193",
+            "value": "((@JoseRaulMulino OR from:JoseRaulMulino) OR #joseraulmulino OR #joséraúlmulino OR #conmartinellimulinoganapanamá OR \"José Raúl Mulino\" OR \"Jose Raul Mulino\")",
+            "tag": "4271#0"
+        },
+        {
+            "id": "1760007914994184194",
+            "value": "(@JoseRaulMulino OR from:JoseRaulMulino OR retweets_of:JoseRaulMulino OR to:JoseRaulMulino)",
+            "tag": "4271#1"
+        },
+        {
+            "id": "1760041012963971072",
+            "value": "(@romuloroux OR from:romuloroux OR retweets_of:romuloroux OR to:romuloroux)",
+            "tag": "4029#1"
+        },
+        {
+            "id": "1760041012963971073",
+            "value": "(\"https://romuloroux.com/\" OR (@romuloroux OR from:romuloroux) OR \"romulo roux\" OR \"rómulo roux\" OR #romuloroux OR #RómuloPresidente)",
+            "tag": "4029#0"
+        },
+        {
+            "id": "1760148680458313728",
+            "value": "(bbfw23 OR (@BridalBcnFW OR from:BridalBcnFW) OR #barcelonabridalfashionweek OR #barcelonabridalnight OR #bbfw24 OR (@barcelonabridalfashionweek_ OR from:barcelonabridalfashionweek_) OR (@BarcelonaBridalFashionWeek OR from:BarcelonaBridalFashionWeek) OR #BBNight2024 OR #bbfw OR \"barcelonabridalweek.com\" OR \"Barcelona Bridal Fashion Week\" OR Barcelonabridalnight OR bbfw24 OR (@barcelonabridalweek OR from:barcelonabridalweek) OR #bbfw2024 OR \"Barcelona Bridal Week\" OR #barcelonabridalweek OR #bridalnight OR #barcelonabridalfashionweek24) -(breast OR breastfeeding OR gtmtaller OR santa OR \"???????? ????????????? ???????\")",
+            "tag": "2709#0"
+        },
+        {
+            "id": "1760148680458313729",
+            "value": "(@BridalBcnFW OR from:BridalBcnFW OR retweets_of:BridalBcnFW OR to:BridalBcnFW)",
+            "tag": "2709#1"
+        },
+        {
+            "id": "1760334757093666816",
+            "value": "((@MVanMeterMD OR from:MVanMeterMD) OR (@DrRohitMoudgil OR from:DrRohitMoudgil) OR (@mishabeltran OR from:mishabeltran) OR (@wgibson OR from:wgibson) OR (@l_schapira OR from:l_schapira) OR (@TOncologist OR from:TOncologist) OR (@LauraBukavinaMD OR from:LauraBukavinaMD) OR (@DrLaurenNye OR from:DrLaurenNye) OR (@HTawbi_MD OR from:HTawbi_MD) OR (@EileenMOReilly OR from:EileenMOReilly) OR (@astaffordmd OR from:astaffordmd) OR (@WhatsUrHari OR from:WhatsUrHari) OR (@CarlosArteagaMD OR from:CarlosArteagaMD) OR (@LudaBazhenovaMD OR from:LudaBazhenovaMD) OR (@anita_deswal OR from:anita_deswal) OR (@YYElamin OR from:YYElamin) OR (@OSUCardioOnc OR from:OSUCardioOnc) OR (@MLJohnsonMD2 OR from:MLJohnsonMD2) OR (@ShaunaRadOnc OR from:ShaunaRadOnc) OR (@PortiaLThomas OR from:PortiaLThomas) OR (@DrVinayakV OR from:DrVinayakV) OR (@NimaSharifiMD OR from:NimaSharifiMD) OR (@StefThomasMD OR from:StefThomasMD) OR (@christinefeng OR from:christinefeng) OR (@UroMADMD OR from:UroMADMD) OR (@ahmadhamad4 OR from:ahmadhamad4))",
+            "tag": "4262#18"
+        },
+        {
+            "id": "1760334757093666817",
+            "value": "((@DanBarocas OR from:DanBarocas) OR (@manalipatelmd OR from:manalipatelmd) OR (@oreganruth OR from:oreganruth) OR (@drjasonstarr OR from:drjasonstarr) OR (@KSMurrayUro OR from:KSMurrayUro) OR (@PeterHoseinMD OR from:PeterHoseinMD) OR (@janeway_MD OR from:janeway_MD) OR (@pashtoonkasi OR from:pashtoonkasi) OR (@dmkoffler OR from:dmkoffler) OR (@D_HenryMD OR from:D_HenryMD) OR (@jchardaway_md OR from:jchardaway_md) OR (@EKNduom OR from:EKNduom) OR (@drmediget OR from:drmediget) OR (@DrNabilSaba OR from:DrNabilSaba) OR (@dcmadoff OR from:dcmadoff) OR (@ChristinaChapMD OR from:ChristinaChapMD) OR (@benfergvson OR from:benfergvson) OR (@ndesai2005 OR from:ndesai2005) OR (@Dr_RShatsky OR from:Dr_RShatsky) OR (@cnsternberg OR from:cnsternberg) OR (@angiesmith_uro OR from:angiesmith_uro) OR (@anaikothari OR from:anaikothari) OR (@drznahleh OR from:drznahleh) OR (@DrShubhamPant OR from:DrShubhamPant) OR (@ErinGillespieMD OR from:ErinGillespieMD) OR (@ipreeshagul OR from:ipreeshagul) OR (@venkymd OR from:venkymd))",
+            "tag": "4262#0"
+        },
+        {
+            "id": "1760334757093666818",
+            "value": "((@AzizNazhaMD OR from:AzizNazhaMD) OR (@morr316 OR from:morr316) OR (@StephanieVBlank OR from:StephanieVBlank) OR (@AGomez_MD OR from:AGomez_MD) OR (@DrRaviSalgia OR from:DrRaviSalgia) OR (@DrKarineTawagi OR from:DrKarineTawagi) OR (@UroCorrea OR from:UroCorrea) OR (@JoshuaBudhu OR from:JoshuaBudhu) OR (@DylanGraetzMD OR from:DylanGraetzMD) OR (@DrGuptaD OR from:DrGuptaD) OR (@xiaoweimd OR from:xiaoweimd) OR (@PSchlembachMD OR from:PSchlembachMD) OR (@DrAJWalker OR from:DrAJWalker) OR (@RoyStrowdMD OR from:RoyStrowdMD) OR (@JoeChaoMD OR from:JoeChaoMD) OR (@stuxrt OR from:stuxrt) OR (@SeanKhozin OR from:SeanKhozin) OR (@dhjutsw1 OR from:dhjutsw1) OR (@MKhasraw OR from:MKhasraw) OR (@Dr_Curley OR from:Dr_Curley) OR (@ElizBlanchardMD OR from:ElizBlanchardMD) OR (@NicoleKuderer OR from:NicoleKuderer) OR (@SunnieSKim OR from:SunnieSKim) OR (@DrConnieBatlevi OR from:DrConnieBatlevi) OR (@ColinChampMD OR from:ColinChampMD) OR (@NoopurRajeMD OR from:NoopurRajeMD) OR (@DrJNaidoo OR from:DrJNaidoo))",
+            "tag": "4262#12"
+        },
+        {
+            "id": "1760334757093666819",
+            "value": "((@MScordoMD OR from:MScordoMD) OR (@TexasOncologist OR from:TexasOncologist) OR (@AmandaRiveraMD OR from:AmandaRiveraMD) OR (@DrTerstriep OR from:DrTerstriep) OR (@kansagraMD OR from:kansagraMD) OR (@EthanBasch1 OR from:EthanBasch1) OR (@bryankli OR from:bryankli) OR (@KVanLoonMD OR from:KVanLoonMD) OR (@WadeJSexton9 OR from:WadeJSexton9) OR (@n8pennell OR from:n8pennell) OR (@RielyMD OR from:RielyMD) OR (@DrPKSudi OR from:DrPKSudi) OR (@VidalRadOnc OR from:VidalRadOnc) OR (@ProtonStorey OR from:ProtonStorey) OR (@LeonidasPlatan1 OR from:LeonidasPlatan1) OR (@ilanayurkiewicz OR from:ilanayurkiewicz) OR (@Jbauml OR from:Jbauml) OR (@DrCNClarke OR from:DrCNClarke) OR (@antgiorda OR from:antgiorda) OR (@rpmerkow OR from:rpmerkow) OR (@RavinRatan OR from:RavinRatan) OR (@lweisenthal OR from:lweisenthal) OR (@NirajGusani OR from:NirajGusani) OR (@chulkimMD OR from:chulkimMD) OR (@gulleyj1 OR from:gulleyj1) OR (@OralOncologist OR from:OralOncologist) OR (@sandralwong OR from:sandralwong))",
+            "tag": "4262#10"
+        },
+        {
+            "id": "1760334757093666820",
+            "value": "((@ConorSteuerMD OR from:ConorSteuerMD) OR (@Chris_Barbieri1 OR from:Chris_Barbieri1) OR (@LailaAgrawalMD OR from:LailaAgrawalMD) OR (@AdityaBagrodia OR from:AdityaBagrodia) OR (@VivekSubbiah OR from:VivekSubbiah) OR (@KHigginsMD OR from:KHigginsMD) OR (@mkitano7 OR from:mkitano7) OR (@KathrynRuddyMD OR from:KathrynRuddyMD) OR (@JSabari OR from:JSabari) OR (@AdamJSchoenfeld OR from:AdamJSchoenfeld) OR (@EvanThomas84 OR from:EvanThomas84) OR (@cancermd OR from:cancermd) OR (@AzraRazaMD OR from:AzraRazaMD) OR (@RichMatulewicz OR from:RichMatulewicz) OR (@anamarialopezmd OR from:anamarialopezmd) OR (@JuliaLClose OR from:JuliaLClose) OR (@AlGarfall OR from:AlGarfall) OR (@CentralParkWMD OR from:CentralParkWMD) OR (@nlindenberg OR from:nlindenberg) OR (@PGrivasMDPhD OR from:PGrivasMDPhD) OR (@Bando_Lab OR from:Bando_Lab) OR (@GilbertZMurimwa OR from:GilbertZMurimwa) OR (@Sonampuri OR from:Sonampuri) OR (@montrose52 OR from:montrose52) OR (@UroOncologist OR from:UroOncologist) OR (@benhopark OR from:benhopark))",
+            "tag": "4262#13"
+        },
+        {
+            "id": "1760334757093666821",
+            "value": "((@DrFredLocke OR from:DrFredLocke) OR (@Armstrong_dfci OR from:Armstrong_dfci) OR (@rdoebele OR from:rdoebele) OR (@WSmelser OR from:WSmelser) OR (@max_diehn OR from:max_diehn) OR (@EthicsdoctorP OR from:EthicsdoctorP) OR (@DrPaulNguyen OR from:DrPaulNguyen))",
+            "tag": "4262#20"
+        },
+        {
+            "id": "1760334757093666822",
+            "value": "((@IOEssentials OR from:IOEssentials) OR (@DrJashDatta OR from:DrJashDatta) OR (@ChadTangMD OR from:ChadTangMD) OR (@ADurbinLab OR from:ADurbinLab) OR (@PrimoLaraMD OR from:PrimoLaraMD) OR (@jgrif17 OR from:jgrif17) OR (@protoninfo OR from:protoninfo) OR (@clarongamd OR from:clarongamd) OR (@mary_dillhoff OR from:mary_dillhoff) OR (@KFraserDO OR from:KFraserDO) OR (@DrSadhanaJ OR from:DrSadhanaJ) OR (@bwoodmd OR from:bwoodmd) OR (@leslydossett OR from:leslydossett) OR (@ryanhuey OR from:ryanhuey) OR (@ANordenMD OR from:ANordenMD) OR (@PorterAlyx OR from:PorterAlyx) OR (@ajuloorimd OR from:ajuloorimd) OR (@AngelesSecord OR from:AngelesSecord) OR (@DrAnasYounes OR from:DrAnasYounes) OR (@weoncologists OR from:weoncologists) OR (@MutlaySayan OR from:MutlaySayan) OR (@chfloudas OR from:chfloudas) OR (@gregauff OR from:gregauff) OR (@dsmgyo OR from:dsmgyo) OR (@vlitlemd OR from:vlitlemd) OR (@AndraeVandross OR from:AndraeVandross) OR (@RyanNguyenDO OR from:RyanNguyenDO) OR (@KMBaileylab OR from:KMBaileylab))",
+            "tag": "4262#2"
+        },
+        {
+            "id": "1760334757093666823",
+            "value": "((@LiaPalomba OR from:LiaPalomba) OR (@NicoleEiselerMD OR from:NicoleEiselerMD) OR (@brendanweiss OR from:brendanweiss) OR (@KatieLaiMD_MPH OR from:KatieLaiMD_MPH) OR (@MarkMishraMD OR from:MarkMishraMD) OR (@mleapman OR from:mleapman) OR (@PatrickKenneyMD OR from:PatrickKenneyMD) OR (@AE_MarciscanoMD OR from:AE_MarciscanoMD) OR (@DrJJZhang OR from:DrJJZhang) OR (@RunLiz OR from:RunLiz) OR (@BraunMDPhD OR from:BraunMDPhD) OR (@DruleyMB_CMO OR from:DruleyMB_CMO) OR (@PavlosMsaouel OR from:PavlosMsaouel) OR (@vsanchorawala OR from:vsanchorawala) OR (@NVijayvergiaMD OR from:NVijayvergiaMD) OR (@Arab_Oncologist OR from:Arab_Oncologist) OR (@WomenOncologist OR from:WomenOncologist) OR (@BrunoBastosMD OR from:BrunoBastosMD) OR (@apolo_andrea OR from:apolo_andrea) OR (@shilpaonc OR from:shilpaonc) OR (@guptaarjun90 OR from:guptaarjun90) OR (@KatieKeaneMD OR from:KatieKeaneMD) OR (@DavidHongMD OR from:DavidHongMD) OR (@romeerizwan OR from:romeerizwan) OR (@LorenWalensky OR from:LorenWalensky))",
+            "tag": "4262#6"
+        },
+        {
+            "id": "1760334757093666824",
+            "value": "((@SwisherLiz OR from:SwisherLiz) OR (@tdonahuemd OR from:tdonahuemd) OR (@eberger32 OR from:eberger32) OR (@andrew02114 OR from:andrew02114) OR (@AmarUKishan OR from:AmarUKishan) OR (@dramyabernethy OR from:dramyabernethy) OR (@RobertoVidri OR from:RobertoVidri) OR (@SamyuktaMD OR from:SamyuktaMD) OR (@TimShowalter1 OR from:TimShowalter1) OR (@amandanfader OR from:amandanfader) OR (@SKamath_MD OR from:SKamath_MD) OR (@RossFH OR from:RossFH) OR (@CathyHandy OR from:CathyHandy) OR (@sands_jacob OR from:sands_jacob) OR (@davidjeinstein OR from:davidjeinstein) OR (@tmprowell OR from:tmprowell) OR (@heatheryeomd OR from:heatheryeomd) OR (@SeanSachdevMD OR from:SeanSachdevMD) OR (@NeilVasan OR from:NeilVasan) OR (@toddscarbrough OR from:toddscarbrough) OR (@RickLee6 OR from:RickLee6) OR (@DrNagourney OR from:DrNagourney) OR (@LindaMThoracic OR from:LindaMThoracic) OR (@delararitchie OR from:delararitchie) OR (@PTarantinoMD OR from:PTarantinoMD) OR (@adriancravioto OR from:adriancravioto))",
+            "tag": "4262#15"
+        },
+        {
+            "id": "1760334757093666825",
+            "value": "((@yekeduz_emre OR from:yekeduz_emre) OR (@rosiekaplanmd OR from:rosiekaplanmd) OR (@EGrubbsMD OR from:EGrubbsMD) OR (@HKennecke OR from:HKennecke) OR (@OncJournal OR from:OncJournal) OR (@AyaOncologist OR from:AyaOncologist) OR (@SamirNKhleif OR from:SamirNKhleif) OR (@ShalinJShahMD OR from:ShalinJShahMD) OR (@laura_huppert OR from:laura_huppert) OR (@DrMDavids OR from:DrMDavids) OR (@PamSolimanMD OR from:PamSolimanMD) OR (@Jenn_Tseng OR from:Jenn_Tseng) OR (@jamesbyu OR from:jamesbyu) OR (@linuscmd OR from:linuscmd) OR (@AlexandraCzap OR from:AlexandraCzap) OR (@StephenVLiu OR from:StephenVLiu) OR (@PamelaKunzMD OR from:PamelaKunzMD) OR (@TheWonkologist OR from:TheWonkologist) OR (@CancerRxUpdates OR from:CancerRxUpdates) OR (@jennamkahn OR from:jennamkahn) OR (@MonaArbabMD OR from:MonaArbabMD) OR (@JWhittington276 OR from:JWhittington276) OR (@RoyV123 OR from:RoyV123) OR (@mdmanishshah OR from:mdmanishshah) OR (@BrentMoodyTN OR from:BrentMoodyTN) OR (@LesokhinMD OR from:LesokhinMD))",
+            "tag": "4262#19"
+        },
+        {
+            "id": "1760334757093666826",
+            "value": "((@Neil_Iyengar OR from:Neil_Iyengar) OR (@ADesaiMD OR from:ADesaiMD) OR (@smitha42 OR from:smitha42) OR (@bermar01 OR from:bermar01) OR (@SamWangMD OR from:SamWangMD) OR (@DKhabeleMD OR from:DKhabeleMD) OR (@JessieStuart316 OR from:JessieStuart316) OR (@s_brond OR from:s_brond) OR (@Dr_S_Ackerman OR from:Dr_S_Ackerman) OR (@AlyssaRieber OR from:AlyssaRieber) OR (@DrGwenNichols OR from:DrGwenNichols) OR (@rlevitinMD OR from:rlevitinMD) OR (@aksinghmd OR from:aksinghmd) OR (@schenkein OR from:schenkein) OR (@DevikaDasMD OR from:DevikaDasMD) OR (@amandaaminmd OR from:amandaaminmd) OR (@AnnKloppMD OR from:AnnKloppMD) OR (@DrAmyComander OR from:DrAmyComander) OR (@scott_peak OR from:scott_peak) OR (@UrogerliMD OR from:UrogerliMD) OR (@Joshua_Reuss OR from:Joshua_Reuss) OR (@drrmthomas OR from:drrmthomas) OR (@markballmd OR from:markballmd) OR (@NaderSanai OR from:NaderSanai) OR (@YAbdouMD OR from:YAbdouMD) OR (@MattYurgelun OR from:MattYurgelun) OR (@EmelineAvikiMD OR from:EmelineAvikiMD))",
+            "tag": "4262#14"
+        },
+        {
+            "id": "1760334757093666827",
+            "value": "((@wmehtsun OR from:wmehtsun) OR (@JenniferLaFemi1 OR from:JenniferLaFemi1) OR (@OncinmyPocket OR from:OncinmyPocket) OR (@ilyassahinMD OR from:ilyassahinMD) OR (@yzafar OR from:yzafar) OR (@ZekeEmanuel OR from:ZekeEmanuel) OR (@rajshekharucms OR from:rajshekharucms) OR (@DrRanaMcKay OR from:DrRanaMcKay) OR (@ctleeuro OR from:ctleeuro) OR (@SarahTevisMD OR from:SarahTevisMD) OR (@rklein1010 OR from:rklein1010) OR (@JoshLangMD OR from:JoshLangMD) OR (@kpmcguiremd OR from:kpmcguiremd) OR (@DrJohnKang OR from:DrJohnKang) OR (@DrStish OR from:DrStish) OR (@Dr_KGallagher OR from:Dr_KGallagher) OR (@dradityabardia OR from:dradityabardia) OR (@OtisBrawley OR from:OtisBrawley) OR (@LeukDocJZ OR from:LeukDocJZ) OR (@DrOmarMian OR from:DrOmarMian) OR (@UzomaMDPhD OR from:UzomaMDPhD) OR (@SParsaiMD OR from:SParsaiMD) OR (@NiuSanford OR from:NiuSanford) OR (@PamSharmaMDPhD OR from:PamSharmaMDPhD) OR (@loconte OR from:loconte) OR (@rachnatshroff OR from:rachnatshroff) OR (@bnamd87 OR from:bnamd87))",
+            "tag": "4262#9"
+        },
+        {
+            "id": "1760334757093666828",
+            "value": "((@Leo_ReapDO OR from:Leo_ReapDO) OR (@CarmenCalfa OR from:CarmenCalfa) OR (@Carol_Evans_MD OR from:Carol_Evans_MD) OR (@rogerhkim OR from:rogerhkim) OR (@AlanBryce9 OR from:AlanBryce9) OR (@pipcosper OR from:pipcosper) OR (@FilipJankuMD OR from:FilipJankuMD) OR (@TekeMartha OR from:TekeMartha) OR (@DrLen OR from:DrLen) OR (@JimAllisonPhD OR from:JimAllisonPhD) OR (@AnnaLeeMDMPH OR from:AnnaLeeMDMPH) OR (@heather_chalfin OR from:heather_chalfin) OR (@edtanner OR from:edtanner) OR (@DrLesterColl OR from:DrLesterColl) OR (@judalebow OR from:judalebow) OR (@DrReshmaMahtani OR from:DrReshmaMahtani) OR (@jpmd901 OR from:jpmd901) OR (@drhoracesmith OR from:drhoracesmith) OR (@IzzoJulie OR from:IzzoJulie) OR (@gregoryjaune OR from:gregoryjaune) OR (@miljko OR from:miljko) OR (@tjroycemd OR from:tjroycemd) OR (@DrDarrenFeldman OR from:DrDarrenFeldman) OR (@DrTanWP OR from:DrTanWP) OR (@AjvictoryMD OR from:AjvictoryMD) OR (@JeffGershenwald OR from:JeffGershenwald) OR (@Jia_Luo OR from:Jia_Luo))",
+            "tag": "4262#17"
+        },
+        {
+            "id": "1760334757093666829",
+            "value": "((@DrJuliaBeaver OR from:DrJuliaBeaver) OR (@acweyand OR from:acweyand) OR (@jgong15 OR from:jgong15) OR (@whallradonc OR from:whallradonc) OR (@DrLaCasce OR from:DrLaCasce) OR (@TClancyMD OR from:TClancyMD) OR (@LoriLeslieMD OR from:LoriLeslieMD) OR (@tsonipeled OR from:tsonipeled) OR (@AliSchram OR from:AliSchram) OR (@DrHut10 OR from:DrHut10) OR (@Oncologist OR from:Oncologist) OR (@timilpatel OR from:timilpatel) OR (@drewshirleymd OR from:drewshirleymd) OR (@nugg_doctor OR from:nugg_doctor) OR (@THilalMD OR from:THilalMD) OR (@Dr_Dana OR from:Dr_Dana) OR (@jordanberlin5 OR from:jordanberlin5) OR (@ara_anderson OR from:ara_anderson) OR (@SophiaKMcKinley OR from:SophiaKMcKinley) OR (@JackAndrewsMD OR from:JackAndrewsMD) OR (@MehrazinMD OR from:MehrazinMD) OR (@julian_hong OR from:julian_hong) OR (@DrWilliamHwang OR from:DrWilliamHwang) OR (@jungleland OR from:jungleland) OR (@FabianJohnston OR from:FabianJohnston) OR (@MMarmarelis OR from:MMarmarelis) OR (@sandrapdangelo OR from:sandrapdangelo))",
+            "tag": "4262#11"
+        },
+        {
+            "id": "1760334757093666830",
+            "value": "((@DrChoueiri OR from:DrChoueiri) OR (@jesusanampa OR from:jesusanampa) OR (@SueEvansMDMPH OR from:SueEvansMDMPH) OR (@xrtGenomics OR from:xrtGenomics) OR (@temidayo OR from:temidayo) OR (@yehiaabugabal OR from:yehiaabugabal) OR (@doctorkarpoff OR from:doctorkarpoff) OR (@mbilusic OR from:mbilusic) OR (@SCIDirector OR from:SCIDirector) OR (@BiachiTiago OR from:BiachiTiago) OR (@Lymphoma_MD OR from:Lymphoma_MD) OR (@drseisenberg OR from:drseisenberg) OR (@rsm2800 OR from:rsm2800) OR (@benweinbergmd OR from:benweinbergmd) OR (@allisonoconn OR from:allisonoconn) OR (@AnkitAgarwalMD OR from:AnkitAgarwalMD) OR (@MattMilowsky OR from:MattMilowsky) OR (@marthpodi OR from:marthpodi) OR (@HHammersMD OR from:HHammersMD) OR (@NicholasBlondin OR from:NicholasBlondin) OR (@JAMouabbi OR from:JAMouabbi) OR (@1800Oncologist OR from:1800Oncologist) OR (@drsarahsam OR from:drsarahsam) OR (@bvantine1 OR from:bvantine1) OR (@kmschmeler OR from:kmschmeler) OR (@DrAndrewVassil OR from:DrAndrewVassil))",
+            "tag": "4262#8"
+        },
+        {
+            "id": "1760334757093666831",
+            "value": "((@alexshoushtari OR from:alexshoushtari) OR (@pbcancerdoc OR from:pbcancerdoc) OR (@MartinTomMD OR from:MartinTomMD) OR (@patrickhu OR from:patrickhu) OR (@MHadziMD OR from:MHadziMD) OR (@MHuynhLe OR from:MHuynhLe) OR (@AmanChauhanMD OR from:AmanChauhanMD) OR (@Mitch_Garrison OR from:Mitch_Garrison) OR (@MeganKruseMD OR from:MeganKruseMD) OR (@newsincancer OR from:newsincancer) OR (@Dr_Jen_Linehan OR from:Dr_Jen_Linehan) OR (@KemiDoll OR from:KemiDoll) OR (@maryam_lustberg OR from:maryam_lustberg) OR (@ZPiotrowskaMD OR from:ZPiotrowskaMD) OR (@Jiantkwazi OR from:Jiantkwazi) OR (@AdamRMetwalli OR from:AdamRMetwalli) OR (@sindhu_kunal OR from:sindhu_kunal) OR (@RyanNipp OR from:RyanNipp) OR (@LaurenByersMD OR from:LaurenByersMD) OR (@BouthainaDabaja OR from:BouthainaDabaja) OR (@ASanchez_UroOnc OR from:ASanchez_UroOnc) OR (@landau_lab OR from:landau_lab) OR (@hollenbeck1971 OR from:hollenbeck1971) OR (@DavidSteensma OR from:DavidSteensma) OR (@hoosierdfh OR from:hoosierdfh) OR (@jmchan88 OR from:jmchan88))",
+            "tag": "4262#1"
+        },
+        {
+            "id": "1760334757093666832",
+            "value": "((@samsonpp OR from:samsonpp) OR (@KaraLongRoche OR from:KaraLongRoche) OR (@NehaVapiwala OR from:NehaVapiwala) OR (@DrLaMontBarlow OR from:DrLaMontBarlow) OR (@joshuagruber OR from:joshuagruber) OR (@AtishChoudhury OR from:AtishChoudhury) OR (@BHuffmanMD OR from:BHuffmanMD) OR (@HerveyJumper OR from:HerveyJumper) OR (@CLevenbackMD OR from:CLevenbackMD) OR (@bloodgenes OR from:bloodgenes) OR (@arifkamalmd OR from:arifkamalmd) OR (@SBRT_CR OR from:SBRT_CR) OR (@DrRFreedman OR from:DrRFreedman) OR (@kbilimoria OR from:kbilimoria) OR (@OncoBellmunt OR from:OncoBellmunt) OR (@DrAndreaKoko OR from:DrAndreaKoko) OR (@AMansfieldMD OR from:AMansfieldMD) OR (@bdcrompton OR from:bdcrompton) OR (@sdent_duke OR from:sdent_duke) OR (@AmishiBajajMD OR from:AmishiBajajMD) OR (@jestsai OR from:jestsai) OR (@neerajaiims OR from:neerajaiims) OR (@MCWardMD OR from:MCWardMD) OR (@FranklinHuang OR from:FranklinHuang) OR (@jasonwilliamsmd OR from:jasonwilliamsmd) OR (@christine_lovly OR from:christine_lovly))",
+            "tag": "4262#3"
+        },
+        {
+            "id": "1760334757093666833",
+            "value": "((@ravi_b_parikh OR from:ravi_b_parikh) OR (@DrMarisaWeiss OR from:DrMarisaWeiss) OR (@SandraDiBrito OR from:SandraDiBrito) OR (@RSalaniMD OR from:RSalaniMD) OR (@MattGubensMD OR from:MattGubensMD) OR (@jane_meisel OR from:jane_meisel) OR (@AshwinShindeMD OR from:AshwinShindeMD) OR (@SamuelChaoMD OR from:SamuelChaoMD) OR (@BMT_DrNemecek OR from:BMT_DrNemecek) OR (@AmitKulkarniMD OR from:AmitKulkarniMD) OR (@PeritonealCaDoc OR from:PeritonealCaDoc) OR (@dchimd OR from:dchimd) OR (@JuddMoul OR from:JuddMoul) OR (@kmaddmd OR from:kmaddmd) OR (@DrChowdharyMD OR from:DrChowdharyMD) OR (@DrYaraRobertson OR from:DrYaraRobertson) OR (@docbraunstein OR from:docbraunstein) OR (@tpjmd OR from:tpjmd) OR (@GyasiSamilia OR from:GyasiSamilia) OR (@fumikochino OR from:fumikochino) OR (@KimmieNgMD OR from:KimmieNgMD) OR (@PhilFebboMD_CMO OR from:PhilFebboMD_CMO) OR (@DrKateLurain OR from:DrKateLurain) OR (@drymtn OR from:drymtn) OR (@JaydiDelRivero OR from:JaydiDelRivero) OR (@MKnoll_MD OR from:MKnoll_MD))",
+            "tag": "4262#4"
+        },
+        {
+            "id": "1760334757093666834",
+            "value": "((@rleonferre OR from:rleonferre) OR (@AnnRaldow_MD OR from:AnnRaldow_MD) OR (@vidit_sharma_ OR from:vidit_sharma_) OR (@MichaelAhdootMD OR from:MichaelAhdootMD) OR (@AmandaNizamMD OR from:AmandaNizamMD) OR (@inas_md OR from:inas_md) OR (@oleg8r OR from:oleg8r) OR (@HimanshuNagarMD OR from:HimanshuNagarMD) OR (@CoreyLangerMD OR from:CoreyLangerMD) OR (@quirogad OR from:quirogad) OR (@michelle_monje OR from:michelle_monje) OR (@MedpageOnco OR from:MedpageOnco) OR (@reshmajagsi OR from:reshmajagsi) OR (@GruppSteve OR from:GruppSteve) OR (@MattGalsky OR from:MattGalsky) OR (@Tullika_Garg OR from:Tullika_Garg) OR (@JohnEMullinaxMD OR from:JohnEMullinaxMD) OR (@KoneruMd OR from:KoneruMd) OR (@SIOPresident OR from:SIOPresident) OR (@tomboike OR from:tomboike) OR (@AGangiMD OR from:AGangiMD) OR (@TimGilliganMD OR from:TimGilliganMD) OR (@shannonofferman OR from:shannonofferman) OR (@PagingDrPage OR from:PagingDrPage) OR (@DrBrandonB OR from:DrBrandonB) OR (@IbrahimSahinMD1 OR from:IbrahimSahinMD1))",
+            "tag": "4262#5"
+        },
+        {
+            "id": "1760334757093666835",
+            "value": "((@leitaomd OR from:leitaomd) OR (@levinemd OR from:levinemd) OR (@TJH0828 OR from:TJH0828) OR (@realgmolina OR from:realgmolina) OR (@UrviShahMD OR from:UrviShahMD) OR (@sumitshahMD OR from:sumitshahMD) OR (@jashenson OR from:jashenson) OR (@akshatdoctor OR from:akshatdoctor) OR (@ASkarbnik OR from:ASkarbnik) OR (@JenniferLitton OR from:JenniferLitton) OR (@lisamforce OR from:lisamforce) OR (@KalinskyKevin OR from:KalinskyKevin) OR (@AtomicCityDoc OR from:AtomicCityDoc) OR (@RManochakian OR from:RManochakian) OR (@DrWinkfield OR from:DrWinkfield) OR (@journeycancer OR from:journeycancer) OR (@slgoff_SB OR from:slgoff_SB) OR (@JamesClearyMD OR from:JamesClearyMD) OR (@NDeVitoMD OR from:NDeVitoMD) OR (@drgandara OR from:drgandara) OR (@SohailTavazoie OR from:SohailTavazoie) OR (@spshubeck OR from:spshubeck) OR (@RupenShahMD OR from:RupenShahMD) OR (@anita_turk OR from:anita_turk) OR (@BrunaPellini OR from:BrunaPellini) OR (@SurenaMatinMD OR from:SurenaMatinMD) OR (@sabinbmotwanimd OR from:sabinbmotwanimd))",
+            "tag": "4262#16"
+        },
+        {
+            "id": "1760334757093666836",
+            "value": "((@_BiotechMD OR from:_BiotechMD) OR (@cancer_connect OR from:cancer_connect) OR (@BlumenthalG OR from:BlumenthalG) OR (@EricDonnellyMD OR from:EricDonnellyMD) OR (@TheNotoriousHPB OR from:TheNotoriousHPB) OR (@ramya_ramaswami OR from:ramya_ramaswami) OR (@GABOUALFA OR from:GABOUALFA) OR (@MosheOrnsteinMD OR from:MosheOrnsteinMD) OR (@NarjustFlorezMD OR from:NarjustFlorezMD) OR (@caitlinahester OR from:caitlinahester) OR (@MikeSerzanMD OR from:MikeSerzanMD) OR (@CrisyRoland OR from:CrisyRoland) OR (@cvangelesMD OR from:cvangelesMD) OR (@DVFelaine OR from:DVFelaine) OR (@RTendulkarMD OR from:RTendulkarMD) OR (@VitanzaNick OR from:VitanzaNick) OR (@FilipaLynce OR from:FilipaLynce) OR (@masstransitalex OR from:masstransitalex) OR (@DanielMOConnor OR from:DanielMOConnor) OR (@johnwshumway OR from:johnwshumway) OR (@KlempnerSam OR from:KlempnerSam) OR (@BasselElRayesMD OR from:BasselElRayesMD) OR (@ILSONDavid OR from:ILSONDavid) OR (@NAbuhadra OR from:NAbuhadra) OR (@KatherineFuh OR from:KatherineFuh))",
+            "tag": "4262#7"
+        },
+        {
+            "id": "1760950680116748288",
+            "value": "(\"Grup Catalana Occident\" OR ((GCO OR #GCO) (grupo OR compañía OR IBEX OR catalana OR occident OR seguros)) OR #GCOconlasostenibilidad OR #GrupoCatalanaOccidente OR #GrupCatalanaOccident OR (@GCO_news OR from:GCO_news) OR \"Grupo Catalana Occidente\" OR \"Grupo Occident\")  (lang:es OR lang:ca) -(place_country:CN OR place_country:AR OR place_country:BO OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:CR OR place_country:CU OR place_country:DO OR place_country:EC OR place_country:SV OR place_country:GT OR place_country:HT OR place_country:HN OR place_country:JM OR place_country:MX OR place_country:NI OR place_country:PA OR place_country:PY OR place_country:PE OR place_country:PR OR place_country:UY OR place_country:VE OR place_country:KP)",
+            "tag": "4264#0"
+        },
+        {
+            "id": "1760950680116748289",
+            "value": "(((GCO OR \"Grupo Catalana Occidente\" OR \"Grupo Occident\" OR \"Grup Catalana Occidente\" OR \"Grup Occident\") (\"Xavier Fontanet\" OR \"Quim Guallar\" OR \"José María Serra\" OR \"Clara Gómez\" OR \"Hugo Serra\" OR \"Juan Closa\" OR \"Daniel Ciprés\" OR \"David Capdevila\" OR \"Joan Closa\" OR \"Javiert Fontanet\" OR \"José Mª Serra\" OR \"Josep Esclusa\" OR \"Francisco Sánchez\" OR \"Joaquín Guallar\" OR \"Raúl Lucena\")) OR \"Grupo Occidente\")  (lang:es OR lang:ca) -(place_country:CN OR place_country:AR OR place_country:BO OR place_country:BR OR place_country:CL OR place_country:CO OR place_country:CR OR place_country:CU OR place_country:DO OR place_country:EC OR place_country:SV OR place_country:GT OR place_country:HT OR place_country:HN OR place_country:JM OR place_country:MX OR place_country:NI OR place_country:PA OR place_country:PY OR place_country:PE OR place_country:PR OR place_country:UY OR place_country:VE OR place_country:KP)",
+            "tag": "4264#1"
+        },
+        {
+            "id": "1760950680116748290",
+            "value": "(@GCO_news OR from:GCO_news OR retweets_of:GCO_news OR to:GCO_news)",
+            "tag": "4264#2"
+        },
+        {
+            "id": "1762039359790886913",
+            "value": "(\"Diputada adjunta de Presidencia\" OR \"lluïsa Moret\" OR \"Jordi de la Fuente\" OR \"Garcia Albiol\" OR (@xavitus13 OR from:xavitus13) OR ((barcelona OR Vicepresidenta OR alcaldessa OR gobierno OR catalunya OR assessor OR assessora OR asesora OR alcalde OR govern OR bcn OR cataluña OR presidenta OR asesor OR alcaldesa) diba) OR \"Associació Alerta Solidària\" OR \"Raquel Albiol\" OR \"Joan Miquel Capell\" OR \"Associació Lliures i Combatives\" OR \"dionís guiteras\" OR \"Marc Castells\" OR (@JoanBallve OR from:JoanBallve) OR (@CcooDrassanes OR from:CcooDrassanes) OR \"Comisario Capell\" OR SEPC OR (@ugtdiba OR from:ugtdiba) OR (@LaIntersindical OR from:LaIntersindical)) -(\"CD castellon\" OR liga OR futbolista OR \"centro campista\" OR (@mconesapages OR from:mconesapages) OR (@hippiepirata OR from:hippiepirata) OR fútbol OR \"club deportivo castellon\" OR (@SEPC_ANPIR OR from:SEPC_ANPIR) OR Coruña OR palestina OR palestino OR Futbol OR lliga OR football OR (@mwamba_diba OR from:mwamba_diba) OR Coruna) (lang:ca OR lang:es)",
+            "tag": "2946#1"
+        },
+        {
+            "id": "1762039359790886914",
+            "value": "(((diputacio OR diputació OR diputación) (barcelona OR bcn)) OR \"Gabinet de Prevencio i Seguretat\" OR #lluïsamoret OR \"presidenta diba\" OR \"Xavier García Albiol\" OR #ODSDiba OR (@paria385 OR from:paria385) OR \"Comissari Capell\" OR \"Nuria Parlon\" OR \"Pilar Diaz Romero\" OR (@drs59ad OR from:drs59ad) OR (@PereIgnasiPoy OR from:PereIgnasiPoy) OR (@Carlesperconte OR from:Carlesperconte) OR \"Diputada de la Presidencia\" OR #lluisamoret OR \"Xavier Garcia Albiol\" OR \"Garcia-Albiol\" OR \"josep triado\" OR \"josep triadó\" OR (@pericaenfadica OR from:pericaenfadica) OR \"maria eugenia gay\" OR \"María Eugènia Gay\" OR (@ccoo_diba OR from:ccoo_diba) OR \"Nuria Parlón\") -(\"CD castellon\" OR liga OR futbolista OR \"centro campista\" OR (@mconesapages OR from:mconesapages) OR (@hippiepirata OR from:hippiepirata) OR fútbol OR \"club deportivo castellon\" OR (@SEPC_ANPIR OR from:SEPC_ANPIR) OR Coruña OR palestina OR palestino OR Futbol OR lliga OR football OR (@mwamba_diba OR from:mwamba_diba) OR Coruna) (lang:ca OR lang:es)",
+            "tag": "2946#2"
+        },
+        {
+            "id": "1762039359790886915",
+            "value": "(\"Diputada delegada de Relacions\" OR (@CCOODiba OR from:CCOODiba) OR ((Palestina) Barcelona) OR \"javier villamayor\" OR ((alcadessa OR alcaldesa OR alcalde OR regidor OR regidora OR concejala) (Esplugues OR Badalona OR Igualada OR \"Premià de Dalt\" OR \"Cornellà de Llobregat\" OR \"Santa Coloma\" OR \"Sant Boi\" OR Sabadell OR Castelledefels OR \"Sant Adrià de Besòs\")) OR \"García Albiol\" OR \"marta farres\" OR \"Jordi Albert de la Fuente\" OR (@intersindical OR from:intersindical) OR \"dionis guiteras\" OR ((DIBA OR \"diputació de barcelona\" OR \"diputacio de barcelona\") (#interins OR #interinsdiba OR interins OR interines OR interinos)) OR \"Javier Caamaño\") -(\"CD castellon\" OR liga OR futbolista OR \"centro campista\" OR (@mconesapages OR from:mconesapages) OR (@hippiepirata OR from:hippiepirata) OR fútbol OR \"club deportivo castellon\" OR (@SEPC_ANPIR OR from:SEPC_ANPIR) OR Coruña OR palestina OR palestino OR Futbol OR lliga OR football OR (@mwamba_diba OR from:mwamba_diba) OR Coruna) (lang:ca OR lang:es)",
+            "tag": "2946#3"
+        },
+        {
+            "id": "1762039359790886916",
+            "value": "(@diba OR from:diba OR retweets_of:diba OR to:diba)",
+            "tag": "2946#4"
+        },
+        {
+            "id": "1762039359790886917",
+            "value": "(\"Cap del Gabinet de Prevencio i Seguretat\" OR \"lluisa moret\" OR \"Núria Parlon\" OR (@CGTDiba OR from:CGTDiba) OR \"https://www.diba.cat/\" OR \"García-Albiol\" OR \"Marta Farrés\" OR #dibacat OR (@carlesaguilera OR from:carlesaguilera) OR (@CCOOrgtDiBa OR from:CCOOrgtDiBa) OR (@interdiba OR from:interdiba) OR \"coordinador de l'Àrea de Desenvolupament Econòmic\" OR #joanmiquelcapell OR \"Núria Parlón\" OR \"Maria Eugènia Gay\" OR \"María eugenia gay\" OR #dipubcn) -(\"CD castellon\" OR liga OR futbolista OR \"centro campista\" OR (@mconesapages OR from:mconesapages) OR (@hippiepirata OR from:hippiepirata) OR fútbol OR \"club deportivo castellon\" OR (@SEPC_ANPIR OR from:SEPC_ANPIR) OR Coruña OR palestina OR palestino OR Futbol OR lliga OR football OR (@mwamba_diba OR from:mwamba_diba) OR Coruna) (lang:ca OR lang:es)",
+            "tag": "2946#0"
+        }
+    ],
+    "meta": {
+        "sent": "2024-02-27T13:33:08.282Z",
+        "result_count": 269
+    }
+}
